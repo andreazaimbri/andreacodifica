@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuite>
+    <testCase id="1">
+        <name>Verifica Login</name>
+        <description>Test per verificare il login con credenziali valide</description>
+        <steps>
+            <step>Aprire la pagina di login</step>
+            <step>Inserire username e password</step>
+            <step>Cliccare sul pulsante di accesso</step>
+            <step>Verificare il messaggio di benvenuto</step>
+        </steps>
+        <expectedResult>Login effettuato con successo</expectedResult>
+        <status>Passed</status>
+    </testCase>
+    
+    <testCase id="2">
+        <name>Verifica Logout</name>
+        <description>Test per verificare il logout</description>
+        <steps>
+            <step>Effettuare il login</step>
+            <step>Cliccare sul pulsante di logout</step>
+            <step>Verificare il reindirizzamento alla pagina di login</step>
+        </steps>
+        <expectedResult>Utente disconnesso correttamente</expectedResult>
+        <status>Failed</status>
+    </testCase>
+</testSuite>
