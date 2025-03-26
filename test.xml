@@ -11,7 +11,7 @@
 ]>
 
 <TEI>
-<header>
+<header lang="eng">
 testo
 </header>
 <facsimile ref="t1">
