@@ -14,10 +14,10 @@
 <header>
 testo
 </header>
-<facsimile>
+<facsimile ref="t1">
 testo
 </facsimile>
-<text>
+<text id="t1"> 
 testo
 </text>
 </TEI>
