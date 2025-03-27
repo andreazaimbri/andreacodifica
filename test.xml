@@ -2,14 +2,14 @@
 <!DOCTYPE TEI [
     <!ELEMENT TEI (header,facsimile?,text+)>
     <!ELEMENT header (#PCDATA)>
+    <!ELEMENT s (#PCDATA)>
     <!ELEMENT facsimile (#PCDATA)>
-    <!ELEMENT text (#PCDATA)>
+    <!ELEMENT text (#PCDATA | s)*>
     <!ATTLIST header type CDATA #FIXED "intestazione">
     <!ATTLIST header lang (eng|it|fr) #IMPLIED>
     <!ATTLIST text id ID #REQUIRED>
     <!ATTLIST facsimile ref IDREFS #IMPLIED>
-]>
-
+    ]>
 <TEI>
 <header lang="eng">
 testo
@@ -19,5 +19,8 @@ testo
 </facsimile>
 <text id="t1"> 
 testo
+<s>
+Nuovo testo
+</s>
 </text>
 </TEI>
