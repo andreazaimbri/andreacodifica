@@ -5,7 +5,7 @@
     <!ELEMENT facsimile (#PCDATA)>
     <!ELEMENT text (#PCDATA)>
     <!ATTLIST header type CDATA #FIXED "intestazione">
-    <!ATTLIST header lang NMTOKEN #IMPLIED>
+    <!ATTLIST header lang (eng|it|fr) #IMPLIED>
     <!ATTLIST text id ID #REQUIRED>
     <!ATTLIST facsimile ref IDREFS #IMPLIED>
 ]>
