@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="divinacommedia_TEI" xml:lang="it">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+            <title> La Divina Commedia - edizione digitale </title>
+            <author> Dante Alighieri </author>
+            <principal> <name type="person"> H. Grandgent </name>, professore di Lingue Romanze all'<name type="place"> Università di Harvard. </name>
+            </principal>
+            <respStmt>
+                <name> Andrea Zaimbri </name>
+                <resp> Codifica digitale </resp>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition> Prima edizione annotata del testo italiano della divina commedia </edition>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>  C. Heath &amp; Co., Publishers </publisher>
+            <pubPlace> Boston, New York, Chicago </pubPlace>
+            <availability status="free">
+                <p></p>
+            </availability>
+             <date type="firstEdition" when="1909">1909</date>
+            <date type="copyright" when="1911">1911</date>
+            <date type="copyright" when="1913">1913</date>
+        </publicationStmt>
+        <seriesStmt>
+            <title> Heath's Modern Language Series </title>
+            <respStmt>
+                    <name> C. Heath &amp; Co., Publishers </name>
+                    <resp>
+                        Publisher
+                    </resp>
+            </respStmt>
+        </seriesStmt>
+        <notesStmt>
+            <note> Divina Commedia edizione inglese annotata in inglese con testo in Italiano </note>
+        </notesStmt>
+        <sourceDesc>
+           <bibl>
+        <author>Dante Alighieri</author>
+        <title>La Divina Commedia</title>
+        <editor>C. H. Grandgent</editor>
+        <publisher>D. C. Heath &amp; Co.</publisher>
+        <pubPlace>Boston</pubPlace>
+        <date when="1909">1909</date>
+        <ref target="http://www.archive.org/details/ladivinacommedia00dant"/>
+        </bibl>
+
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <projectDesc>
+            <p> Testo che contiene tutta la Divina Commedia in versione originale con commento in inglese e introduzione. </p>
+        </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+        <langUsage>
+            <language 
+            ident="it-IT"> </language>
+            <language ident="en-EN"></language>
+        </langUsage>
+        <abstract>
+            <p> Edizione inglese commetata della Divina Commedia</p>
+        </abstract>
+      </profileDesc>
+    </teiHeader>
+    <text xml:lang="eng">
+        <front>
+             <titlePage>
+            <docTitle>
+                <titlePart type="main">La Divina Commedia</titlePart>
+            </docTitle>
+            <docAuthor>Dante Alighieri</docAuthor>
+            <byline>
+                Edited and annotated by
+                <persName>C. H. Grandgent</persName>,
+                Professor of Romance Languages in
+                <orgName>Harvard University</orgName>
+            </byline>
+            <docImprint>
+                <publisher>D. C. Heath &amp; Co., Publishers</publisher>
+                <pubPlace>Boston</pubPlace>
+                <pubPlace>New York</pubPlace>
+                <pubPlace>Chicago</pubPlace>
+                <docDate when="1909">1909</docDate>
+            </docImprint>
+        </titlePage>
+        <div type="copyright">
+        <p>
+            <date when="1909">Copyright, 1909</date>,
+            <date when="1911">1911</date>,
+            <date when="1913">1913</date>
+        </p>
+        <p>
+            By <orgName>D. C. Heath &amp; Co.</orgName>
+        </p>
+        <p>Printed in U. S. A.</p>
+        </div>
+        <div type="preface">
+        <head>Preface</head>
+        <p>This work, the first annotated edition of the Italian text of the
+ <name> Divine Comedy </name> published in <placeName> America </placeName>, is intended primarily for
+        the general literary public, though adapted also to academic use.
+        I have aimed to make it so complete that readers will need, for the
+        comprehension of the poem, no other book save their dictionary;
+        but to those (may they be many!) who may be led to push their
+        inquiry further, a great abundance of bibliographical suggestion
+        has been offered.</p>
+
+        <p>Remembering how often the Commedia is read and enjoyed by persons 
+        whose Italian equipment is scanty, I have explained in the notes many 
+        words and forms that present no difficulty to the experienced student. 
+        On the other hand, I have endeavored, by discarding a vast accumulation 
+        of interesting but unnecessary erudition, so to curtail the annotation 
+        that the reader's attention shall not be constantly distracted from 
+        the text. This alleviation has been facilitated by the relegation of 
+        all lengthy discussions and involved explanations to the arguments that 
+        precede the several cantos.</p>
+
+        <p>In my interpretation I have tried to give the allegorical and true 
+        meaning, as Dante calls it, the place it deserves, but seldom receives, 
+        beside the literal. The text here printed is based on the latest edition 
+        of Moore's Oxford Dante; I have, however, not neglected the recent 
+        investigations of other scholars. The punctuation has been made to 
+        conform, as far as possible, to modern English standards.</p>
+
+        <p>I am under obligations to all the authorities cited in the following 
+        pages. For many notes I owe a particular debt to Torraca's edition and 
+        to Norton's translation of the poem. It gives me pleasure to acknowledge 
+        also the special benefit I have derived from the works of 
+        <persName>Moore</persName>, 
+        <persName>Toynbee</persName>, 
+        <persName>Gardner</persName>, 
+        <persName>Del Lungo</persName>,
+        <persName>Novati</persName>, 
+        <persName>D'Ovidio</persName>, 
+        <persName>Zingarelli</persName>, 
+        <persName>Flamini</persName>, e 
+        <persName>Vossler</persName>.</p>
+
+        <closer>
+            <signed>
+                <persName>C. H. Grandgent</persName>
+            </signed>
+        </closer>
+    </div>
+    <div type="contents">
+  <head>Table of Contents</head>
+
+  <list type="index">
+
+    <item>
+      <ref target="#diagrams">Diagrams</ref>
+      <seg type="pageRef">vi–viii</seg>
+    </item>
+
+    <item>
+      <ref target="#abbreviations">Bibliographical Abbreviations</ref>
+      <seg type="pageRef">ix</seg>
+    </item>
+
+    <item>
+      <ref target="#introduction">Introduction</ref>
+      <seg type="pageRef">xi</seg>
+    </item>
+
+    <item>
+      <label>Inferno</label>
+      <list type="index">
+        <item>
+          <ref target="#inferno-note">Preliminary Note</ref>
+          <seg type="pageRef">3–8</seg>
+        </item>
+        <item>
+          <ref target="#inferno-text">Text and Commentary</ref>
+          <seg type="pageRef">9–283</seg>
+        </item>
+      </list>
+    </item>
+
+    <item>
+      <label>Purgatorio</label>
+      <list type="index">
+        <item>
+          <ref target="#purgatorio-note">Preliminary Note</ref>
+          <seg type="pageRef">3–9</seg>
+        </item>
+        <item>
+          <ref target="#purgatorio-text">Text and Commentary</ref>
+          <seg type="pageRef">11–297</seg>
+        </item>
+      </list>
+    </item>
+
+    <item>
+      <label>Paradiso</label>
+      <list type="index">
+        <item>
+          <ref target="#paradiso-note">Preliminary Note</ref>
+          <seg type="pageRef">3–8</seg>
+        </item>
+        <item>
+          <ref target="#paradiso-text">Text and Commentary</ref>
+          <seg type="pageRef">9–296</seg>
+        </item>
+      </list>
+    </item>
+
+  </list>
+</div>
+ 
+      <!-- ============================================================ -->
+      <!-- 5. ABBREVIAZIONI BIBLIOGRAFICHE                               -->
+      <!-- ============================================================ -->
+      <div type="abbreviations" xml:id="abbreviations">
+        <head>Bibliographical Abbreviations</head>
+ 
+        <note>
+          Whenever Dante's minor works are cited, the references are to
+          the Oxford Dante, <title>Tutte le opere di Dante Alighieri</title>,
+          edited by <persName>Dr. E. Moore</persName>, 3d ed., 1904.
+          References to the Bible are printed in lower case Roman type.
+        </note>
+ 
+        <list type="gloss">
+ 
+          <label>Acts</label>
+          <item>The Acts of the Apostles.</item>
+ 
+          <label>Aen.</label>
+          <item>Virgil's <title>Aeneid</title>.</item>
+ 
+          <label>Arist.</label>
+          <item>Aristotle.</item>
+ 
+          <label>Bull.</label>
+          <item><title>Bullettino della Società Dantesca Italiana</title>, pubi. in Florence, Nuova Serie.</item>
+ 
+          <label>Casini</label>
+          <item><title>La Divina Commedia</title>, ed. by <persName>T. Casini</persName>, 5th ed., 1903.</item>
+ 
+          <label>Cons.</label>
+          <item>Boethius's <title>De Consolatione Philosophiae</title>.</item>
+ 
+          <label>Conv.</label>
+          <item>Dante's <title>Convivio</title>.</item>
+ 
+          <label>Cor.</label>
+          <item>The Epistles of Paul the Apostle to the Corinthians.</item>
+ 
+          <label>D'Ovidio</label>
+          <item><persName>F. D'Ovidio</persName>, <title>Studii sulla Divina Commedia</title>, 1901.</item>
+ 
+          <label>D'Ovidio²</label>
+          <item><persName>F. D'Ovidio</persName>, <title>Il Purgatorio e il suo preludio</title>, 1906.</item>
+ 
+          <label>D'Ovidio³</label>
+          <item><persName>F. D'Ovidio</persName>, <title>Nuovi Studii danteschi</title>, 1907.</item>
+ 
+          <label>Deut.</label>
+          <item>Deuteronomy.</item>
+ 
+          <label>Eccles.</label>
+          <item>Ecclesiastes.</item>
+ 
+          <label>Ecclus.</label>
+          <item>Ecclesiasticus.</item>
+ 
+          <label>Exod.</label>
+          <item>Exodus.</item>
+ 
+          <label>Flam.</label>
+          <item><persName>F. Flamini</persName>, <title>I significati reconditi della Divina Commedia e il suo fine supremo</title>, 3 vols., 1903–.</item>
+ 
+          <label>Gen.</label>
+          <item>Genesis.</item>
+ 
+          <label>Giorn. dant.</label>
+          <item><title>Giornale dantesco</title>, pubi. in Florence.</item>
+ 
+          <label>Giorn. stor.</label>
+          <item><title>Giornale storico della Letteratura italiana</title>, pubi. quarterly in Turin.</item>
+ 
+          <label>Inf.</label>
+          <item>Dante's <title>Inferno</title>.</item>
+ 
+          <label>Jer.</label>
+          <item>Jeremiah.</item>
+ 
+          <label>Levit.</label>
+          <item>Leviticus.</item>
+ 
+          <label>Macc.</label>
+          <item>Maccabees.</item>
+ 
+          <label>Mat.</label>
+          <item>The Gospel according to St. Matthew.</item>
+ 
+          <label>Met.</label>
+          <item>Ovid's <title>Metamorphoses</title>.</item>
+ 
+          <label>Mon.</label>
+          <item>Dante's <title>De Monarchia</title>.</item>
+ 
+          <label>Moore</label>
+          <item><persName>E. Moore</persName>, <title>Studies in Dante</title>, 3 vols., 1896–1903.</item>
+ 
+          <label>Novati</label>
+          <item><persName>F. Novati</persName>, <title>Freschi e Minii del Dugento</title>, 1908.</item>
+ 
+          <label>Par.</label>
+          <item>Dante's <title>Paradiso</title>.</item>
+ 
+          <label>Phars.</label>
+          <item>Lucan's <title>Pharsalia</title>.</item>
+ 
+          <label>Phil.</label>
+          <item>The Epistle of Paul the Apostle to the Philippians.</item>
+ 
+          <label>Pr.</label>
+          <item>Proverbs.</item>
+ 
+          <label>Ps.</label>
+          <item>Psalms.</item>
+ 
+          <label>Purg.</label>
+          <item>Dante's <title>Purgatorio</title>.</item>
+ 
+          <label>Rev.</label>
+          <item>The Revelation of St. John the Divine.</item>
+ 
+          <label>Rom.</label>
+          <item><title>Romania</title>, pubi. quarterly in Paris.</item>
+ 
+          <label>Scart.</label>
+          <item><title>La Divina Commedia</title>, ed. by <persName>G. A. Scartazzini</persName>, 6th ed., rev. by <persName>G. Vandelli</persName>, 1911.</item>
+ 
+          <label>Theb.</label>
+          <item>Statius's <title>Thebaid</title>.</item>
+ 
+          <label>Tor. / Torraca</label>
+          <item><title>La Divina Commedia</title>, ed. by <persName>F. Torraca</persName>, 2d ed., 1909.</item>
+ 
+          <label>Toynbee</label>
+          <item><persName>P. Toynbee</persName>, <title>Dante Studies and Researches</title>, 1902.</item>
+ 
+          <label>V. N.</label>
+          <item>Dante's <title>Vita Nuova</title>.</item>
+ 
+          <label>Vulg.</label>
+          <item>The Vulgate.</item>
+ 
+          <label>Vulg. El.</label>
+          <item>Dante's <title>De Vulgari Eloquentia</title>.</item>
+ 
+          <label>Wisdom</label>
+          <item>The Wisdom of Solomon.</item>
+ 
+          <label>Zingarelli</label>
+          <item><persName>N. Zingarelli</persName>, <title>La Vita di Dante in compendio con un'analisi della Divina Commedia</title>, 1905.</item>
+ 
+        </list>
+      </div>
+ 
+    </front>
+        <body xml:lang="it">
+            <div type="canto" n="1" xml:id="canto1"> 
+               <lg type="terzina">
+    <l rhyme="A">Nel mezzo del cammin di nostra vita</l>
+    <l rhyme="B">mi ritrovai per una selva oscura</l>
+    <l rhyme="A">ché la diritta via era smarrita.</l>
+</lg>
+<lg type="terzina">
+    <l rhyme="B">Ahi quanto a dir qual era è cosa dura</l>
+    <l rhyme="C">esta selva selvaggia e aspra e forte</l>
+    <l rhyme="B">che nel pensier rinova la paura!</l>
+</lg>
+            </div>
+        </body>
+    </text>
+</TEI>
