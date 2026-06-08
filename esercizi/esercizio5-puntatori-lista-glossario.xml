@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Utilizzare puntatori, note, lista, glossario, marcare nomi, rs, term.-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La divina commedia</title>
+                <respStmt>
+                    <resp>Conversione a cura di</resp>
+                    <name>M. Rossi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>2002-12-23</date>
+                <availability status="restricted">
+                    <p>Accesso limitato</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Fonte non specificata</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter1">
+                <p xml:id="test">
+                    Prova del puntatore 
+                    
+                    
+                    <ptr target="http://www.w3.org/TR/xptrxpointer/"/>
+                    <!-- puntatore esterno -->
+                    <ref target="#test">Terzo capitolo, p. 24</ref>
+                </p>
+                <list type="simple">
+                    <head>Test della lista</head>
+                    <item>Elemento della lista</item>
+                </list>
+                <list type="gloss">
+                    <head>Test della lista</head>
+                    <label> Test etichetta </label>
+                    <item>Elemento della lista</item>
+                </list>
+                <p>
+                    Titolo della guidelines 
+                    
+                    <note n="1" place="foot">Test della nota</note> Riferimemenot a 
+                    
+                    <rs type="person"> Andrea Zaimbri </rs>
+                </p>
+                <table rows="2" cols="2">
+                    <row>
+                        <cell>HTML </cell>
+                        <cell>XML </cell>
+                    </row>
+                    <row>
+                        <cell> HTML </cell>
+                        <cell>XML</cell>
+                    </row>
+                </table>
+            </div>
+            <!--  Inserimento immagine -->
+              <div>
+                <p>
+                    <graphic url="https://www.villaggionatura.com/shop/modules/ph_simpleblog/covers/28.jpg"></graphic>
+                </p>
+              </div>
+        </body>
+        <back>
+            <listBibl>
+                <biblStruct>
+                    <analytic>
+                        <author> Andrea Zaimbri
+                    
+                </author>
+                        <title level="a"> Test di biblbiografia </title>
+                    </analytic>
+                    <monogr>
+                        <editor> Carrocci editore </editor>
+                        <title> Volume di test di bibliografia </title>
+                        <imprint>
+                            <pubPlace>Cecina</pubPlace>
+                            <date>2009</date>
+                            <biblScope unit="pages">190</biblScope>
+                            <publisher>Carrocci</publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+        </back>
+    </text>
+</TEI>

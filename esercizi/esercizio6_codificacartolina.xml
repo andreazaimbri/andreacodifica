@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina postale – Comitato Protezione Uccelli utili all'Agricoltura</title>
+                <respStmt>
+                    <resp>Conversione a cura di </resp>
+                    <name>Andrea Zaimbri </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Trascrizione digitale</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca F. Petrarca, S. Ippolito di Vernio (Firenze)</repository>
+                        <idno>200</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <docDate when="1934-06-30"/>
+                            <docDate when="1934-07-01"/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="postcard">
+                            <supportDesc>
+                                <support> Cartolina postale </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- FACSIMILE con zone spaziali -->
+    <facsimile>
+        <surface xml:id="recto" ulx="0" uly="0" lrx="1300" lry="900">
+            <graphic url="200.jpg"/>
+            <!-- Zona fotografia -->
+            <zone xml:id="zona_foto" 
+            ulx="30" uly="30" 
+            lrx="580" lry="870"
+            rendition="illustration">
+                <note>Fotografia di A. Buxton: cardellino sul nido tra rami e foglie</note>
+            </zone>
+            <!-- Zona didascalia superiore -->
+            <zone xml:id="zona_didascalia_1"
+            ulx="600" uly="30"
+            lrx="1270" lry="480">
+                <note>Prima parte della didascalia: descrizione della fotografia e tempi
+        di costruzione del nido per diverse specie</note>
+            </zone>
+            <!-- Zona didascalia inferiore -->
+            <zone xml:id="zona_didascalia_2"
+            ulx="600" uly="500"
+            lrx="1270" lry="870">
+                <note>Seconda parte della didascalia: esortazione a rispettare i nidi</note>
+            </zone>
+        </surface>
+        <surface xml:id="verso" ulx="0" uly="0" lrx="1300" lry="900">
+            <graphic url="200a.jpg"/>
+            <!-- Zona intestazione prestampata -->
+            <zone xml:id="zona_intestazione"
+            ulx="200" uly="10"
+            lrx="900" lry="150">
+                <note>Intestazione a stampa: titolo cartolina, nome del Comitato, 
+        Delegazione di San Remo</note>
+            </zone>
+            <!-- Zona francobollo -->
+            <zone xml:id="zona_francobollo"
+            ulx="1050" uly="10"
+            lrx="1270" lry="130">
+                <note>Francobollo da 30 cent. Poste Italiane con effigie</note>
+            </zone>
+            <!-- Zona timbri postali -->
+            <zone xml:id="zona_timbri"
+            ulx="600" uly="30"
+            lrx="900" lry="200">
+                <note>Timbri postali di partenza (San Remo) e arrivo</note>
+            </zone>
+            <!-- Zona annotazione marginale -->
+            <zone xml:id="zona_annotazione"
+            ulx="10" uly="10"
+            lrx="180" lry="120">
+                <note>Annotazione manoscritta di mano ignota nel margine superiore sinistro</note>
+            </zone>
+            <!-- Zona luogo e data -->
+            <zone xml:id="zona_dateline"
+            ulx="200" uly="150"
+            lrx="700" lry="230">
+                <note>Luogo e data: Villa San Lorenzo, San Remo, 30.6.34</note>
+            </zone>
+            <!-- Zona testo lettera -->
+            <zone xml:id="zona_testo"
+            ulx="30" uly="240"
+            lrx="590" lry="870">
+                <note>Testo manoscritto della lettera, firmato Beatrice Durali</note>
+            </zone>
+            <!-- Zona indirizzo destinatario -->
+            <zone xml:id="zona_indirizzo"
+            ulx="620" uly="200"
+            lrx="1270" lry="870">
+                <note>Indirizzo del destinatario: Ferdinando Ricci, Biblioteca F. Petrarca,
+        S. Ippolito di Vernio (Firenze)</note>
+            </zone>
+        </surface>
+    </facsimile>
+    <text>
+        <front>
+            <div type="illustration">
+                <figure facs="#zona_foto">
+                    <figDesc> Fotografia di A. Buxton: cardellino sul nido</figDesc>
+                </figure>
+                <div type="caption" facs="#zona_didascalia_1">
+                    <p>Questa fotografia di A. Buxton rappresenta il cardellino e il suo nido.
+          In un capitolo del suo libro sugli uccelli di Ginevra, A. Buxton parla del
+          tempo richiesto da diverse specie di uccelli per costruirsi il proprio nido.
+          — L'usignolo impiega un giorno, il pettirosso anche meno, l'oriolo 10 giorni,
+          le cincie, che nidificano nei buchi, circa una settimana, il codibugnolo 15
+          giorni, e anche più, lo scricciolo circa 4 giorni, la capinera 5-6 giorni,
+          il fiorrancino 10 giorni, i fringuelli ed i cardellini circa una settimana.</p>
+                </div>
+                <div type="caption_closing" facs="#zona_didascalia_2">
+                    <p>È doveroso rispettare tutti i nidi, qualunque sia l'arte o la fatica che
+          sono costati. Da essi prenderà il volo e si diffonderà per le nostre terre
+          la numerosa schiera di uccelletti graziosi a diletto e beneficio nostro.</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="retro" facs="#verso">
+                <div type="preprinted_header">
+                    <head>CARTOLINA POSTALE</head>
+                    <p>Comitato per la Protezione degli Uccelli utili all'Agricoltura
+             e per la diffusione dei nidi artificiali – MILANO</p>
+                    <p>Commissione provinciale per la Provincia d'Imperia
+             Delegazione di San Remo</p>
+                </div>
+            </div>
+            <div type="postal_markings">
+                <ab>
+                    <stamp type="francobollo" facs="#zona_francobollo">
+            30 cent. – Poste Italiane
+          </stamp>
+                    <stamp type="timbro" facs="#zona_timbri">
+                        <placeName>San Remo</placeName>
+                    </stamp>
+                </ab>
+            </div>
+            <div type="letter_body" facs="#zona_testo">
+                <dateline facs="#zona_dateline">
+                    <placeName>Villa San Lorenzo, San Remo</placeName>,
+            
+                    
+                    
+                    <date when="1934-06-30">30.6.34</date>
+                </dateline>
+                <opener>
+                    <salute>Egregio Signor Ricci,</salute>
+                </opener>
+                <p> Grazie della sua 
+                    
+                    
+                    <unclear reason="faded"> del 25 cor </unclear> e del catalogo gentilmente inviato.
+            Complimenti per la sua opera. 
+
+                
+                </p>
+                <p>Grazie vivissime della sua pregiata collaborazione e saluti distinti. </p>
+                <closer>
+                    <signed>
+                Beatrice Durali
+            </signed>
+                </closer>
+            </div>
+            <div type="address" facs="#zona_indirizzo">
+                <address>
+                    <addrLine>Egregio Signor Ten.</addrLine>
+                    <addrLine>Ferdinando Ricci</addrLine>
+                    <addrLine>Direttore della Biblioteca F. Petrarca</addrLine>
+                    <addrLine>S. Ippolito di Vernio</addrLine>
+                    <addrLine>(<placeName> Firenze </placeName>)</addrLine>
+                </address>
+            </div>
+        </body>
+    </text>
+</TEI>

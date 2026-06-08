@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pagina wikipedia di Kenan Yildiz</title>
+                <respStmt>
+                    <resp>Conversione in XML a cura di</resp>
+                    <name type="person">Andrea Zaimbri</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wikipedia</publisher>
+                <availability status="free">
+                    <p/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Kenan Yildiz</title>
+                    <publisher>Wikipedia</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>
+                Codifica di una pagina Wikipedia di Kenan Yildiz, giocatore della Juventus. 
+            </p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <titlePart> Kenan Yıldız </titlePart>
+                <docImprint> 
+                    <publisher>Wikipedia</publisher>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div n="pr1" type="paragraph">
+                <p>
+                    <name type="person">Kenan Yıldız</name>
+            (
+                    <name type="place">Ratisbona</name>, 
+            
+                    <date when="2005-05-04">4 maggio 2005</date>)
+            è un calciatore turco con cittadinanza tedesca, attaccante della 
+            
+                    <name type="org">Juventus</name> e della nazionale turca.
+        
+                </p>
+            </div>
+            <div n="pr2" type="paragraph">
+                <head>Biografia</head>
+                <p>
+            Nato e cresciuto in 
+            
+                    <name type="place">Germania</name> 
+            da padre turco e madre tedesca, ha optato per la nazionalità sportiva paterna.
+        
+                </p>
+            </div>
+            <div n="pr3" type="paragraph">
+                <head>Caratteristiche tecniche</head>
+                <p>
+            È una seconda punta, a suo agio con entrambi i piedi, che ben si disimpegna anche da esterno di fascia. 
+            In possesso di un'ottima tecnica individuale, è abile nel dribbling e nel movimento senza palla, 
+            in particolare con inserimenti e combinazioni in area di rigore; dotato di un tiro potente e preciso, 
+            è in grado di trovare il gol anche dalla lunga distanza.
+        </p>
+            </div>
+            <div n="pr4" type="paragraph">
+                <head>Carriera</head>
+                <div type="section">
+                    <head>Club</head>
+                    <div type="subsection">
+                        <head>Gli inizi</head>
+                        <p>
+                Muove i suoi primi passi nel 
+                            <name type="org">Sallern</name> e nello 
+                
+                            <name type="org">Jahn Ratisbona</name>, squadre della sua città natale, 
+                prima di passare a sette anni al 
+                            <name type="org">Bayern Monaco</name>,
+                con il quale compie tutta la trafila delle giovanili; nell'ultima stagione in 
+                
+                            <name type="place">Baviera</name> mette a referto 20 presenze e 6 gol, 
+                facendo inoltre il suo debutto nella 
+                            <name type="org">UEFA Youth League</name>.
+            
+                        </p>
+                    </div>
+                    <div type="subsection">
+                        <head>Juventus</head>
+                        <div type="subsection">
+                            <head>Juventus Next Gen</head>
+                            <p>
+                    Nell'estate 2022 si trasferisce a parametro zero alla 
+                    
+                                <name type="org">Juventus</name>. A 
+                    
+                                <name type="place">Torino</name> inizia l'ambientamento nella squadra 
+                    Primavera allenata da 
+                                <name type="person">Paolo Montero</name>, 
+                    totalizzando 37 presenze e 15 gol nella stagione 2022-2023.
+                
+                            </p>
+                            <p>
+                    Ben presto inizia ad essere aggregato alla 
+                    
+                                <name type="org">Juventus Next Gen</name>, la seconda squadra bianconera 
+                    militante in Serie C, con cui fa il suo esordio tra i professionisti il 
+                   
+                                <date when="2022-12-17">  17 dicembre 2022 </date>, agli ordini di Massimo Brambilla, nella sconfitta 
+                    interna 0-3 contro la 
+                                <name type="org"> Virtus Verona </name>.
+                
+                            </p>
+                            <p>
+                    Inizia la stagione 2023-2024 ancora nei ranghi della 
+                                <name type="org"> Next Gen </name>, con cui 
+                    il 
+                                <date when="2023-09-23" > 23 settembre </date> trova il suo primo gol da professionista, aprendo le 
+                    marcature nella vittoria esterna per 1-2 sull'
+                                <name type="org"> Ancona </name>.
+                
+                            </p>
+                        </div>
+                        <div type="subsection">
+                            <head>Prima squadra</head>
+                            <p>
+    Nell'autunno 
+                                <date when="2023">2023</date> viene promosso in pianta stabile nella prima squadra di 
+    
+                                <name type="person">Massimiliano Allegri</name>, con cui aveva già debuttato da aggregato il precedente 
+    
+                                <date when="2023-08-20">20 agosto</date> giocando il suo primo incontro in Serie A, nel successo per 
+    
+                                <num value="0-3">0-3</num> sul campo dell'
+                                <name type="org">Udinese</name>.
+
+                            </p>
+                            <p>
+    Il 
+                                <date when="2023-12-23">23 dicembre</date> dello stesso anno, all'esordio da titolare segna la sua prima rete 
+    in massima serie, nella vittoria esterna per 
+                                <num value="1-2">1-2</num> sul 
+    
+                                <name type="org">Frosinone</name>: a 
+                                <num value="18">18</num> anni e 
+                                <num value="233">233</num> giorni diventa 
+    il più giovane marcatore straniero in campionato nella storia bianconera, battendo il record di 
+    
+                                <name type="person">Marcelo Zalayeta</name>.
+
+                            </p>
+                            <p>
+    Il 
+                                <date when="2024-01-04">4 gennaio 2024</date>, nel successo per 
+                                <num value="6-1">6-1</num> sulla 
+    
+                                <name type="org">Salernitana</name> negli ottavi di 
+                                <name type="event">Coppa Italia</name>, dapprima propizia 
+    l'autorete del 
+                                <num value="4-1">4-1</num> e poi realizza il parziale 
+                                <num value="5-1">5-1</num>, mettendo così 
+    a segno il suo primo gol nella competizione.
+
+                            </p>
+                            <p>
+    Chiude l'annata vincendo la 
+                                <name type="event">Coppa Italia</name>, il suo primo trofeo della carriera, 
+    subentrando nel corso della vittoriosa finale di 
+                                <name type="place">Roma</name> contro l'
+    
+                                <name type="org">Atalanta</name>.
+
+                            </p>
+                            <p>
+    Per la stagione 
+                                <date when="2024/2025">2024-2025</date>, la sua prima effettiva con la prima squadra, passa a 
+    indossare la maglia numero 
+                                <num value="10">dieci</num>.
+
+                            </p>
+                            <p>
+    Il 
+                                <date when="2024-09-17">17 settembre 2024</date>, debutta nelle competizioni UEFA con un gol nella vittoria 
+    interna per 
+                                <num value="3-1">3-1</num> sul 
+                                <name type="org">PSV</name>: a 
+                                <num value="19">19</num> anni e 
+    
+                                <num value="136">136</num> giorni diventa il più giovane marcatore juventino in 
+    
+                                <name type="event">UEFA Champions League</name>, battendo il record di 
+    
+                                <name type="person">Alessandro Del Piero</name>.
+
+                            </p>
+                            <p>
+    Il successivo 
+                                <date when="2024-10-27">27 ottobre</date> segna la sua prima doppietta in Serie A, che fissa il 
+    punteggio nel pareggio per 
+                                <num value="4-4">4-4</num> a 
+                                <name type="place">San Siro</name> contro l'
+    
+                                <name type="org">Inter</name>: a 
+                                <num value="19">19</num> anni e 
+                                <num value="176">176</num> giorni diventa 
+    il più giovane a realizzare una doppietta nella storia del derby d'Italia.
+
+                            </p>
+                            <p>
+    Il 
+                                <date when="2025-01-03">3 gennaio 2025</date> va a segno all'esordio in 
+    
+                                <name type="event">Supercoppa italiana</name>, siglando il provvisorio vantaggio nella semifinale col 
+    
+                                <name type="org">Milan</name>, persa poi per 
+                                <num value="1-2">1-2</num>.
+
+                            </p>
+                            <p>
+    Chiude il suo primo campionato da titolare a quota 
+                                <num value="7">7</num> reti.
+
+                            </p>
+                            <p>
+    A fine stagione, con la 
+                                <name type="org">Juventus</name> prende parte negli 
+    
+                                <name type="place">Stati Uniti d'America</name> alla 
+    
+                                <name type="event">Coppa del mondo per club FIFA</name>: è protagonista nella fase a gironi, andando a segno 
+    all'esordio assoluto del club nella manifestazione, il 
+                                <date when="2025-06-18">18 giugno 2025</date>, nel successo 
+    per 
+                                <num value="5-0">5-0</num> contro l'
+                                <name type="org">Al-Ain</name>, e ripetendosi quattro giorni dopo, nel 
+    
+                                <num value="4-1">4-1</num> ai danni del 
+                                <name type="org">Wydad Casablanca</name>, in cui realizza una doppietta 
+    e propizia l'autogol che sblocca il punteggio.
+
+                            </p>
+                            <p>
+    Le prestazioni nell'arco della stagione gli valgono, nel 
+                                <date when="2025-09">settembre 2025</date>, il quinto 
+    posto nella graduatoria del 
+                                <name type="event">Trofeo Kopa</name> riservato ai migliori calciatori under 
+                                <num value="21"> 21 </num> al mondo.
+
+                            </p>
+                            <p>
+    In avvio della stagione 
+                                <date when="2025/2026">2025-2026</date>, il 
+    
+                                <date when="2025-09-20">20 settembre</date>, in occasione del pareggio per 
+    
+                                <num value="1-1">1-1</num> in Serie A sul campo del 
+                                <name type="org">Verona</name>, a gara in corso indossa per la 
+    prima volta la fascia di capitano della 
+                                <name type="org">Juventus</name>, diventandone a 
+    
+                                <num value="20">20</num> anni e 
+                                <num value="139">139</num> giorni il più giovane nella storia.
+
+                            </p>
+                            <p>
+    Il successivo 
+                                <date when="2025-11-25">25 novembre</date> raggiunge le 
+    
+                                <num value="100">100</num> presenze in maglia bianconera, nella vittoria esterna per 
+    
+                                <num value="2-3">2-3</num> in 
+                                <name type="event">Champions League</name> contro il 
+    
+                                <name type="org">Bodø/Glimt</name>.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </body>
+      <back>
+    <div type="bibliography">
+        <head>Bibliografia</head>
+        <listBibl>
+
+        <bibl>
+    Giacomo Iacobellis, 
+    "Kenan Yildiz, è nata una star...", 
+    Tuttomercatoweb, 
+    <date when="2024-01-12">12 gennaio 2024</date>,
+    <ref target="https://www.tuttomercatoweb.com/serie-a/kenan-yildiz-e-nata-una-star-5-curiosita-che-forse-non-sapevate-sul-talento-della-juve-1922018"/>
+    </bibl>
+
+        </listBibl>
+    </div>
+</back>
+    </text>
+</TEI>

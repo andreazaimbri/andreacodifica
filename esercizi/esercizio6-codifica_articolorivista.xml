@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="salvatore2017_recensione" xml:lang="it">
+  <teiHeader>
+    <fileDesc>
+ 
+      <titleStmt>
+        <title type="main">Recensione di «Emigrazione e lingua italiana. Studi linguistici»</title>
+        <title type="sub">di Eugenio Salvatore, Pacini ed., Pisa 2017</title>
+        <author>
+          <persName ref="#DeSantis_Cristiana">Cristiana De Santis</persName>
+          <affiliation>
+            <orgName ref="#UniBO">Università di Bologna</orgName>
+          </affiliation>
+        </author>
+        <respStmt>
+          <resp>Codifica TEI</resp>
+          <name>Andrea Zaimbri</name>
+        </respStmt>
+      </titleStmt>
+ 
+      <editionStmt>
+        <edition>Prima edizione digitale, <date when="2018">2018</date></edition>
+      </editionStmt>
+ 
+      <publicationStmt>
+        <publisher>
+          <orgName ref="#ItalLingDue">Italiano LinguaDue</orgName>
+        </publisher>
+        <pubPlace>Milano</pubPlace>
+        <date when="2018">2018</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            Documento a uso didattico, distribuito con licenza
+          </licence>
+        </availability>
+      </publicationStmt>
+ 
+      <sourceDesc>
+        <bibl type="review">
+          <author ref="#DeSantis_Cristiana">Cristiana De Santis</author>
+          <title level="a">Recensione di «Emigrazione e lingua italiana. Studi linguistici»</title>
+          <title level="j" ref="#ItalLingDue">Italiano LinguaDue</title>
+          <date when="2018">2018</date>
+        </bibl>
+        <bibl type="reviewed-work" xml:id="Salvatore2017">
+          <author ref="#Salvatore_Eugenio">Eugenio Salvatore</author>
+          <title level="m">Emigrazione e lingua italiana. Studi linguistici</title>
+          <publisher>Pacini editore</publisher>
+          <pubPlace>Pisa</pubPlace>
+          <date when="2017">2017</date>
+          <biblScope unit="page" from="1" to="350">pp. 350</biblScope>
+          <series>
+            <title level="s">Testi e culture in Europa</title>
+          </series>
+          <ref target="http://www.pacinieditore.it/emigrazione-lingua-italiana/">
+            http://www.pacinieditore.it/emigrazione-lingua-italiana/
+          </ref>
+        </bibl>
+      </sourceDesc>
+ 
+    </fileDesc>
+ 
+    <encodingDesc>
+      <projectDesc>
+        <p>Codifica TEI P5 di una recensione linguistica.</p>
+      </projectDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Il testo è riprodotto fedelmente rispetto all'originale a stampa,
+             senza normalizzazioni ortografiche.</p>
+        </normalization>
+        <quotation marks="all">
+          <p>Le virgolette sono conservate come nell'originale.</p>
+        </quotation>
+      </editorialDecl>
+      <tagsDecl>
+        <!-- Dichiarazione degli elementi usati più frequentemente -->
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="persName" occurs="14"/>
+          <tagUsage gi="placeName" occurs="12"/>
+          <tagUsage gi="orgName"  occurs="7"/>
+          <tagUsage gi="title"    occurs="10"/>
+          <tagUsage gi="date"     occurs="7"/>
+          <tagUsage gi="num"      occurs="4"/>
+          <tagUsage gi="bibl"     occurs="5"/>
+          <tagUsage gi="term"     occurs="6"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+ 
+    <profileDesc>
+      <langUsage>
+        <language ident="it" usage="99">Italiano</language>
+        <language ident="la" usage="1">Latino (sigle bibliografiche)</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://www.loc.gov/authorities/subjects/">
+          <term>Italian language — History</term>
+          <term>Emigration and immigration — Social aspects — Italy</term>
+          <term>Letter writing — Italy — History</term>
+          <term>Sociolinguistics — Italy</term>
+        </keywords>
+        <classCode scheme="DDC">410</classCode><!-- Linguistica -->
+      </textClass>
+    </profileDesc>
+ 
+    <!-- Registro delle persone, luoghi e organizzazioni citati -->
+    <standOff>
+      <listPerson>
+        <person xml:id="DeSantis_Cristiana">
+          <persName>
+            <forename>Cristiana</forename>
+            <surname>De Santis</surname>
+          </persName>
+          <affiliation>
+            <orgName ref="#UniBO">Università di Bologna</orgName>
+          </affiliation>
+          <note>Autrice della recensione, linguista italianista</note>
+        </person>
+        <person xml:id="Salvatore_Eugenio">
+          <persName>
+            <forename>Eugenio</forename>
+            <surname>Salvatore</surname>
+          </persName>
+          <note>Autore del volume recensito; ricercatore presso l'Università per Stranieri di Siena</note>
+        </person>
+        <person xml:id="Palermo_Massimo">
+          <persName>
+            <forename>Massimo</forename>
+            <surname>Palermo</surname>
+          </persName>
+          <note>Linguista, coideatore del CEOD; autore del saggio del 1990 su <title level="j">Studi di Grammatica Italiana</title></note>
+        </person>
+        <person xml:id="Antonelli_Giuseppe">
+          <persName>
+            <forename>Giuseppe</forename>
+            <surname>Antonelli</surname>
+          </persName>
+          <note>Co-coordinatore del CEOD con Massimo Palermo</note>
+        </person>
+        <person xml:id="Scotellaro_Rocco">
+          <persName>
+            <forename>Rocco</forename>
+            <surname>Scotellaro</surname>
+          </persName>
+          <birth when="1923"/>
+          <death when="1953"/>
+          <note>Poeta lucano; autore dell'epigrafe citata</note>
+        </person>
+      </listPerson>
+ 
+      <listPlace>
+        <place xml:id="Siena">
+          <placeName>Siena</placeName>
+          <country>Italia</country>
+        </place>
+        <place xml:id="Pisa">
+          <placeName>Pisa</placeName>
+          <country>Italia</country>
+        </place>
+        <place xml:id="Roma">
+          <placeName>Roma</placeName>
+          <country>Italia</country>
+        </place>
+        <place xml:id="Lucca">
+          <placeName>Lucca</placeName>
+          <country>Italia</country>
+        </place>
+        <place xml:id="PieveSStefano">
+          <placeName>Pieve Santo Stefano</placeName>
+          <country>Italia</country>
+        </place>
+        <!-- Paesi di emigrazione -->
+        <place xml:id="Argentina"><placeName>Argentina</placeName></place>
+        <place xml:id="Brasile"><placeName>Brasile</placeName></place>
+        <place xml:id="Uruguay"><placeName>Uruguay</placeName></place>
+        <place xml:id="Australia"><placeName>Australia</placeName></place>
+        <place xml:id="StatiUniti"><placeName>Stati Uniti</placeName></place>
+        <place xml:id="Francia"><placeName>Francia</placeName></place>
+        <place xml:id="Abruzzo"><placeName>Abruzzo</placeName><country>Italia</country></place>
+        <place xml:id="Calabria"><placeName>Calabria</placeName><country>Italia</country></place>
+        <place xml:id="Toscana"><placeName>Toscana</placeName><country>Italia</country></place>
+        <place xml:id="Veneto"><placeName>Veneto</placeName><country>Italia</country></place>
+        <place xml:id="Lombardia"><placeName>Lombardia</placeName><country>Italia</country></place>
+      </listPlace>
+ 
+      <listOrg>
+        <org xml:id="UniBO">
+          <orgName>Università di Bologna</orgName>
+          <placeName>Bologna</placeName>
+        </org>
+        <org xml:id="UniStrSiena">
+          <orgName>Università per Stranieri di Siena</orgName>
+          <placeName ref="#Siena">Siena</placeName>
+        </org>
+        <org xml:id="CentroStudiEmigrazione">
+          <orgName>Centro Studi Emigrazione di Roma</orgName>
+          <placeName ref="#Roma">Roma</placeName>
+        </org>
+        <org xml:id="FondazioneCresci">
+          <orgName>Fondazione Paolo Cresci per la Storia dell'Emigrazione Italiana</orgName>
+          <placeName ref="#Lucca">Lucca</placeName>
+        </org>
+        <org xml:id="ArchivioNazionale">
+          <orgName>Archivio Diaristico Nazionale</orgName>
+          <placeName ref="#PieveSStefano">Pieve Santo Stefano</placeName>
+        </org>
+        <org xml:id="Pacini">
+          <orgName>Pacini editore</orgName>
+          <placeName ref="#Pisa">Pisa</placeName>
+        </org>
+        <org xml:id="ItalLingDue">
+          <orgName>Italiano LinguaDue</orgName>
+        </org>
+      </listOrg>
+ 
+      <!-- Opere bibliografiche citate nel testo -->
+      <listBibl>
+        <bibl xml:id="Salvatore2015">
+          <author ref="#Salvatore_Eugenio">Eugenio Salvatore</author>
+          <title level="a">Sull'articolazione testuale in lettere di emigrati italiani</title>
+          <title level="j">Studi di Grammatica Italiana</title>
+          <biblScope unit="volume">XXXIV</biblScope>
+          <date when="2015">2015</date>
+          <biblScope unit="page" from="231" to="261">pp. 231-261</biblScope>
+        </bibl>
+        <bibl xml:id="Palermo1990">
+          <author ref="#Palermo_Massimo">Massimo Palermo</author>
+          <title level="a">Interferenza linguistica e sintassi popolare nelle lettere di un'emigrata italo-argentina</title>
+          <title level="j">Studi di Grammatica Italiana</title>
+          <biblScope unit="volume">XIV</biblScope>
+          <date when="1990">1990</date>
+        </bibl>
+        <bibl xml:id="CEOD">
+          <editor ref="#Palermo_Massimo">Massimo Palermo</editor>
+          <editor ref="#Antonelli_Giuseppe">Giuseppe Antonelli</editor>
+          <title level="m">CEOD — Corpus Epistolare Ottocentesco Digitale</title>
+          <note>Corpus digitale di lettere ottocentesche, usato come riferimento per i criteri di trascrizione</note>
+        </bibl>
+        <bibl xml:id="Scotellaro1948">
+          <author ref="#Scotellaro_Rocco">Rocco Scotellaro</author>
+          <title level="a">America scordarola</title>
+          <date when="1948">1948</date>
+        </bibl>
+      </listBibl>
+    </standOff>
+ 
+  </teiHeader>
+ 
+  <text>
+ 
+    <front>
+ 
+      <!-- Scheda bibliografica dell'opera recensita -->
+      <div type="bibliographic-record">
+        <bibl corresp="#Salvatore2017">
+          <title level="m">EMIGRAZIONE E LINGUA ITALIANA. STUDI LINGUISTICI</title>
+          <author ref="#Salvatore_Eugenio">Eugenio Salvatore</author>
+          <publisher ref="#Pacini">Pacini ed.</publisher>
+          <date when="2017">2017</date>
+          <biblScope unit="page">pp. 350</biblScope>
+          <pubPlace ref="#Pisa">Pisa</pubPlace>
+          <ref target="http://www.pacinieditore.it/emigrazione-lingua-italiana/">
+            http://www.pacinieditore.it/emigrazione-lingua-italiana/
+          </ref>
+        </bibl>
+      </div>
+ 
+      <!-- Epigrafe -->
+      <div type="epigraph">
+        <cit>
+          <quote>
+            <lg type="poem" rhyme="ABA">
+              <l n="1" rhyme="A">Scrivici, oscilla una corda</l>
+              <l n="2" rhyme="B">tra noi sopra il mare,</l>
+              <l n="3" rhyme="A">e tu la vuoi spezzare?</l>
+            </lg>
+          </quote>
+          <bibl corresp="#Scotellaro1948">
+            <author ref="#Scotellaro_Rocco">Rocco Scotellaro</author>,
+            <title level="a">America scordarola</title>,
+            <date when="1948">1948</date>
+          </bibl>
+        </cit>
+      </div>
+ 
+    </front>
+ 
+    <body>
+      <div type="review" xml:id="recensione_principale">
+ 
+        <!-- §1: Origine e collocazione editoriale del volume -->
+        <div type="section" n="1" xml:id="sec_origini">
+          <p>
+            Uscito nella collana <title level="s">Testi e culture in Europa</title>,
+            il volume di <persName ref="#Salvatore_Eugenio">Eugenio Salvatore</persName>
+            nasce come conclusione e sviluppo di un lavoro di ricerca condotto presso
+            l'<orgName ref="#UniStrSiena">Università per Stranieri di Siena</orgName>.
+            I primi risultati della ricerca erano stati pubblicati in un paio di studi
+            apparsi su rivista; tra questi mi piace ricordare
+            <bibl corresp="#Salvatore2015">
+              <title level="a">Sull'articolazione testuale in lettere di emigrati italiani</title>
+              in <title level="j">Studi di Grammatica Italiana</title>,
+              vol. <biblScope unit="volume">XXXIV</biblScope>
+              (<date when="2015">2015</date>),
+              <biblScope unit="page" from="231" to="261">pp. 231-261</biblScope>
+            </bibl>.
+            Sulla stessa rivista era uscito, venticinque anni prima
+            (vol. <biblScope unit="volume">XIV</biblScope>), il saggio
+            <bibl corresp="#Palermo1990">
+              <title level="a">Interferenza linguistica e sintassi popolare nelle lettere
+              di un'emigrata italo-argentina</title>
+              di <persName ref="#Palermo_Massimo">Massimo Palermo</persName>
+            </bibl>,
+            del quale il volume di <persName ref="#Salvatore_Eugenio">Salvatore</persName>
+            mi sembra un'ideale prosecuzione.
+          </p>
+        </div>
+ 
+        <!-- §2: Descrizione del corpus -->
+        <div type="section" n="2" xml:id="sec_corpus">
+          <p>
+            La prospettiva linguistica offerta dalle <num value="39">39</num> lettere
+            di un'emigrata abruzzese analizzate da
+            <persName ref="#Palermo_Massimo">Palermo</persName> è qui ampliata sia
+            in senso quantitativo (<num value="240">240</num> le lettere analizzate,
+            in parte edite e in parte inedite) sia qualitativo (le lettere sono scritte
+            da emigrati in Paesi diversi —
+            <placeName ref="#Argentina">Argentina</placeName>,
+            <placeName ref="#Brasile">Brasile</placeName>,
+            <placeName ref="#Uruguay">Uruguay</placeName>,
+            <placeName ref="#Australia">Australia</placeName>,
+            <placeName ref="#StatiUniti">Stati Uniti</placeName>,
+            <placeName ref="#Francia">Francia</placeName> — e di diversa provenienza
+            geografica:
+            <placeName ref="#Abruzzo">Abruzzo</placeName>,
+            <placeName ref="#Calabria">Calabria</placeName>,
+            <placeName ref="#Toscana">Toscana</placeName>,
+            <placeName ref="#Veneto">Veneto</placeName> e
+            <placeName ref="#Lombardia">Lombardia</placeName>;
+            sono state inoltre inviate nell'arco di un secolo:
+            <date from="1885" to="1990">dal 1885 al 1990</date>).
+          </p>
+ 
+          <p>
+            Per la raccolta del corpus,
+            <persName ref="#Salvatore_Eugenio">Salvatore</persName>
+            si è avvalso di archivi privati e di archivi pubblici
+            (<orgName ref="#CentroStudiEmigrazione">il Centro Studi Emigrazione
+            di <placeName ref="#Roma">Roma</placeName></orgName>;
+            <orgName ref="#FondazioneCresci">la Fondazione Paolo Cresci per la Storia
+            dell'Emigrazione Italiana di <placeName ref="#Lucca">Lucca</placeName></orgName>;
+            <orgName ref="#ArchivioNazionale">l'Archivio Diaristico Nazionale
+            di <placeName ref="#PieveSStefano">Pieve Santo Stefano</placeName></orgName>).
+            Una selezione delle lettere analizzate
+            (<num value="12">12</num> testi) è contenuta nell'Appendice al volume
+            (pp. <biblScope unit="page" from="333" to="342">333-342</biblScope>).
+            Le trascrizioni, improntate alla massima conservatività degli aspetti
+            grafici dell'originale, sono conformi ai criteri di edizione adottati
+            per il <bibl corresp="#CEOD">
+              <title level="m">CEOD</title>
+              (<title level="m">Corpus Epistolare Ottocentesco Digitale</title>,
+              coordinato da
+              <persName ref="#Palermo_Massimo">Massimo Palermo</persName>
+              e <persName ref="#Antonelli_Giuseppe">Giuseppe Antonelli</persName>)
+            </bibl>.
+          </p>
+        </div>
+ 
+        <!-- §3: Struttura del volume -->
+        <div type="section" n="3" xml:id="sec_struttura">
+          <p>
+            Il volume è articolato in <num value="5">5</num> capitoli,
+            preceduti da una breve Introduzione che ricostruisce il contesto storico
+            in cui è maturata in Italia l'emigrazione esterna tra Otto e Novecento.
+            Il <term type="chapter">capitolo I</term> è dedicato alla descrizione del corpus.
+            Il <term type="chapter">capitolo II</term> traccia un quadro delle conseguenze
+            linguistiche dell'emigrazione.
+            Il <term type="chapter">III</term> ricostruisce il repertorio linguistico degli emigrati.
+            Il <term type="chapter">capitolo IV</term> prende in esame fenomeni a livello di
+            <term>grafia</term>, <term>fonetica</term>, <term>morfologia</term> e
+            <term>sintassi</term>.
+            Il <term type="chapter">capitolo V</term> è dedicato alla
+            <term>macro-sintassi</term> e alla <term>testualità</term>.
+          </p>
+        </div>
+ 
+        <!-- §4: Obiettivi e tesi del volume -->
+        <div type="section" n="4" xml:id="sec_obiettivi">
+          <p>
+            Come l'Introduzione e la Premessa chiariscono, il libro nasce con due ambizioni:
+            rispondere alla domanda
+            <q>quale lingua impiegano nelle loro lettere gli emigrati italiani in epoca postunitaria</q>
+            e tracciare un ritratto linguistico che si distanzi dai luoghi comuni.
+          </p>
+ 
+          <p>
+            <persName ref="#Salvatore_Eugenio">Eugenio Salvatore</persName> si inserisce
+            in una tradizione di studi che vede nell'emigrazione un fattore positivo per
+            la diffusione dell'<term>alfabetizzazione</term>. Gli emigrati, spesso
+            <term>dialettofoni</term> e analfabeti alla partenza, erano spinti a imparare
+            un italiano almeno rudimentale per comunicare e mantenere i contatti con la famiglia.
+          </p>
+        </div>
+ 
+        <!-- §5: Principali risultati dell'analisi -->
+        <div type="section" n="5" xml:id="sec_risultati">
+          <p>
+            Dall'analisi emerge un profilo testuale preciso: una
+            <term>sintassi oralizzante</term>, con frasi coordinate più che subordinate,
+            e una struttura relativamente fissa con formule di apertura e chiusura.
+          </p>
+ 
+          <p>
+            Ciò che cambia da una lettera all'altra è l'immagine di sé che lo scrivente
+            costruisce, mostrando un miglioramento linguistico e sociale e il desiderio
+            di mantenere legami affettivi con la terra d'origine.
+          </p>
+ 
+          <p>
+            Le lettere degli emigrati, pur con errori e
+            <term>interferenze dialettali</term>,
+            rappresentano uno sforzo significativo verso l'italiano e un simbolo
+            di identità nazionale.
+          </p>
+ 
+          <p>
+            Il libro analizza anche le differenze regionali e i fenomeni di
+            <term>contatto linguistico</term>, inclusi
+            <term>prestiti</term> e <term>calchi</term> da lingue straniere.
+          </p>
+ 
+          <p>
+            Un aspetto rilevante è la partecipazione femminile: molte lettere sono
+            indirizzate a donne e le donne partecipano attivamente alla comunicazione
+            epistolare.
+          </p>
+ 
+          <p>
+            L'analisi lessicale evidenzia frequenze legate a campi semantici quali
+            <term type="semantic-field">famiglia</term>,
+            <term type="semantic-field">religione</term>,
+            <term type="semantic-field">denaro</term>,
+            <term type="semantic-field">salute</term> e
+            <term type="semantic-field">affetti</term>.
+          </p>
+ 
+          <p>
+            Il volume è corredato da un'ampia bibliografia e rappresenta un contributo
+            importante agli studi linguistici sull'emigrazione.
+          </p>
+        </div>
+ 
+      </div><!-- fine div#recensione_principale -->
+    </body>
+ 
+    <back>
+      <div type="signature">
+        <closer>
+          <signed>
+            <persName ref="#DeSantis_Cristiana">Cristiana De Santis</persName>
+          </signed>
+          <affiliation>
+            <orgName ref="#UniBO">Università di Bologna</orgName>
+          </affiliation>
+        </closer>
+      </div>
+    </back>
+ 
+  </text>
+</TEI>
+ 
