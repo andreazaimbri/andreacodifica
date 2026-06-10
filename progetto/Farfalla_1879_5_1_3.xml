@@ -42,7 +42,7 @@
             <projectDesc>
                 <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS (<ref target="http://chroma.cnr.it/progetti/">descrizione online</ref>).</p>
             </projectDesc>
-        </encodingDesc>
+        </encodingDesc> 
         <profileDesc>
             <langUsage>
                 <language ident="it">italiano</language>
@@ -58,4 +58,72 @@
             </creation>
         </profileDesc>
     </teiHeader>
+    <text>
+        <body>
+            <pb n="3"/>
+            <cb n="2"/> 
+            <div type="intestazione">
+            <head type="main">Emile Zola. Romanziere, Commediografo, Critico</head>
+            <head type="subtitle">Romanziere, commediografo, critico</head>
+            <metamark function="sectionDivider"/>
+            <head type="subtitle">Dalle rassegne letterarie del Pessimista</head>
+            </div>
+            <div type="abstract">
+            <p>
+                <hi rend="first-line-indented">P</hi>er ragione di spazio, non può<title level="j">la <hi rend="italic">Farf-
+                alla</hi></title>pubblicare uno studio completo
+                sulle opere dello <persName> Zola </persName>, riproducendo 
+                dal <title type="j"><hi rend="italic"> Gazzettino rosa </hi></title>, dal <title type="journal"> <hi rend="italic"> Sole </hi> </title> e dal-
+                l' <title type="journal"> <hi rend="italic"> Arte drammatica </hi> </title>, gli articoli del-
+                l'amico <persName>Cameroni</persName>, <term type="x"> </term> 
+                intorno al suo <rs> autore prediletto </rs>, cominciando da quei tempi
+                in cui il nome dello <persName> Zola </persName> era generalmente ignoto
+                fra noi e poco apprezzato in <placeName>Francia</placeName>, sino all' <foreign rend="italic" xml:lang="fr">As-
+                sommoir </foreign> alla <foreign rend="italic" xml:lang="fr">Page d'amour</foreign> ed al <foreign rend="italic" xml:lang="fr">Théatre</foreign>, edito
+                nello scorso settembre.
+                
+            </p>
+            <p>
+                Dobbiamo quindi limitarci a qualche frammento
+                delle utlime appendici di <persName> Cameroni </persName>, come prefazione,
+                e quella arditissima, ma logica <hi rend="italic">corrispondenza</hi> dello
+                stesso <persName> Zola </persName> al <title type="j" xml:lang="fr"><hi rend="italic">Messager de l'Europe</hi></title> di <placeName> Pietroburgo </placeName>,
+                sul romanzo contemporaneo francese, che suscita
+                in questi giorni tanto rumore a <placeName> Parigi </placeName> fra i <term> roman-
+                tici</term>, la mediocrità vanagloriose ed i mesterianti della letteratura. 
+            </p>
+                
+            </div>
+            <div type="text">
+                <head rend="uppercase" type="subtitle">Zola Romanziere</head>
+                <p>
+                    Nove e dieci anni orr sono, quando per la prima volta
+                    mi caddero sott'occhio la <title xml:lang="fr" type="m">Madeleine Ferat<hi rend="italic"> </hi></title> e la <title xml:lang="fr" type="m"> Thèrèse Ra-
+                    quin,<hi rend="italic"> </hi> </title>, provai delle più profonde sorprese, che mi abbia
+                    mai destato la lettura. E sì, che l'abuso di quest'ultima, fino
+                    da allora mi aveva tolto l'ingenuo ottimismo dei giudizii,
+                    rendendomi quasi incontenibile nei contronti! Mi susci-
+                    tava una specie di dispetto, il veder lo <persName>Zola</persName> ignoto alla
+                    generalità dei lettori. A me stesso ed a qualche compagno
+                    delle mie utopie letterarie, andavo domandando, se era 
+                    esagerata la simpatia la nostra, od ingiusta indifferenza quella
+                    della maggioranza, verso il giovane scrittore, che promet-
+                    teva già di divenir il caposcuola del realismo.
+                </p>
+                <p>
+                    All'apparire di ciascun volume dei <title type="s" xml:lang="fr"> <hi rend="italic">Rougon-Macquart</hi> </title>,
+                    continuava a crescere la nostra ammirazione per la straord-
+                    inaria efficacia ed arditezza del sommo romanziere-fisiologo, 
+                    ma si aveva il rammarico di saperla divisa da pochissimi. 
+                    In <placeName>Francia</placeName>, si cominciava a  combattere, intorno alla bandiera
+                    dello <persName> Zola </persName>; in <placeName> Italia </placeName>, molti lo conoscevano appena, da al-
+                    <pb n="4"/>
+                    <cb n="1"/>
+                    tri se ne discorreva, piuttosto per la temerità,
+                    che per apprezzarne la eccezioanle potenza.
+                </p>
+
+            </div>
+        </body>
+    </text>
 </TEI>
