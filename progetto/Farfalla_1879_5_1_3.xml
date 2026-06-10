@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!DOCTYPE TEI SYSTEM "tei_all.odd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="it">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Emile Zola. Romanziere, Commediografo, Critico</title>
+            <respStmt>
+                <resp>edizione digitale a cura di</resp>
+                <name xml:id="AZ">Andrea Zaimbri </name>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+                <edition n="1"> Edizione digitale - <date when="2026-06">giugno 2026</date></edition>
+        </editionStmt>
+        <publicationStmt>
+            <publisher>Farfalla</publisher>
+            <idno type="fileName">Farfalla_1879_5_1_3.xml</idno>
+        </publicationStmt>
+        <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Emile Zola. Romanziere, Commediografo, Critico </title>
+                        <author> Redazione </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace >Cagliari</pubPlace>
+                            <date when="1876">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">5</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page">3-5</biblScope>
+                    </monogr>
+                </biblStruct>
+        </sourceDesc>
+    </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS (<ref target="http://chroma.cnr.it/progetti/">descrizione online</ref>).</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">italiano</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="saggio"> Saggio </term>
+                </keywords>
+            </textClass>
+            <creation>
+                <placeName>Cagliari</placeName>
+                <date when="1879">1879</date>
+            </creation>
+        </profileDesc>
     </teiHeader>
-
 </TEI>
