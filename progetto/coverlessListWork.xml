@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lista delle opere citate</title>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>Progetto COVerLeSS</p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>Authority dei riferimenti a opere</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body xml:lang="it">
+                    <listBibl xml:id="bibliografiaSecondaria">
+                        
+                        <!-- =========================
+                             PERIODICI
+                             ========================= -->
+                        
+                        <biblStruct xml:id="Farfalla" type="periodico">
+                            <monogr>
+                                <title level="j">La Farfalla</title>
+                                <imprint>
+                                    <pubPlace>Cagliari</pubPlace>
+                                    <pubPlace>Milano</pubPlace>
+                                    <!-- Editore non accertato dalle fonti disponibili -->
+                                    <date from="1876" to="1883">1876-1883</date>
+                                </imprint>
+                            </monogr>
+                            <note>Rivista letteraria e illustrata pubblicata tra Cagliari e Milano.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Gazzettino_rosa" type="periodico">
+                            <monogr>
+                                <title level="j">Gazzettino Rosa</title>
+                                <imprint>
+                                    <pubPlace>Milano</pubPlace>
+                                    <publisher>Tipografia Guglielmini</publisher>
+                                    <date from="1868" to="1873">1868-1873</date>
+                                </imprint>
+                            </monogr>
+                            <note>Quotidiano milanese di orientamento democratico e anticlericale,
+                                diretto da Achille Bizzoni e Felice Cavallotti.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Sole" type="periodico">
+                            <monogr>
+                                <title level="j">Il Sole</title>
+                                <imprint>
+                                    <pubPlace>Milano</pubPlace>
+                                    <publisher>Il Sole - F.lli Pennocchio e C.</publisher>
+                                    <date from="1865" to="1965">1865-1965</date>
+                                </imprint>
+                            </monogr>
+                            <note>Quotidiano economico italiano</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Arte_drammatica" type="periodico">
+                            <monogr>
+                                <title level="j">Arte Drammatica</title>
+                                <imprint>
+                                    <pubPlace>Milano</pubPlace>
+                                    <publisher>Cesare Beretta</publisher>
+                                    <date from="1871" to="1934">1871-1934</date>
+                                </imprint>
+                            </monogr>
+                            <note>Periodico teatrale milanese, tra le principali riviste specializzate
+                                del teatro italiano nell'Ottocento.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Messager_de_l_Europe" type="periodico">
+                            <monogr>
+                                <title level="j" xml:lang="fr">Messager de l'Europe</title>
+                                <imprint>
+                                    <pubPlace>Pietroburgo</pubPlace>
+                                    <publisher>M. Stasiulevič</publisher>
+                                    <date from="1866" to="1918">1866-1918</date>
+                                </imprint>
+                            </monogr>
+                            <note>Rivista letteraria russa di orientamento liberale e occidentalista,
+                                che pubblicò corrispondenze e articoli di Zola sulla letteratura francese.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Bien_Public" type="periodico">
+                            <monogr>
+                                <title level="j" xml:lang="fr">Le Bien Public</title>
+                                <imprint>
+                                    <pubPlace>Dijon</pubPlace>
+                                    <date from="1868" to="1944">1868-1944</date>
+                                </imprint>
+                            </monogr>
+                            <note>Quotidiano francese di area regionale (Borgogna). Pubblicò in feuilleton
+                                <title level="m" xml:lang="fr">Une page d'amour</title> di Zola (1877-1878).</note>
+                        </biblStruct>
+                        
+                        <!-- 
+                             OPERE ZOLA — ROMANZI PRECEDENTI AI ROUGON-MACQUART
+                              -->
+                        
+                        <biblStruct xml:id="Therese_Raquin" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Thérèse Raquin</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Lacroix et Verboeckhoven</publisher>
+                                    <date when="1867">1867</date>
+                                    <biblScope><idno type="wikidata">Q1125798</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Romanzo naturalistico che anticipa i temi dei Rougon-Macquart;
+                                adattato da Zola per il teatro nel 1873.</note>
+                            <relatedItem type="adaptedAs" target="#Therese_Raquin_drama"/>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Madeleine_Ferat" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Madeleine Férat</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Albert Lacroix</publisher>
+                                    <date when="1868">1868</date>
+                                    <biblScope><idno type="wikidata">Q3275649</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Romanzo che esplora temi di ereditarietà e determinismo,
+                                precursore della poetica naturalista dei Rougon-Macquart.</note>
+                        </biblStruct>
+                        
+                        <!-- =========================
+                             OPERE ZOLA — I ROUGON-MACQUART (ciclo completo, 20 romanzi)
+                             ========================= -->
+                        
+                        <biblStruct xml:id="La_Fortune_des_Rougon" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Fortune des Rougon</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Lacroix et Verboeckhoven</publisher>
+                                    <date when="1871">1871</date>
+                                    <biblScope><idno type="wikidata">Q1986243</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="1">vol. I</biblScope>
+                            </series>
+                            <note>Primo romanzo del ciclo; narra le origini della famiglia
+                                durante il colpo di stato di Luigi Napoleone (1851).</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Curee" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Curée</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1872">1872</date>
+                                    <biblScope><idno type="wikidata">Q1386179</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="2">vol. II</biblScope>
+                            </series>
+                            <note>Denuncia della speculazione immobiliare durante il Secondo Impero;
+                                ambientato nell'alta borghesia parigina.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Le_Ventre_de_Paris" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Le Ventre de Paris</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1873">1873</date>
+                                    <biblScope><idno type="wikidata">Q1811636</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="3">vol. III</biblScope>
+                            </series>
+                            <note>Ambientato alle Halles di Parigi; contrappone il mondo dei "grassi"
+                                a quello dei "magri" in chiave sociale e simbolica.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Conquete_de_Plassans" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Conquête de Plassans</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1874">1874</date>
+                                    <biblScope><idno type="wikidata">Q1036488</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="4">vol. IV</biblScope>
+                            </series>
+                            <note>Ritratto della provincia sotto l'influenza del clero e della politica imperiale.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Faute_de_l_abbe_Mouret" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Faute de l'abbé Mouret</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1875">1875</date>
+                                    <biblScope><idno type="wikidata">Q1146796</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="5">vol. V</biblScope>
+                            </series>
+                            <note>Storia di un giovane prete diviso tra fede e desiderio;
+                                uno dei romanzi più lirici del ciclo.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Son_Excellence_Eugene_Rougon" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Son Excellence Eugène Rougon</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1876">1876</date>
+                                    <biblScope><idno type="wikidata">Q1132009</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="6">vol. VI</biblScope>
+                            </series>
+                            <note>Romanzo politico: ritrae l'ascesa di un uomo di potere
+                                agli apici del governo imperiale.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="L_Assommoir" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">L'Assommoir</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1877">1877</date>
+                                    <biblScope><idno type="wikidata">Q471514</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="7">vol. VII</biblScope>
+                            </series>
+                            <note>Affresco del proletariato parigino e dei danni dell'alcolismo;
+                                uno dei romanzi più celebri e controversi di Zola.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Une_Page_d_amour" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Une page d'amour</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1878">1878</date>
+                                    <biblScope><idno type="wikidata">Q1143027</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="8">vol. VIII</biblScope>
+                            </series>
+                            <note>Romanzo di intensa analisi psicologica, atipico nel ciclo per
+                                l'assenza di critica sociale; pubblicato in feuilleton su
+                                <title level="j" xml:lang="fr">Le Bien Public</title>.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Nana" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Nana</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1880">1880</date>
+                                    <biblScope><idno type="wikidata">Q471882</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="9">vol. IX</biblScope>
+                            </series>
+                            <note>Storia della cortigiana Anna Coupeau; critica dell'alta società
+                                del Secondo Impero attraverso la figura della prostituta di lusso.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Pot_Bouille" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Pot-Bouille</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1882">1882</date>
+                                    <biblScope><idno type="wikidata">Q1474506</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="10">vol. X</biblScope>
+                            </series>
+                            <note>Satira della borghesia parigina; segue le vicende degli inquilini
+                                di un lussuoso palazzo di Parigi.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Au_Bonheur_des_Dames" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Au Bonheur des Dames</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1883">1883</date>
+                                    <biblScope><idno type="wikidata">Q572911</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="11">vol. XI</biblScope>
+                            </series>
+                            <note>Ritratto del grande magazzino moderno come simbolo del capitalismo
+                                nascente; primo feuilleton su <title level="j" xml:lang="fr">Gil Blas</title>.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Joie_de_vivre" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Joie de vivre</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1884">1884</date>
+                                    <biblScope><idno type="wikidata">Q1068647</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="12">vol. XII</biblScope>
+                            </series>
+                            <note>Romanzo atipico del ciclo, ambientato in un villaggio costiero
+                                e incentrato sul tema della sofferenza e della generosità.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Germinal" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Germinal</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1885">1885</date>
+                                    <biblScope><idno type="wikidata">Q315848</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="13">vol. XIII</biblScope>
+                            </series>
+                            <note>Capolavoro del naturalismo: ritrae la lotta dei minatori del Nord
+                                della Francia; uno dei più celebri romanzi sociali della letteratura mondiale.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="L_Oeuvre" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">L'Œuvre</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1886">1886</date>
+                                    <biblScope><idno type="wikidata">Q580377</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="14">vol. XIV</biblScope>
+                            </series>
+                            <note>Romanzo sul mondo dell'arte e dell'artista; causò la rottura definitiva
+                                tra Zola e il suo amico Paul Cézanne.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Terre" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Terre</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1887">1887</date>
+                                    <biblScope><idno type="wikidata">Q1052060</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="15">vol. XV</biblScope>
+                            </series>
+                            <note>Cruda rappresentazione della vita contadina nella Beauce;
+                                tra i romanzi più controversi di Zola per il realismo brutale.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Le_Reve" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Le Rêve</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1888">1888</date>
+                                    <biblScope><idno type="wikidata">Q1208420</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="16">vol. XVI</biblScope>
+                            </series>
+                            <note>Romanzo mistico e romantico, insolito nel ciclo;
+                                storia di una giovane ricamatrice cresciuta tra le leggende dei santi.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Bete_humaine" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Bête humaine</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1890">1890</date>
+                                    <biblScope><idno type="wikidata">Q575056</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="17">vol. XVII</biblScope>
+                            </series>
+                            <note>Romanzo ambientato nel mondo ferroviario; esplora gli istinti
+                                omicidi ereditari del protagonista Jacques Lantier.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="L_Argent" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">L'Argent</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier et Fasquelle</publisher>
+                                    <date when="1891">1891</date>
+                                    <biblScope><idno type="wikidata">Q568786</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="18">vol. XVIII</biblScope>
+                            </series>
+                            <note>Critica alla speculazione finanziaria e al mondo della Borsa;
+                                il protagonista Saccard tenta di rifarsi dopo la rovina de
+                                <title level="m" xml:lang="fr">La Curée</title>.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="La_Debacle" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">La Débâcle</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier et Fasquelle</publisher>
+                                    <date when="1892">1892</date>
+                                    <biblScope><idno type="wikidata">Q1144461</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="19">vol. XIX</biblScope>
+                            </series>
+                            <note>Romanzo storico sulla guerra franco-prussiana del 1870-71
+                                e sulla Comune di Parigi; considerato tra i migliori romanzi di guerra
+                                della letteratura francese.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Le_Docteur_Pascal" type="romanzo">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Le Docteur Pascal</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier et Fasquelle</publisher>
+                                    <date when="1893">1893</date>
+                                    <biblScope><idno type="wikidata">Q1206765</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <series>
+                                <title level="s" xml:lang="fr">Les Rougon-Macquart</title>
+                                <biblScope unit="vol" n="20">vol. XX</biblScope>
+                            </series>
+                            <note>Ultimo romanzo del ciclo; il dottor Pascal compila la storia
+                                ereditaria della famiglia e contiene il riassunto conclusivo dell'intera saga.</note>
+                        </biblStruct>
+                        
+                        <!-- =========================
+                             TEATRO
+                             ========================= -->
+                        
+                        <biblStruct xml:id="Therese_Raquin_drama" type="teatro">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Thérèse Raquin</title>
+                                <note type="genre">dramma in quattro atti</note>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1873">1873</date>
+                                </imprint>
+                            </monogr>
+                            <note>Adattamento teatrale dell'omonimo romanzo del 1867;
+                                rappresentato per la prima volta al Théâtre de la Renaissance di Parigi.</note>
+                            <relatedItem type="basedOn" target="#Therese_Raquin"/>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Les_Heritiers_Rabourdin" type="teatro">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Les Héritiers Rabourdin</title>
+                                <note type="genre">commedia in tre atti</note>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1874">1874</date>
+                                    <biblScope><idno type="wikidata">Q3826044</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Commedia ispirata a <title level="m" xml:lang="fr">Volpone</title>
+                                di Ben Jonson; rappresentata al Théâtre de Cluny nel novembre 1874.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Bouton_de_Rose" type="teatro">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Bouton de rose</title>
+                                <note type="genre">farsa in tre atti</note>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1878">1878</date>
+                                    <biblScope><idno type="wikidata">Q3021165</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Farsa teatrale; fu un insuccesso clamoroso alla sua prima
+                                al Palais-Royal nel 1878.</note>
+                        </biblStruct>
+                        
+                        <!-- =========================
+                             RACCOLTE
+                             ========================= -->
+                        
+                        <biblStruct xml:id="Contes_a_Ninon" type="raccolta_novelle">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Contes à Ninon</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Albert Lacroix</publisher>
+                                    <date when="1864">1864</date>
+                                    <biblScope><idno type="wikidata">Q3006497</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Prima opera pubblicata da Zola; raccolta di novelle e racconti
+                                di ispirazione romantica, dedicata a un'amica immaginaria.</note>
+                        </biblStruct>
+                        
+                        <biblStruct xml:id="Nouveaux_Contes_a_Ninon" type="raccolta_novelle">
+                            <monogr>
+                                <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                                <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Charpentier</publisher>
+                                    <date when="1874">1874</date>
+                                    <biblScope><idno type="wikidata">Q3347232</idno></biblScope>
+                                </imprint>
+                            </monogr>
+                            <note>Seconda raccolta di racconti; rispetto alla precedente
+                                mostra uno stile più maturo e orientato al naturalismo.</note>
+                        </biblStruct>
+                        
+                    </listBibl>
+                    
+        </body>
+    </text>
+    
+</TEI>

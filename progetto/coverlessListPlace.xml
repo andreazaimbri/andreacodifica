@@ -21,82 +21,96 @@
     
     <text>
         <body xml:lang="it">
-            <listPlace> 
+            <listPlace>
                 
                 <place xml:id="CL" type="real">
                     <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
-                    <country key="it">Italia</country>
+                    <country key="it" ref="#italia">Italia</country>
+                    <note>Città capoluogo della Sardegna e della Città metropolitana di Cagliari.</note>
                 </place>
                 
                 <place xml:id="parigi" type="real">
                     <placeName ref="https://www.geonames.org/2988507/paris.html">Parigi</placeName>
-                    <country key="fr">Francia</country>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <note>Capitale della Francia e principale centro politico, economico e culturale del Paese.</note>
                 </place>
                 
                 <place xml:id="francia" type="real">
                     <placeName ref="https://www.geonames.org/3017382/republic-of-france.html">Francia</placeName>
                     <country key="fr">Francia</country>
+                    <note>Repubblica dell'Europa occidentale con capitale Parigi.</note>
                 </place>
                 
                 <place xml:id="pietroburgo" type="real">
                     <placeName ref="https://www.geonames.org/498817/saint-petersburg.html">San Pietroburgo</placeName>
-                    <country key="rs">Russia</country>
+                    <country key="ru">Russia</country>
+                    <note>Città della Russia nord-occidentale, fondata da Pietro il Grande e storica capitale dell'Impero russo.</note>
                 </place>
                 
                 <place xml:id="italia" type="real">
-                    <placeName ref="http://geonames.org/3175395/italian-republic.html">Halles</placeName>
+                    <placeName ref="https://www.geonames.org/3175395/italian-republic.html">Italia</placeName>
                     <country key="it">Italia</country>
+                    <note>Repubblica dell'Europa meridionale situata nel bacino del Mediterraneo.</note>
                 </place>
                 
                 <place xml:id="halles" type="real">
-                    <placeName ref="https://www.geonames.org/7117438/les-halles.html">Halles</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Parigi</settlement>
+                    <placeName ref="https://www.geonames.org/7117438/les-halles.html">Les Halles</placeName>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <settlement ref="#parigi">Parigi</settlement>
+                    <note>Storico quartiere del I arrondissement di Parigi, noto per il suo antico mercato centrale.</note>
                 </place>
                 
                 <place xml:id="saintCloud" type="real">
                     <placeName ref="https://www.geonames.org/2981041/saint-cloud.html">Saint-Cloud</placeName>
-                    <country key="fr">Francia</country>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <note>Comune situato nella periferia occidentale di Parigi, nel dipartimento degli Hauts-de-Seine.</note>
                 </place>
                 
-                <place xml:id="montemartre" type="real">
-                    <placeName ref="https://www.geonames.org/9843599/paris-03-ancien-quartier-montmartre.html">Montemartre</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Parigi</settlement>
+                <place xml:id="montmartre" type="real">
+                    <placeName ref="https://www.geonames.org/9843599/paris-03-ancien-quartier-montmartre.html">Montmartre</placeName>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <settlement ref="#parigi">Parigi</settlement>
+                    <note>Storico quartiere collinare di Parigi, celebre per la Basilica del Sacro Cuore e per la sua tradizione artistica.</note>
                 </place>
                 
                 <place xml:id="senna" type="real">
-                    <placeName ref="https://www.wikidata.org/wiki/Q1471?wprov=srpw1_1">Senna</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Parigi</settlement>
+                    <placeName ref="https://www.wikidata.org/wiki/Q1471">Senna</placeName>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <settlement ref="#parigi">Parigi</settlement>
+                    <note>Fiume della Francia settentrionale che attraversa la città di Parigi prima di sfociare nella Manica.</note>
                 </place>
                 
                 <place xml:id="neuilly" type="real">
                     <placeName ref="https://www.geonames.org/2990611/neuilly-sur-seine.html">Neuilly-sur-Seine</placeName>
-                    <country key="fr">Francia</country>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <note>Comune francese situato a ovest di Parigi, nel dipartimento degli Hauts-de-Seine.</note>
                 </place>
                 
                 <place xml:id="caienna" type="real">
                     <placeName ref="https://www.geonames.org/3382160/cayenne.html">Caienna</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Guyana francese</settlement>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <region>Guyana francese</region>
+                    <note>Capoluogo della Guyana francese, dipartimento e regione d'oltremare della Francia situato in Sud America.</note>
                 </place>
                 
                 <place xml:id="renaissance" type="real">
                     <placeName ref="https://www.wikidata.org/wiki/Q3527713" xml:lang="fr">Théâtre de la Renaissance</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Parigi</settlement>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <settlement ref="#parigi">Parigi</settlement>
+                    <note>Storico teatro parigino inaugurato nel XIX secolo e situato nel X arrondissement.</note>
                 </place>
                 
                 <place xml:id="palaisRoyal" type="real">
                     <placeName ref="https://www.wikidata.org/wiki/Q329948" xml:lang="fr">Palais-Royal</placeName>
-                    <country key="fr">Francia</country>
-                    <settlement>Parigi</settlement>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <settlement ref="#parigi">Parigi</settlement>
+                    <note>Complesso monumentale di Parigi comprendente un palazzo e i suoi celebri giardini, situato nel I arrondissement.</note>
                 </place>
                 
                 <place xml:id="cluny" type="real">
                     <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Cluny</placeName>
-                    <country key="fr">Francia</country>
+                    <country key="fr" ref="#francia">Francia</country>
+                    <note>Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.</note>
                 </place>
                 
             </listPlace>
