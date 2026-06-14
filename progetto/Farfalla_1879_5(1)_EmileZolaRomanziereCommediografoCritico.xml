@@ -58,10 +58,29 @@
             </creation>
         </profileDesc>
     </teiHeader>
+    <facsimile>
+     <surface xml:id="pag_3_surface">
+            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_3.png/full/max/0/default.jpg' width='3370px' height='5092px' />
+            <zone points = ' 1806,4647 3102,4637 3011,1722 1708,1734 1782,4618 1807,4649 ' xml:id="pag_3_col_2"/>
+     </surface>
+        <surface xml:id="pag_4_surface">
+            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_4.png/full/max/0/default.jpg' width='3300px' height='5093px' />
+            <zone points = ' 424,354 1735,367 1674,4608 360,4617 426,356 ' xml:id="pag_4_col_1"/>
+            <zone points = ' 1782,367 3049,397 3041,4646 1706,4630 1783,367 ' xml:id="pag_4_col_2"/>
+        </surface>
+        <surface xml:id="pag_5_surface">
+        <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg' width='3375px' height='5088px' />
+        <zone points = ' 452,412 1735,409 1765,4566 437,4600 451,412 ' xml:id="pag_5_col_1"/>
+            <zone points = ' 1794,388 3088,383 3103,2403 1797,2413 1793,389 ' xml:id="pag_5_col_2"/>
+        </surface>
+
+    </facsimile>
     <text>
+       
         <body>
+            
             <pb n="#" xml:id="Farfalla_1879_5_1_3"/>
-            <cb n="1" xml:id="col_2-p.3" /> 
+            <cb n="1" xml:id="col_2-p.3" facs="#pag_3_col_2" /> 
             <div xml:id="div_1" type="intestazione">
                 <head type="main">Emile Zola. Romanziere, Commediografo, Critico</head>
                 <head type="subtitle">Romanziere, commediografo, critico</head>
@@ -115,7 +134,7 @@
                     In <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, si cominciava a  combattere, intorno alla bandiera
                     dello <persName type="real" ref="coverlessListPerson.xml#emileZola"> Zola </persName>; in <placeName ref="coverlessListPlace.xml#italia">Italia</placeName>, molti lo conoscevano appena, da al-
                     <pb n="#" xml:id="Farfalla_1879_5_1_4"/>
-                    <cb n="2" xml:id="col_1-p.4" /> 
+                    <cb n="2" xml:id="col_1-p.4" facs="#pag_4_col_1" /> 
                     tri se ne discorreva, piuttosto per la temerità,
                     che per apprezzarne la eccezionale potenza.
                 </p>
@@ -194,7 +213,7 @@
                     dippìù del <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Camors">Camors</title>, della <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Chalis">Chalis</title>, del <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_Nabab">Nabab</title>, e dei più ripu-
                     tati romanzi di tal genere, a farci conoscere, in tutto e per
                     tutto, l'esistenza parigina di quell'epoca, così la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Fortune_des_Rougon"> Fortune des
-                        <cb n="3" xml:id="col_2-p.4" /> 
+                        <cb n="3" xml:id="col_2-p.4" facs="#pag_4_col_2" /> 
                         Rougon </title>  e la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans">Conquête de Plassans</title> emulano le Scene di pro-
                     vincia di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName> <orig>colle</orig> caratteristiche particolarità della vita
                     intima nelle piccole borgate della <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>.
@@ -273,7 +292,7 @@
                     più svariate manifestazioni ereditarie.
                 </p>
                 <pb n="#" xml:id="Farfalla_1879_5_1_5"/>
-                <cb n="1" xml:id="col_1-p.5"/> 
+                <cb n="1" xml:id="col_1-p.5" facs="#pag_5_col_1" /> 
                 <p xml:id="p_16">
                     <rs ref="coverlessListPerson.xml#emileZola">Egli</rs> non s'accontenta di riprodurre <orig>ne'</orig>suoi personaggi
                     tutte le <term>caste</term> della società moderna, dal <term>vice-imperatore</term> al
@@ -364,7 +383,7 @@
                     Ci vogliono altro che fischi, per vincere le convinzioni
                     artistiche di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> ! La sua non è questua d'applausi e di
                     diritti d'autore, bensì fermezza ragionata in un principio,
-                    <cb n="2"/>
+                    <cb n="2" facs="#pag_5_col_2" xml:id="col_2-p.5"/>
                     che dove trionfare. Se fosse un <term>industriale della penna</term>, lu-
                     singherebbe le viziate abitudini della folla. Appunto per-       
                     chè è un vero artista, senza bravate da guascone, o gemiti      
