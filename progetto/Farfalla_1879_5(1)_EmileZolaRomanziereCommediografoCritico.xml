@@ -59,24 +59,24 @@
         </profileDesc>
     </teiHeader>
     <facsimile>
-     <surface xml:id="pag_3_surface">
+        <surface xml:id="pag_3_surface">
             <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_3.png/full/max/0/default.jpg' width='3370px' height='5092px' />
             <zone points = ' 1806,4647 3102,4637 3011,1722 1708,1734 1782,4618 1807,4649 ' xml:id="pag_3_col_2"/>
-     </surface>
+        </surface>
         <surface xml:id="pag_4_surface">
             <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_4.png/full/max/0/default.jpg' width='3300px' height='5093px' />
             <zone points = ' 424,354 1735,367 1674,4608 360,4617 426,356 ' xml:id="pag_4_col_1"/>
             <zone points = ' 1782,367 3049,397 3041,4646 1706,4630 1783,367 ' xml:id="pag_4_col_2"/>
         </surface>
         <surface xml:id="pag_5_surface">
-        <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg' width='3375px' height='5088px' />
-        <zone points = ' 452,412 1735,409 1765,4566 437,4600 451,412 ' xml:id="pag_5_col_1"/>
+            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg' width='3375px' height='5088px' />
+            <zone points = ' 452,412 1735,409 1765,4566 437,4600 451,412 ' xml:id="pag_5_col_1"/>
             <zone points = ' 1794,388 3088,383 3103,2403 1797,2413 1793,389 ' xml:id="pag_5_col_2"/>
         </surface>
-
+        
     </facsimile>
     <text>
-       
+        
         <body>
             
             <pb n="#" xml:id="Farfalla_1879_5_1_3"/>
@@ -90,7 +90,7 @@
             <div xml:id="div_2" type="abstract">
                 <p xml:id="p_1">
                     <hi rend="first-line-indented">P</hi>er ragione di spazio, non può <title level="j" rend="italic" ref="coverlessListWork.xml#Farfalla">la Farf
-                    -alla</title> pubblicare uno studio completo
+                        -alla</title> pubblicare uno studio completo
                     sulle opere dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, riproducendo 
                     dal <title type="j" rend="italic" ref="coverlessListWork.xml#Gazzettino_rosa">Gazzettino rosa</title>, dal <title type="journal" rend="italic" ref="coverlessListWork.xml#Sole"> Sole </title> e dal-
                     l' <title type="journal" rend="italic" ref="coverlessListWork.xml#Arte_drammatica"> Arte drammatica </title>, gli articoli del-
@@ -108,7 +108,7 @@
                     stesso <persName type="real" ref="coverlessListPerson.xml#emileZola"> Zola </persName> al <title type="j" xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Messager_de_l_Europe">Messager de l'Europe</title> di <placeName ref="coverlessListPlace.xml#pietroburgo">Pietroburgo</placeName>,
                     sul romanzo contemporaneo francese, che suscita
                     in questi giorni tanto rumore a <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName> fra i <term>roman-
-                    tici</term>, la mediocrità vanagloriose ed i mesterianti della letteratura. 
+                        tici</term>, la mediocrità vanagloriose ed i mesterianti della letteratura. 
                 </p>
                 
             </div>
@@ -329,7 +329,7 @@
                     come romanziere, - gli uni fischiano nel <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_rose">Bouton re rose</title>
                     il colossale trionfo dell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assomoir</title>, - gli altri si vendicano
                     sull'autore drammatico delle sue motivate censure, come 
-                    critico teatrale
+                    critico teatrale.
                 </p>
                 <p xml:id="p_20">
                     Contro un libro questa biliosa coalizione a ben poco
