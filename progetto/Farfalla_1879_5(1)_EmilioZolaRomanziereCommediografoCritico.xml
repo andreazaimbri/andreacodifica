@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Emile Zola. Romanziere, Commediografo, Critico</title>
+                <title>Emilio Zola. Romanziere, Commediografo, Critico</title>
                 <respStmt>
                     <resp>Conversione TEI P5 a cura di</resp>
                     <name xml:id="AZ">Andrea Zaimbri </name>
@@ -17,14 +17,14 @@
             </editionStmt>
             <publicationStmt>
                 <publisher>La Farfalla</publisher>
-                <idno type="fileName">cFarfalla_1879_5(1)_EmileZolaRomanziereCommediografoCritico.xml</idno>
+                <idno type="fileName">Farfalla_1879_5(1)_EmilioZolaRomanziereCommediografoCritico.xml</idno>
                 <date when="1879">1879</date>
                 <availability status="free"><p>Accesso tramite sito web progetto CoverLess</p></availability>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a">Emile Zola. Romanziere, Commediografo, Critico </title>
+                        <title level="a">Emilio Zola. Romanziere, Commediografo, Critico </title>
                         <author> Redazione </author>
                     </analytic>
                     <monogr>
@@ -102,14 +102,14 @@
             <pb n="#" xml:id="Farfalla_1879_5_1_3"/>
             <cb n="1" xml:id="col_2-p.3" facs="#pag_3_col_2" /> 
             <div xml:id="div_1" type="intestazione">
-                <head type="main">Emile Zola. Romanziere, Commediografo, Critico</head>
-                <head type="subtitle">Romanziere, commediografo, critico</head>
+                <head type="main">EMILIO ZOLA</head>
+                <head type="subtitle">ROMANZIERE, COMMEDIOGRAFO, CRITICO</head>
                 <metamark function="sectionDivider"/>
-                <head type="subtitle">Dalle rassegne letterarie del Pessimista</head>
+                <head type="subtitle">(Dalle rassegne letterarie del Pessimista)</head>
             </div>
             <div xml:id="div_2" type="abstract">
                 <p xml:id="p_1">
-                    <hi rend="first-line-indented">P</hi>er ragione di spazio, non può <title level="j" rend="italic" ref="coverlessListWork.xml#Farfalla">la Farf
+                    <hi rend="initial-cap">P</hi>er ragione di spazio, non può <title level="j" rend="italic" ref="coverlessListWork.xml#Farfalla">la Farf
                         -alla</title> pubblicare uno <term type="forma_letteraria" subtype="genere_letterario">studio</term> completo
                     sulle opere dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, riproducendo 
                     dal <title type="j" rend="italic" ref="coverlessListWork.xml#Gazzettino_rosa">Gazzettino rosa</title>, dal <title type="journal" rend="italic" ref="coverlessListWork.xml#Sole"> Sole </title> e dal-

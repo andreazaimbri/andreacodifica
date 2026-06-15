@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EMILIO ZOLA, COMMEDIOGRAFO, CRITICO - continuazione e fine</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name xml:id="AZ">Andrea Zaimbri </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1"> Edizione digitale - <date when="2026-06">giugno 2026</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>La Farfalla</publisher>
+                <idno type="fileName">Farfalla_1879_5(2)_EmileZolaRomanziereCommediografoCriticoContinuazioneEFine.xml</idno>
+                <date when="1879">1879</date>
+                <availability status="free"><p>Accesso tramite sito web progetto CoverLess</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">EMILIO ZOLA, COMMEDIOGRAFO, CRITICO - continuazione e fine </title>
+                        <author> Redazione </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j" ref="coverlessListWork.xml#Farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace >Cagliari</pubPlace>
+                            <date when="1876">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">5</biblScope>
+                        <biblScope unit="issue">2</biblScope>
+                        <biblScope unit="page">16-17</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Codifica realizzata per il progetto PRIN PNRR COVerLeSS (<ref type="url" target="http://chroma.cnr.it/progetti/">descrizione online</ref>).</p>
+            </projectDesc>
+        <editorialDecl>
+            <normalization>
+                <p>Si è scelto di mantenere il corsivo e il maiuscolo nel testo e di esplicitarne la resa semantica con l'attributo @rend</p>
+            </normalization>
+            <punctuation>
+                <p>Tutta la punteggiatura della fonte è stata mantenuta e rappresentata tramite il carattere corrispondente</p>
+            </punctuation>
+            <quotation>
+                <p>Si è scelto di interpretare lo standard anno-mese-giorno per le date citate nel testo</p>
+            </quotation>
+        </editorialDecl>
+        </encodingDesc> 
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="saggio"> Saggio </term>
+                </keywords>
+            </textClass>
+            <creation>
+                <placeName ref="coverlessListPlace.xml#CL">Cagliari</placeName>
+                <date when="1879">1879</date>
+            </creation>
+            <abstract>
+                <p>Questo testo ripercorre le principali opere dello scrittore naturalista Emile Zola, dalle sue produzioni romanzesche a quelle teatrali.</p>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        
+    </facsimile>
+    <text>
+        <body>
+            <pb n="#" xml:id="Farfalla_1879_5_2_16"/>
+            <cb n="1" xml:id="col_1-p.16" facs="#" /> 
+            <div xml:id="div_1" type="intestazione">
+                <head type="main">EMILIO ZOLA</head>
+                <head type="subtitle">ROMANZIERE, COMMEDIOGRAFO, CRITICO</head>
+                <metamark function="sectionDivider"/>
+                <head type="subtitle">(Dalle rassegne letterarie del Pessimista).</head>
+                <head type="subtitle">(Continuazione e fine). <ptr target="#nota_1">*)</ptr></head>
+                <metamark function="sectionDivider"/>
+            </div>
+            <div type="abstract" xml:id="div_1">
+                <head type="subtitle">ZOLA CRITICO.</head>
+                <p xml:id="p_1">
+                        <hi rend="capital_letter">I</hi> principi del <term type="forma_letteraria" subtype="genere_letteario">romanzo</term> sono ora <persName ref="coverlessListPerson.xml#gustaveFlaubert" type="real">Gustavo Flaubert</persName>,
+                        <persName>Edoardo de Gouncort</persName> ed <persName>Alfonso Daudet</persName>. <distinct>Eglino</distinct>
+                        tengono alta ed <distinct>invitta</distinct> la bandiera del <term>natura-
+                        lismo</term>, continuano <persName>Balzac</persName>, ciascuno <distinct>colla</distinct> origina-
+                        lità che gi è propria. Dopo il loro, posso no-
+                        minare tra i discindenti di <persName>Balzac </persName>, soltanto <persName>Ettore
+                        Malot</persName> e <persName>Ferdinando Fabre</persName>.
+                </p>
+                <p xml:id="p_2">
+                        <persName>Ettore Malot</persName> seppe destare grandi speranze. Quando
+                        esordì, verso il 1864, <distinct>colle</distinct> <title>Victimes d'Amour</title>, si credette
+                        alla apparizione d'un figlio diretto di <persName>Balzac</persName>.Le <title>Victimes
+                        d'Amour</title>, pubblicate nel <title>Constituonnel</title>, ebbero per effetto
+                        immediato di indisporre gli abbonati, il che è un sintomo eccellente 
+                        in <placeName>Francia</placeName>. Allora il signor <persName>E. Taine</persName> s'appas-
+                        sionò per <persName>Ettore Malot</persName> e gli dedicò un articolo sul <title>Debats</title>,
+                        nel quale classificava il <distinct>giovine</distinct> romanziere tra gli scrittori
+                        d'ingegno. Sgraziatamente, dopo varie altre opere, come
+                        <title>Un beau-frère</title> e la <title>Belle madame Donis</title>, nelle quali vi sono
+                        ancora pregi d'osservazione, Ettore Malot sdrucciolò, a 
+                        poco a poco, nella produzione facile. Da lcuni anni si è 
+                        messo a raffazzonare appendici pel <title>Siècle</title>, scrivendo <term> ro-
+                        manzi</term> interminabili, nei quali tutto si sciupa, stile, osser-
+                        vazione, ossatura. È uno scrittore che affoga.
+                </p>
+                <p xml:id="p_3">
+                        <persName>Ferdinando Fabre</persName> incominciò parimenti con un'opera 
+                        notevole: <title>Les Courbezon</title>, nelle quale vengono studiati con 
+                        delicatissimo amore della verità un prete campagnolo e 
+                        l'ambiente che lo circonda. Dopo d'allora, pubblicò un 
+                        <term>romanzo</term> ancor più pregevole: <title>L'abbé Tigrane</title>, che rimane fi-
+                        nora il suo miglior libro.
+                </p>
+                <p xml:id="p_4">
+                        <persName>Testè</persName>,<persName>Fabre</persName>, tormentato senza dubbio dalla fecondità
+                        di Malot, egli non farà che diluire quest'opera.
+                        Accanto alla <term>scuola naturalista</term>, la quale <distinct>guadagnossi</distinct> il
+                        primo posto, vive ancora a <placeName>Champfleury</placeName>, il capo della <term> scuola
+                        realista</term>; ma, ahimè è un capo senza soldati e, quando 
+                        dico che vive ancora, devo aggiungere che è morto lette-
+                        rariamente parlando, perchè da lunga pezza non ha pub-
+                        blicato neppure un <term>romanzo</term>.
+                </p>
+                <p xml:id="p_5">
+                        Vi fu un po' di rumore, <distinct>poscia</distinct> il pubblico si rivolse a 
+                        <persName>Gustavo Flaubert</persName>, ad <persName>Edmondo</persName> e a <persName>Giulio de Goncort</persName>, i 
+                        veri discendenti di Balzac. Il peggio fu, che <persName>Champfleury</persName> 
+                        si scoraggio da sè stesso, vedendo che i lettori lo abban-
+                        donavano. Cessò di produrre ed ora assiste alla propria
+                        <term>morte letteraria</term>, a questa spaventosa morte, <distinct>abbominevole</distinct>
+                        supplizio per uno scrittore vecchio e dimenticato.
+                </p>
+                <p xml:id="p_6">
+                        In questo punto mi corre alla mente il nome di <persName>Edmon-
+                        do Duranty</persName>; lasciate che me ne occupi un po', essendo 
+                        egli uno dei più interessanti romanzieri ch'io conosca.
+                        <persName>Duranty</persName> fu una sentinella avanzata del <term>naturalismo</term>.
+                </p>
+                <note xml:id="nota_1" place="foot" n="*)" type="footnote">
+                    Con alcuni brani delle appendici di PESSIMISTA, abbiamo trat-
+                    teggiato, nello scorso numero, il profilo di <persName>Zola</persName>, come roman-
+                    ziere, commediografo e critico drammatico. Dall'articolo dello
+                    stesso <persName>Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
+                    suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
+                    mento, per far conoscere le sue idee, come critico letterario.
+                </note>
+                <p xml:id="p_7">
+                    Duranty fu una sentinella avanzata dal <term>naturalismo</term>.
+                    Quanto noi ora diciamo, egli l'intuè prima di noi, ed a
+                    <cb n="2" xml:id="col_2-p.16" facs="#" />
+                    questo lo predisponeva in modo singolare il suo tempera-
+                    mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
+                    contemporanei. Di rado incontrai un romanziere così indi-
+                    pendente da tutto quanto lo attorniava. Bisogna risalire a
+                    <persName>Stendhal</persName>, a quell'uomo unico, la personalità del quale rimase
+                    tanto spicccata nella frebbe contagiosa del <term>romanticismo</term>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
