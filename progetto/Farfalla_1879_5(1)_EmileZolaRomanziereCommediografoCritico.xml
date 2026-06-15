@@ -90,11 +90,11 @@
             <div xml:id="div_2" type="abstract">
                 <p xml:id="p_1">
                     <hi rend="first-line-indented">P</hi>er ragione di spazio, non può <title level="j" rend="italic" ref="coverlessListWork.xml#Farfalla">la Farf
-                        -alla</title> pubblicare uno studio completo
+                        -alla</title> pubblicare uno <term type="forma_letteraria" subtype="genere_letterario">studio</term> completo
                     sulle opere dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, riproducendo 
                     dal <title type="j" rend="italic" ref="coverlessListWork.xml#Gazzettino_rosa">Gazzettino rosa</title>, dal <title type="journal" rend="italic" ref="coverlessListWork.xml#Sole"> Sole </title> e dal-
                     l' <title type="journal" rend="italic" ref="coverlessListWork.xml#Arte_drammatica"> Arte drammatica </title>, gli articoli del-
-                    l'amico <persName type="real"  ref="coverlessListPerson.xml#feliceCameroni">Cameroni</persName>, <term type="autorialità_narrativa" rend="italic">(Pessimista)</term> 
+                    l'amico <persName type="real"  ref="coverlessListPerson.xml#feliceCameroni">Cameroni</persName>, <term type="forma_letteraria" subtype="autorialita_narrativita" rend="italic">(Pessimista)</term> 
                     intorno al suo <rs ref="coverlessListPerson.xml#emileZola" type="real"> autore prediletto </rs>, cominciando da quei tempi
                     in cui il nome dello <persName ref="coverlessListPerson.xml#emileZola" type="real">Zola</persName> era generalmente ignoto
                     fra noi e poco apprezzato in <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, sino all' <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#L_Assommoir">As-
@@ -106,7 +106,7 @@
                     delle utlime appendici di <persName type="real" ref="coverlessListPerson.xml#feliceCameroni"> Cameroni </persName>, come prefazione,
                     e quella arditissima, ma logica <hi rend="italic">corrispondenza</hi> dello
                     stesso <persName type="real" ref="coverlessListPerson.xml#emileZola"> Zola </persName> al <title type="j" xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Messager_de_l_Europe">Messager de l'Europe</title> di <placeName ref="coverlessListPlace.xml#pietroburgo">Pietroburgo</placeName>,
-                    sul romanzo contemporaneo francese, che suscita
+                    sul <term type="forma_letteraria" subtype="genere_letterario">romanzo</term> contemporaneo francese, che suscita
                     in questi giorni tanto rumore a <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName> fra i <term>roman-
                         tici</term>, la mediocrità vanagloriose ed i mesterianti della letteratura. 
                 </p>
@@ -124,8 +124,8 @@
                     generalità dei lettori. A me stesso ed a qualche compagno
                     delle mie utopie letterarie, andavo domandando, se era 
                     esagerata la simpatia la nostra, od ingiusta indifferenza quella
-                    della maggioranza, verso il giovane scrittore, che promet-
-                    teva già di divenir il caposcuola del realismo.
+                    della maggioranza, verso il <term type="forma_letteraria" subtype="autorialita_narrativita">giovane scrittore</term>, che promet-
+                    teva già di divenir il caposcuola del <term type="forma_letteraria" subtype="ismi">realismo</term>.
                 </p>
                 <p xml:id="p_4">
                     All'apparire di ciascun volume dei <title type="s" xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Rougon_Macquart">Rougon-Macquart</title>,
@@ -150,36 +150,36 @@
                     ale italiano, le parole d'elogio indirizzate alla <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Curee">Curée</title>,
                     malgrado le <hi rend="italic">prudenti</hi> riserve da cui erano accompagnate. Ven-
                     nero poi: <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris"> Le ventre de Paris </title>, ammaliante orgia di colori,
-                    capolavoro della pittura <hi rend="italic">di genere</hi> sulla grassa borghesia
+                    capolavoro della <term type="forma_letteraria" subtype="autorialita_narrativita"> pittura <hi rend="italic">di genere</hi></term> sulla grassa borghesia
                     delle <placeName ref="coverlessListPlace.xml#halles">Halles</placeName>, <metamark> - </metamark> la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret"> Faute de l'abbé Mouret</title>, delizioso idillio, 
                     associante con <distinct>maravigliosa</distinct> armonia l'azzurro alla realtà -
-                    la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans"> Conquete di Plassans </title>, altro quadro dei costumi di pro-
+                    la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans"> Conquete di Plassans </title>, altro <term type="verbum" subtype="evoluzione_sociale">quadro dei costumi</term> di pro-
                     vincia, degno ad un tepmo dello spirito d'osservazione di
                     <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName> e della tavolozza di <persName type="real" ref="coverlessListPerson.xml#teophileGautier">Gautier</persName>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon"> S. E Rougon </title>, che
                     rappresenta, per l'aristocrazia e la burocrazia del
                     secondo impero, ciò che è la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Curee">Curee</title> per la <distinct>bancrozia</distinct> di quell'interessantissimo
                     periodo storico, - l'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assommoir</title>, il cui
                     trionfo saegna una data nella storiua letteraria dei nostri
-                    giorni, per la meravigliosa fotografia delle miserie e dei 
-                    vizi del proletariato parigino -, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Une_page_d_amour">Une page d'amour</title>, finis-
+                    giorni, per la meravigliosa <term type="forma_letteraria" subtype="autorialita_narrativita">fotografia delle miserie e dei 
+                    vizi </term> del <term type="verbum" subtype="evoluzione_sociale">proletariato parigino</term> -, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Une_page_d_amour">Une page d'amour</title>, finis-
                     simo studio fisiologico sull'amor materno e sull'amor fi-
                     liale, spinto sino alla nevrosi.
                 </p>
                 <p xml:id="p_6">
                     Assunse proprizioni coloossali il successo dell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assomoir</title>,
                     eppure era così grande la mia simpatizia verso lo <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, che
-                    mi parve appena <orig>adequato</orig> ai meriti di questo <term>naturalista</term>
+                    mi parve appena <orig>adequato</orig> ai meriti di questo <term type="forma_letteraria" subtype="autorialita_narrativita">naturalista</term>
                     dell'arte e tardivo, rammentando l'insufficiente ammirazione
                     della maggioranza verso il lavori che lo precedono
                 </p>
                 <p xml:id="p_7">
-                    Senza rimontare, né alla <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_confession_de_Claude">Confession de Claude</title> (romanzo  
+                    Senza rimontare, né alla <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_confession_de_Claude">Confession de Claude</title> (<term type="forma_letteraria" subtype="genere_letterario">romanzo</term>  
                     psicologico alla <persName type="real" ref="coverlessListPerson.xml#alfredDeMusset">Musset</persName>, sopra un giovane avvinto dalla             
                     cieca passione ad una volgare cortigiana), né ai primi                 
-                    <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Contes_a_Ninon">Contes à Ninon</title>, che rivelano un poeta, in questo filosofo            
-                    naturalista « <q xml:lang="fr">fou d'analyse exacte</q> » — fin d'ora può dirsi,            
+                    <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Contes_a_Ninon">Contes à Ninon</title>, che rivelano un <term type="forma_letteraria" subtype="narrazione">poeta</term>, in questo filosofo            
+                   <term type="forma_letteraria" subtype="autorialita_narrativita">naturalista</term> « <q xml:lang="fr">fou d'analyse exacte</q> » — fin d'ora può dirsi,            
                     ch'egli ha svolto con mano maestra i soggetti più ar-              
-                    diti e più difficili, la miniatura da salotto ed il romanzo                   
+                    diti e più difficili, la miniatura da salotto ed il <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>                   
                     sociale, l'analisi dell'individuo nelle sue più delicate mani-                   
                     festazioni fisiologiche o patologiche e la sintesi delle                  
                     diverse classi moderne, dal <placeName ref="coverlessListPlace.xml#de_Monceaux">de Monceaux</placeName> e da <placeName ref="coverlessListPlace.xml#saintCloud">Saint-Cloud</placeName> ai <foreign xml:lang="fr" rend="italic">boulevard</foreign> esterni ed a <placeName ref="coverlessListPlace.xml#Plassans">Plassans</placeName>, nelle sale del-                   
@@ -187,7 +187,7 @@
                     ed al corpo legislativo, nel gabinetto di <persName type="real" ref="coverlessListPerson.xml#eugeneRouher">Rouher</persName> ed in sa- 
                     grestia, fra il turbine della capitale del mondo e nelle soli-
                     tudini della campagna, ai tempi burrascosi del colpo di
-                    stato e nella pletora del <term>cesarismo</term> trionfante.
+                    stato e nella pletora del <term type="forma_letteraria" subtype="ismi">cesarismo</term> trionfante.
                 </p>
                 <p xml:id="p_8">
                     In <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Madeleine_Ferat">Madeleine Ferat</title>, lo studio medico dell'assimilazione      
@@ -196,17 +196,17 @@
                     primo di lei amore, unicamente fisico, e la seconda sua
                     passione, nata dal cuore, più che dai senses ed invano tute-    
                     lata dalla gratitudine e dall'onore. Nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Therese_Raquin">Raquin</title>, la più       
-                    angosciosa autopsia del rimorso, ch'io abbia visto finora,            
+                    angosciosa <term type="verbum" subtype="rappresentazione">autopsia del rimorso</term>, ch'io abbia visto finora,            
                     la patologia del matrimonio fra la scrofola del marito e              
                     la robustezza della moglie, le fases dell'adulterio fra due                
                     esseri, i quali commettono un assassinio per congiungersi                   
                     legalmente e finiscono col tentare (l'uno contro l'altra) un              
                     secondo delitto di sangue. Nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Curee">Curée</title>, in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon">S. E. Rougon</title> e                 
-                    nell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assommoir</title>, la fotografia sociale della vita parigina,                   
-                    così scrupolosa per verità, dotata di tale rilievo stereo-                  
+                    nell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assommoir</title>, la <term type="verbum" subtype="rappresentazione">fotografia sociale</term> della vita parigina,                   
+                    così scrupolosa per <term type="verbum" subtype="vero_verita">verità</term>, dotata di tale rilievo stereo-                  
                     scopico, da costituire l'indispensabile complemento alla                
                     storia del secondo impero di <persName type="real" ref="coverlessListPerson.xml#taxilleDelord">Taxile Delord</persName> ed alla noti-     
-                    ssima monografia di <persName type="real" ref="coverlessListPerson.xml#maximeDuCamp">Maxime Du Camp</persName> su <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName> contem-
+                    ssima <term type="forma_letteraria" subtype="genere_letterario">monografia</term> di <persName type="real" ref="coverlessListPerson.xml#maximeDuCamp">Maxime Du Camp</persName> su <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName> contem-
                     poranea.
                 </p>
                 <p xml:id="p_9">
@@ -220,13 +220,13 @@
                     intima nelle piccole borgate della <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>.
                 </p>
                 <p xml:id="p_10">
-                    Mi sembrano splendidi poemi alla natura, sia il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Ventre de Paris</title>, sia la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret">Faute de l'abbé Mouret</title>, malgrado la violentis-
+                    Mi sembrano splendidi <term type="forma_letteraria" subtype="genere_letterario">poemi</term> alla natura, sia il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Ventre de Paris</title>, sia la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret">Faute de l'abbé Mouret</title>, malgrado la violentis-
                     sima antitesi fra il torrente di grasso dei <term>beccai</term> e salumieri
                     e <term> l'idillio erotico pastolarale </term> del <orig>giovine</orig> prete.
                 </p>
                 <p xml:id="p_11">
                     I <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Contes_a_Ninon">Contes</title> ed i <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Nouveaux_contes_a_Ninon">Nouveaux Contes</title> non hanno nulla da invidiare 
-                    alle pagine più squisite dei più squisiti novellieri, ad <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso Daudet</persName> ed a <persName type="real" ref="coverlessListPerson.xml#gustavoDroz">Gustavo Droz</persName>, con le deliziose due prefazioni, con
+                    alle pagine più squisite dei più squisiti <term type="forma_letteraria" subtype="genere_letterario">novellieri</term>, ad <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso Daudet</persName> ed a <persName type="real" ref="coverlessListPerson.xml#gustavoDroz">Gustavo Droz</persName>, con le deliziose due prefazioni, con
                     il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Carnet_de_danse">Carnet de danse</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Celle_qui_m_aime">Celle qui m'aime</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_petit_Mederic"> Le petit Méderic</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_Bain"> Le Bain</title>,<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_epaules_de_la_marquise">Les spalle de la marquise</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_Fraises">Les Fraises</title> e gli svariatissimi <foreign xml:lang="fr" rend="italic">Sou-venirs</foreign>, sulla processione del <foreign xml:lang="la" rend="italic">Corpus Domini</foreign> e sui bagni
                     della <placeName ref="coverlessListPlace.xml#Senna">Senna</placeName>, sulle due gattine dell'autore e sul bombarda-
                     mento di <placeName ref="coverlessListPlace.xml#neuilly">Neuilly</placeName> nel <date when="1871">71</date>, ecc. Quanti capolavori di cesel-
@@ -237,7 +237,7 @@
                     dell'osservatore sull'artista, o di questo su quello, l'ostina-
                     zione in una nota dominante e troppo ripetuta, l'azione
                     sacrificata ai caratteri od alla tesi, oppure l'eccesso con-  
-                    trario, cioè il pensatore sacrificato al novelliere. A mio    
+                    trario, cioè il pensatore sacrificato al <term type="forma_letteraria" subtype="narrazione">commediografo</term>. A mio    
                     avviso invece, rappresenta lo <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> l'accordo perfetto di tutte      
                     queste doti, giudicandolo non già volume per volume, ma
                     dal complesso dei suoi scritti.
@@ -247,14 +247,14 @@
                     ad ogni categoria. Cito a mo' d'esempio: <persName type="real" ref="coverlessListPerson.xml#carloluigiNapoleoneBonaparte ">Napoleone III</persName>,
                     <persName type="real" ref="coverlessListPerson.xml#eugeneRouher">Rouher</persName>, <persName type="real" ref="coverlessListPerson.xml#charlesDeMorny">Mourny</persName> ed i personaggi della Corte, del Senato, del
                     Corpo legislativo, ecc. in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon">S. E Rougon</title>, ed i faziosi pro-
-                    vinciali <term>antibonapartisti</term> nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Fortune_des_Rougon">Fortune des Rougon</title>, — i millio-
+                    vinciali <term type="forma_letteraria" subtype="autorialita_narrativita">antibonapartisti</term> nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Fortune_des_Rougon">Fortune des Rougon</title>, — i millio-
                     nari della <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Curee">Curée</title> e gli ultimi strati delle classi povere nell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">As-sommoir</title>, — le grandi dame alla <persName type="real" ref="coverlessListPerson.xml#charlesMonselet">Marcelin</persName> ed alla <persName type="real" ref="coverlessListPerson.xml#charlesDarnoux"><choice><orig>Bertali</orig><reg>Bertall</reg></choice></persName>, che
                     fecero del secondo impero una seconda <foreign xml:lang="fr" rend="italic">Régence</foreign> e le ingenue
                     compagne di <persName type="real" ref="coverlessListPerson.xml#ninonDeLenclos">Ninon</persName>, nei <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Nouveaux_contes_a_Ninon">Nouveaux Contes</title>, — lo sche-
                     letro dell'evaso da <placeName ref="coverlessListPlace.xml#caienna"><choice><orig>Cajenna</orig><reg>Caienna</reg></choice></placeName>, di fronte alla insolente pin-
                     guedine dei pacifici borghesi, al servizio del <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Ventre de Paris</title>,
-                    — l'<term>ascetismo</term> intollerante nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret">Faute de l'abbé Mouret </title> ed
-                    il <term>clericalismo cospiratore</term> nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans">Conquête de Plassans</title>, — il
+                    — l'<term type="forma_letteraria" subtype="ismi">ascetismo</term> intollerante nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret">Faute de l'abbé Mouret </title> ed
+                    il <term type="forma_letteraria" subtype="ismi">clericalismo cospiratore</term> nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans">Conquête de Plassans</title>, — il
                     <foreign xml:lang="fr" rend="italic">demi-monde</foreign> della politica, delle finanze, della galanteria e
                     i tesori d'onore, modestamente nascosti nelle pareti dome-
                     stiche, — l'autoritarismo personificato in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon">S. E. Rougon</title>, l'af-
@@ -275,7 +275,7 @@
                     risalta chiaramente da ciascun volume dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> Sono
                     lavori giovanili la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Madeleine_Ferat">Ferat</title> e la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Therese_Raquin">Raquin</title>, eppure non potevano
                     venir trattati con maggior efficacia da nessuno fra i più
-                    illustri suoi predecessori nel romanzo. Dà il capogiro l'idea
+                    illustri suoi predecessori nel <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>. Dà il capogiro l'idea
                     madre dei <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Rougon_Macquart">Rougon Macquart</title> per gli enormi ostacoli, ep-
                     pure le prime otto parti di questa opera gigantesca, pro-
                     vano in modo inconfutabile, che le forze dell'autore cor-
@@ -287,8 +287,8 @@
                 <p xml:id="p_15">
                     Né basta allo <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, raggiungere tale meta. Si direbbe,
                     ch'egli provi una singolare compiacenza nel prefiggersi dif-
-                    ficoltà ancor maggiori. Il suo non è soltanto un quadro
-                    completo della vita moderna, ma altresì la storia fisiolo-
+                    ficoltà ancor maggiori. Il suo non è soltanto un <term type="verbum" subtype="evoluzione_sociale">quadro
+                    completo della vita moderna </term>, ma altresì la storia fisiolo-
                     gica d'una famiglia, attraverso quattro generazioni, <orig>colle</orig>
                     più svariate manifestazioni ereditarie.
                 </p>
@@ -298,14 +298,14 @@
                     <rs ref="coverlessListPerson.xml#emileZola">Egli</rs> non s'accontenta di riprodurre <orig>ne'</orig>suoi personaggi
                     tutte le <term>caste</term> della società moderna, dal <term>vice-imperatore</term> al
                     più miserabile fra i pitocchi parigini, al più oscuro fra i 
-                    contadini, ma fonde la scienza col romanzo, studiando le
+                    contadini, ma fonde la scienza col <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>, studiando le
                     costituzioni fisiche d'una <orig>intiera</orig> <distinct>razza</distinct>, gli effetti dei di-
                     versi connubi, le eredità, gli equilibri 
                     e le preponderanze naturali, ecc.
                 </p>
                 <p xml:id="p_17">
                     È questa la prima volta, in cui la fisiologia si associa
-                    al romanzo, vestendo le più splendide forme dell'arte e 
+                    al <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>, vestendo le più splendide forme dell'arte e 
                     sfidando ogni calunnia, con la austerità e la elevatezza dei
                     propositi. Epperò i <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Rougon_Macquart">Rougon Macquart</title> meritano ammirazione, 
                     non solo com euna delle migliori opere letterarie dei no-
@@ -315,12 +315,12 @@
                 </p>
             </div>
             <div xml:id="div_4" type="text2">
-                <head type="title" rend="upppercase"> Zola commediografo </head>
+                <head type="title" rend="upppercase"> Zola <term type="forma_letteraria" subtype="narrazione">commediografo</term> </head>
                 <p xml:id="p_18">
                     Per il teatro di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, vi hanno difficoltà di vittoria tut-
                     t'affatto personali, l'una ancor più grave dell'altra e tali 
                     da far deporre le armi a qualsiasi scrittore, cher non pos-
-                    segga la tempra e la dolorosa esperienza di questo <term>na-
+                    segga la tempra e la dolorosa esperienza di questo <term type="forma_letteraria" subtype="autorialita_narrativita">na-
                         turalista</term> della letteratura.
                 </p>
                 <p xml:id="p_19">
@@ -342,24 +342,24 @@
                 <p xml:id="p_21"> 
                     Oggi, sul teatro, si fischia maledettamente <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, per gli
                     stessi sragionevoli motivi, per cui alcuni anni or sono,
-                    lo si tentava demolire nel romanzo. Sarà ancor più lunga
+                    lo si tentava demolire nel <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>. Sarà ancor più lunga
                     e più accanita la lotta, chi sa quali altre scomuniche gli
                     scaglieranno addosso sul palcoscenico, ma finirà col vin-
                     cere. Se così non fosse, bisognerebbe conchiudere, che il
                     teatro moderno, malgrado il vantato suo progresso, sog-
-                    giace al <term>convenzionalismo</term>, ancor peggio che ai tempi di   
+                    giace al <term type="forma_letteraria" subtype="ismi">convenzionalismo</term>, ancor peggio che ai tempi di   
                     <persName type="real" ref="coverlessListPerson.xml#aristofane">Aristofane</persName> e di <persName type="real" ref="coverlessListPerson.xml#plauto">Plauto</persName>, di <persName type="real" ref="coverlessListPerson.xml#jeanbaptistePoquelin">Molière</persName> e di <persName type="real" ref="coverlessListPerson.xml#carloGoldoni">Goldoni</persName> i, i quali 
                     logicamente dovrebbero venir fischiati, come <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, per il
-                    loro inesorabile <term>realismo</term> e la semplicità dei mezzi.
+                    loro inesorabile <term type="forma_letteraria" subtype="ismi">realismo</term> e la semplicità dei mezzi.
                 </p>
                 <p xml:id="p_22">
                     In attesa di questo risveglio di buonsenso, a ragione lo  
                     <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> reputa possibile una sola protesta, la pubblicazione
                     dello sfortunato suo teatro, ossia: la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Therese_Raquin">Thérèse Raquin</title> (rap- 
                     presentata soltanto per nove sere alla <placeName ref="coverlessListPlace.xml#renaissance">Renaissance</placeName>, nel <date when="1873-07"> lu- 
-                        glio 73 </date> e timidamente fischiata, perchè questo dramma,
+                        glio 73 </date> e timidamente fischiata, perchè questo <term type="forma_letteraria" subtype="genere_letterario">dramma</term>,
                     forse, aveva tolto al pubblico persino la forza della disap-
-                    provazione <q xml:lang="fr">« l'avait rendu malade »</q>) — la commedia di
+                    provazione <q xml:lang="fr">« l'avait rendu malade »</q>) — la <term type="forma_letteraria" subtype="genere_letterario">commedia</term> di
                     carattere <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_heritiers_Rabourdin">Les héritiers Rabourdin</title> (recitata 17 sere a <placeName ref="coverlessListPlace.xml#cluny">Cluny</placeName>,
                     nel<date when="1874-11">novembre 74</date>, senza clamori, perchè <q xml:lang="fr"> « le mépris suf-    
                         fisait sans doute »</q>) — la farsa in tre atti <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_rose">Bouton de rose </title>
@@ -399,7 +399,7 @@
                     </quote>
                 </p>
                 <p xml:id="p_27">
-                    Nel romanzo, ha riportato una vittoria paragonabile a
+                    Nel <term type="forma_letteraria" subtype="genere_letterario">romanzo</term>, ha riportato una vittoria paragonabile a
                     quella di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName> ed ancor più splendida di quella che ar-
                     rise ai <persName type="real" ref="coverlessListPerson.xml#edmondDeGouncourt">De Goncourt</persName>, suoi predecessori.
                 </p>
@@ -426,7 +426,7 @@
                     sue teorie artistiche, sfidando ogni specie d'ostilità
                     e di coalizioni e gli autori più celebri, da <ref type="person" target="coverlessListPerson.xml#alexandreDumasFils">Dumas figlio</ref> a <persName type="real" ref="coverlessListPerson.xml#victorienSardou">Sardou</persName>. Qualche brano dell'ormai famoso
                     suo articolo al <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Messager_de_l_Europe">Messager d'Europe</title> ci farà co-   
-                    noscere <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, nella critica sul romanzo contem-
+                    noscere <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, nella critica sul <term type="forma_letteraria" subtype="genere_letterario">romanzo</term> contem-
                     poraneo.
                 </p>
                 <trailer>
