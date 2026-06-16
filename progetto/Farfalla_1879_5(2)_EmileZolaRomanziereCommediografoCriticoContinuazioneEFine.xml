@@ -106,7 +106,7 @@
                         alla apparizione d'un figlio diretto di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>. Le <title>Victimes
                             d'Amour</title>, pubblicate nel <title>Constituonnel</title>, ebbero per effetto
                         immediato di indisporre gli abbonati, il che è un sintomo eccellente 
-                        in <placeName>Francia</placeName>. Allora il signor <persName type="real" ref="coverlessListPerson.xml#hippolyteTaine">E. Taine</persName> s'appas-
+                        in <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>. Allora il signor <persName type="real" ref="coverlessListPerson.xml#hippolyteTaine">E. Taine</persName> s'appas-
                         sionò per <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> e gli dedicò un articolo sul <title>Debats</title>,
                         nel quale classificava il <distinct>giovine</distinct> romanziere tra gli scrittori
                         d'ingegno. Sgraziatamente, dopo varie altre opere, come
@@ -158,7 +158,7 @@
                             teggiato, nello scorso numero, il profilo di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, come roman-
                             ziere, commediografo e critico drammatico. Dall'articolo dello
                             stesso <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
-                            suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
+                            suscita tante polemiche a <placeName ref="coverlessListPlace.xml#parigi">FranciaParigi</placeName>, traduciamo oggi qualche fram-
                             mento, per far conoscere le sue idee, come critico letterario.
                         </note>
                         <cb n="2" xml:id="col_2-p.16" facs="#" />
@@ -226,7 +226,7 @@
                         chiamò <distinct>poscia</distinct> giustamente il <persName type="real" ref="coverlessListPerson.xml#alfredDeMusset">Musset</persName> delle famiglie.
                     </p>
                     <p xml:id="p_14">
-                        Una scossa sconquassò la <placeName>Francia</placeName>, i tempi si sono cam-
+                        Una scossa sconquassò la <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, i tempi si sono cam-
                         biati e l'autore favorito dell'<persName type="real" ref="coverlessListPerson.xml#eugenieDeMontijoEugenia">imperatrice Eugenia</persName> si trovò
                         abbandonato. Poi i romanzieri naturalisti fecero passi da 
                         giganti, <title>Froment jeune et Risler ainè</title> ed il <title>Nabab</title> di <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso
@@ -247,7 +247,7 @@
                         Naturalmente, gli intrighi galleggiano sopra tutto il <term>ro-
                             manzo</term>, la <term>natura</term> ci entra come il fondo del quadro e tuttociò
                         con tocchi poetici. Preferisco <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>, che almeno resta in
-                        <placeName>Francia</placeName> e prende i suoi soggetti tra di noi, mentre <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Vit-
+                        <placeName ref="coverlessListPlace.xml#francia">Francia</placeName> e prende i suoi soggetti tra di noi, mentre <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Vit-
                             tore Cherbuliez</persName>, li pesca solo tra i Polacchi, gli Ungheresi,
                         <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
                         <cb n="3" xml:id="col_1-p.17" facs="#" /> 
@@ -291,7 +291,7 @@
                         carriera fu piena di sorprese. Bisogna rammentare i suoi
                         primi passi, nei <distinct>begli</distinct> anni dell'Impero. Egli si rivelò come
                         un polemista di primo ordine, fine, spiritoso, scettico.
-                        Il suo primo libro sulla <placeName>Grecia</placeName> e l'altro su <placeName>Roma</placeName>, sebbene un 
+                        Il suo primo libro sulla <placeName ref="coverlessListPlace.xml#grecia">Grecia</placeName> e l'altro su <placeName ref="coverlessListPlace.xml#RM">Roma</placeName>, sebbene un 
                         po' vuoti, ebbero un'ottima riuscita per la leggereza e per
                         il brio dello stile. Di poi, <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> splendidamente 
                         come romanziere.
@@ -412,7 +412,7 @@
                     </p>
                     <p xml:id="p_34">
                         <metamark function="section_divider"></metamark>
-                        Con gentile pensiero l'egregio <persName type="real" ref="coverlessListPerson.xml#aGnocchi">A. Gnocchi</persName> di <placeName>Genova</placeName> ha voluto dedicare alla <title>Farfalla</title>
+                        Con gentile pensiero l'egregio <persName ref="coverlessListPerson.xml#aGnocchi">A. Gnocchi</persName> di <placeName ref="coverlessListPlace.xml#GN">Genova</placeName> ha voluto dedicare alla <title>Farfalla</title>
                         una sua graziosissima <term>polka</term>, intitolata appunto
                         <title>Farfalla</title>. Ne parleremo nel prossimo numero.
                     </p>

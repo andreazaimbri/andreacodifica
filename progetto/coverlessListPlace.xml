@@ -112,7 +112,21 @@
                     <country key="fr" ref="#francia">Francia</country>
                     <note>Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.</note>
                 </place>
-                
+                <place xml:id="grecia" type="real">
+                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Grecia</placeName>
+                </place>
+                <place xml:id="RM" type="real">
+                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Roma</placeName>
+                    <country key="it" ref="#italia">Italia</country>
+                    <settlement type="regione">Lazio</settlement>
+                    <note>Capitale dell'Italia</note>
+                </place>
+                <place xml:id="GN" type="real">
+                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Genova</placeName>
+                    <country key="it" ref="#italia">Italia</country>
+                    <settlement type="regione">Liguria</settlement>
+                    <note>Città capologugo della Liguria</note>
+                </place>
             </listPlace>
         </body>
     </text>
