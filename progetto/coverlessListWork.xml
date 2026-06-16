@@ -593,7 +593,7 @@
                                 di ispirazione romantica, dedicata a un'amica immaginaria.</note>
                         </biblStruct>
                         
-                        <biblStruct xml:id="Nouveaux_Contes_a_Ninon" type="raccolta_novelle">
+                      <biblStruct xml:id="Nouveaux_Contes_a_Ninon" type="raccolta_novelle">
                             <monogr>
                                 <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
                                 <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
@@ -607,9 +607,100 @@
                             <note>Seconda raccolta di racconti; rispetto alla precedente
                                 mostra uno stile più maturo e orientato al naturalismo.</note>
                         </biblStruct>
-                        
-                    </listBibl>
-                    
+            <biblStruct xml:id="Victimes_d_Amour" type="trilogia">
+                <monogr>
+                    <author ref="coverlessListPerson.xml#hectorMalot">Hector Malot</author>
+                    <title level="s" xml:lang="fr">Victimes d'Amour</title>
+                    <imprint>
+                        <pubPlace>Paris</pubPlace>
+                        <date from="1859" to="1866">1859-1866</date>
+                    </imprint>
+                </monogr>
+                <note>Trilogia</note>
+            </biblStruct>
+                <biblStruct xml:id="Le_Constitutionnel" type="periodico">
+                    <monogr>
+                        <title level="j" xml:lang="fr">Le Constitutionnel</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <date type="foundation" when="1815">1815</date>
+                        </imprint>
+                    </monogr>
+                    <note>Le Constitutionnel era un giornale politico e letterario francese, fondato a Parigi durante i Cento Giorni da Joseph Fouché </note>
+                </biblStruct>
+                <biblStruct xml:id="Debats" type="periodico">
+                    <monogr>
+                        <title level="j" xml:lang="fr">Journal des débats</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Louis-François Bertin</publisher>
+                            <date type="foundation" when="1789">1789</date>
+                        </imprint>
+                    </monogr>
+                    <note>Quotidiano francese stampato dal 1789 al 1944.</note>
+                </biblStruct>
+                <biblStruct xml:id="UnBeau_Frere" type="romanzo">
+                    <monogr>
+                        <title level="a" xml:lang="fr">Un beau-frère</title>
+                        <author xml:lang="fr" ref="coverlessListPerson.xml#hectorMalot">Hector Malot</author>
+                        <imprint>
+                            <date when="1869">1869</date>
+                        </imprint>
+                    </monogr>
+                    <note>"Un beau-frère" è un romanzo scritto da Hector Malot e pubblicato nel 1869. Questo testo esplora i drammi familiari, sociali e morali all'interno della società borghese dell'epoca, concentrandosi sulle complesse relazioni che si instaurano tra i personaggi in seguito a un matrimonio.</note>
+                </biblStruct>
+                <biblStruct xml:id="Siecle" type="periodico">
+                    <monogr>
+                        <title level="a" xml:lang="fr">Le Siècle</title>
+                        <imprint>
+                            <date type="foundation" when="1869">1836</date>
+                            <pubPlace>Parigi</pubPlace>
+                        </imprint>
+                    </monogr>
+                    <note>Le Siècle, sottotitolo «giornale politico, letterario e d'economia sociale» è stato un quotidiano francese stampato fra il 1º luglio 1836 e il 1932.</note>
+                </biblStruct>
+                <biblStruct xml:id="Les_Courbezon" type="romanzo">
+                    <monogr>
+                        <title level="a" xml:lang="fr">Les Courbezon: Scènes de la vie cléricale</title>
+                        <author xml:lang="fr" ref="coverlessListPerson.xml#ferdinandFebre">Ferdinand Febre</author>
+                        <imprint>
+                            <date when="1898">1898</date>
+                        </imprint>
+                    </monogr>
+                    <note>Romanzo del 1898, fa parte di un ciclo di opere dedicato alla vita rurale francese.</note>
+                </biblStruct>
+                <biblStruct xml:id="L_Abbe_Tigrane" type="romanzo">
+                    <monogr>
+                        <title level="a" xml:lang="fr">L'abbé Tigrane: candidat à la papauté</title>
+                        <author xml:lang="fr" ref="coverlessListPerson.xml#ferdinandFebre">Ferdinand Febre</author>
+                        <imprint>
+                            <date when="1877">1877</date>
+                        </imprint>
+                    </monogr>
+                    <note>Romanzo del 1877 a tema ecclesiastico.</note>
+                </biblStruct>
+                 <biblStruct xml:id="Les_Courbezon" type="romanzo">
+                    <monogr>
+                        <title level="a" xml:lang="fr">Les Courbezon: Scènes de la vie cléricale</title>
+                        <author xml:lang="fr" ref="coverlessListPerson.xml#ferdinandFebre">Ferdinand Febre</author>
+                        <imprint>
+                            <date when="1869">1898</date>
+                        </imprint>
+                    </monogr>
+                    <note>Romanzo del 1898, fa parte di un ciclo di opere dedicato alla vita rurale francese.</note>
+                </biblStruct>
+                <biblStruct xml:id="Les_Courbezon" type="romanzo">
+                    <monogr>
+                        <title level="a" xml:lang="fr">Les Courbezon: Scènes de la vie cléricale</title>
+                        <author xml:lang="fr" ref="coverlessListPerson.xml#ferdinandFebre">Ferdinand Febre</author>
+                        <imprint>
+                            <date when="1869">1898</date>
+                        </imprint>
+                    </monogr>
+                    <note>Romanzo del 1898, fa parte di un ciclo di opere dedicato alla vita rurale francese.</note>
+                </biblStruct>
+                
+        </listBibl>                    
         </body>
     </text>
     

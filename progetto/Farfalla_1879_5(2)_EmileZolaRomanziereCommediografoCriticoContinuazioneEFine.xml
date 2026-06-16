@@ -102,27 +102,27 @@
                     </p>
                     <p xml:id="p_2">
                         <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> seppe destare grandi speranze. Quando
-                        esordì, verso il 1864, <distinct>colle</distinct> <title>Victimes d'Amour</title>, si credette
-                        alla apparizione d'un figlio diretto di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>. Le <title>Victimes
-                            d'Amour</title>, pubblicate nel <title>Constituonnel</title>, ebbero per effetto
+                        esordì, verso il 1864, <distinct>colle</distinct> <title xml:lang="fr" ref="coverlessListWork.xml#Victimes_d_Amour">Victimes d'Amour</title>, si credette
+                        alla apparizione d'un figlio diretto di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>. Le <title xml:lang="fr" ref="coverlessListWork.xml#Victimes_d_Amour">Victimes
+                        d'Amour</title>, pubblicate nel <title xml:lang="fr" ref="coverlessListWork.xml#Le_Constitutionnel">Constitutionnel</title>, ebbero per effetto
                         immediato di indisporre gli abbonati, il che è un sintomo eccellente 
                         in <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>. Allora il signor <persName type="real" ref="coverlessListPerson.xml#hippolyteTaine">E. Taine</persName> s'appas-
-                        sionò per <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> e gli dedicò un articolo sul <title>Debats</title>,
+                        sionò per <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> e gli dedicò un articolo sul <title ref="coverlessListWork.xml#Debats">Debats</title>,
                         nel quale classificava il <distinct>giovine</distinct> romanziere tra gli scrittori
                         d'ingegno. Sgraziatamente, dopo varie altre opere, come
-                        <title>Un beau-frère</title> e la <title>Belle madame Donis</title>, nelle quali vi sono
+                        <title ref="coverlessListWork.xml#UnBeau_Frere">Un beau-frère</title> e la <title>Belle madame Donis</title>, nelle quali vi sono
                         ancora pregi d'osservazione, <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> sdrucciolò, a 
                         poco a poco, nella produzione facile. Da lcuni anni si è 
-                        messo a raffazzonare appendici pel <title>Siècle</title>, scrivendo <term>ro-
+                        messo a raffazzonare appendici del <title ref="coverlessListWork.xml#Siecle">Siècle</title>, scrivendo <term>ro-
                             manzi</term> interminabili, nei quali tutto si sciupa, stile, osser-
                         vazione, ossatura. È uno scrittore che affoga.
                     </p>
                     <p xml:id="p_3">
                         <persName type="real" ref="coverlessListPerson.xml#ferdinandFabre">Ferdinando Fabre</persName> incominciò parimenti con un'opera 
-                        notevole: <title>Les Courbezon</title>, nelle quale vengono studiati con 
+                        notevole: <title ref="coverlessListWork.xml#Les_Courbezon">Les Courbezon</title>, nelle quale vengono studiati con 
                         delicatissimo amore della verità un prete campagnolo e 
                         l'ambiente che lo circonda. Dopo d'allora, pubblicò un 
-                        <term>romanzo</term> ancor più pregevole: <title>L'abbé Tigrane</title>, che rimane fi-
+                        <term>romanzo</term> ancor più pregevole: <title ref="coverlessListWork.xml#L_Abbe_Tigrane">L'abbé Tigrane</title>, che rimane fi-
                         nora il suo miglior libro.
                     </p>
                     <p xml:id="p_4">
