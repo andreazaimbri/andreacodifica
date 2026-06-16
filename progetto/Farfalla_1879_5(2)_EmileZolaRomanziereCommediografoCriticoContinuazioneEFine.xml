@@ -82,7 +82,7 @@
     </facsimile>
     <text>
         <body>
-            <pb n="#" xml:id="Farfalla_1879_5_2_16"/>
+            <pb n="16" xml:id="Farfalla_1879_5_2_16"/>
             <cb n="1" xml:id="col_1-p.16" facs="#" /> 
             <div xml:id="div_1" type="intestazione">
                 <head type="main">EMILIO ZOLA</head>
@@ -153,17 +153,17 @@
                         egli uno dei più interessanti romanzieri ch'io conosca.
                         <persName>Duranty</persName> fu una sentinella avanzata del <term>naturalismo</term>.
                 </p>
-                <note xml:id="nota_1" place="foot" n="*)" type="footnote">
-                    Con alcuni brani delle appendici di PESSIMISTA, abbiamo trat-
-                    teggiato, nello scorso numero, il profilo di <persName>Zola</persName>, come roman-
-                    ziere, commediografo e critico drammatico. Dall'articolo dello
-                    stesso <persName>Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
-                    suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
-                    mento, per far conoscere le sue idee, come critico letterario.
-                </note>
                 <p xml:id="p_7">
                     Duranty fu una sentinella avanzata dal <term>naturalismo</term>.
                     Quanto noi ora diciamo, egli l'intuè prima di noi, ed a
+                <note xml:id="nota_1" place="foot" n="*)" type="footnote">
+                        Con alcuni brani delle appendici di PESSIMISTA, abbiamo trat-
+                        teggiato, nello scorso numero, il profilo di <persName>Zola</persName>, come roman-
+                        ziere, commediografo e critico drammatico. Dall'articolo dello
+                        stesso <persName>Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
+                        suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
+                        mento, per far conoscere le sue idee, come critico letterario.
+                </note>
                     <cb n="2" xml:id="col_2-p.16" facs="#" />
                     questo lo predisponeva in modo singolare il suo tempera-
                     mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
@@ -198,7 +198,7 @@
                     accanicatamente il <term>romanticismo</term> il confessarlo, ma le nostre
                     vittorie un po' son dovute al <term>lirismo</term> che si infiltra nelle 
                     nostre opere. L'epoca è ammalata, essa è presa da un gusto
-                    perverso per la strana salsa lirica, colla quale la prepariamo
+                    perverso per la strana salsa lirica, <distinct>colla</distinct> quale la prepariamo
                     la verità. Ahimè in noi forse non tanto si ama la verità, 
                     quanto il pepe della forma, le fantasie del disegno e di co-
                     lore. In <persName>Duranty</persName> non v'ha nulla di tutto questo ; perciò non 
@@ -220,9 +220,123 @@
                     pubblico di donne e giovinette.
                 </p>
                 <p>
-                    il 
+                    Il secondo <term>romanziere</term> accademico, <persName>Ottavio Feuillet</persName>, ott-
+                    tenne veri trionfi. Confesso di non amar sconfinatamente 
+                    l'ingengno di <persName>Feuillet</persName>, che è una slavatura di <persName>Musset</persName> e <persName>Gior-
+                    gio Sand</persName>; tutta la sua invenzione consiste nel farsi l'avv-
+                    vocato del dovere e della morale, mentre i suoi due anteces-
+                    sori s'erano mostrati gli avvocati della passione. Lo si 
+                    chiamò <distinct>poscia</distinct> giustamente il <persName>Musset</persName> delle famiglie.
+                </p>
+                <p>
+                    Una scossa sconquassò la <placeName>Francia</placeName>, i tempi si sono cam-
+                    biati e l'autore favorito dell'<persName>imperatrice Eugenia</persName> si trovò
+                    abbandonato. Poi i romanzieri naturalisti fecero passi da 
+                    giganti, <title>Froment jeune et Risler ainè</title> ed il <title>Nabab</title> di <persName>Alfonso
+                    Daudet</persName> ebbero ciascuno quaranta edizioni, il che spiega
+                    perchè il pubblico, abiutato ora a pitture esatte, ad un'ana-
+                    lisi minuta della vita reale, più on giusti le menzogne 
+                    amabili e gli <term>intrighi romanzeschi</term> della <term>scuola idealista</term>
+                </p>
+                <p>
+                    <persName>Cherbuliez</persName>, senza aver ottenuti i trionfi di <persName>Feuillet</persName>, è pari-
+                    menti un autopre caro alle signore. È ginevrino e primeggia
+                    nello studio delle <term>nature straordinarie</term> : tutte le sue eroine
+                    sono angeli che passano per l'infernno e per il purgatorio, donne 
+                    fatali o fanciulle enigmatiche, la cui virtù brilla a qualun
+                    que costo nello scioglimento.
+                </p>
+                <p>
+                    Naturalmente, gli intrighi galleggiano sopra tutto il <term>ro-
+                    manzo</term>, la <term>natura</term> ci entra come il fondo del quadro e tuttociò
+                    con tocchi poetici. Preferisco Feuillet, che almeno resta in
+                    <placeName>Francia</placeName> e prende i suoi soggetti tra di noi, mentre Vit-
+                    tore Cherbuliez, li pesca solo tra i Polacchi, gli Ungheresi,
+                    <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
+                    <cb n="3" xml:id="col_1-p.17" facs="#" /> 
+                    i Tirolesi. il che gli permette di mentire a suo bell'agio.
+                    Nominerò <persName>Luigi Ulbach</persName>, il quale pro<supplied resp="#AZ">d</supplied>usse molto 
+                    con tinte neutre.
+                </p>
+                <p>
+                    Ecco, presso a poco, i più conosciuti <term>romanzieri idealisti</term>.
+                    Non voglio discendere ancora, occupandomi di <persName>Luigi Enault</persName>
+                    che è la caricatura del genere. È lui che inventò la pomata 
+                    dell'ideale, il siroppo del romanticismo.
+                </p>
+                <p>
+                    In questi bassifondi dell'<term>idealismo</term>, potrei indicare anche
+                    <persName>Perret</persName>, al quale dovette rivolgersi la <title>Revue des Deuux Monds</title>
+                    in agonia. È un vice <persName>Cherbuliez</persName>, come <persName>Cherbuliez</persName> è un
+                    vice <persName>Feuillet</persName>.
+                </p>
+                <p>
+                Mi dorrebbero però, se <distinct>obliassi</distinct> <persName>Andrea Theuriet</persName>. Anche
+                egli è idealista, e vi ha nelle sue opere, un sapore di 
+                <persName>Giorgio Sand</persName>. Ma gli faccio volentieri grazia per l'attrat-
+                tiva, che si sprigiona da ogni suo racconto. Ha bisogno 
+                della provincia e più ancora dei grandi boschi e della fo-
+                reste, in mezzo alle quali visse per anni. Allora è veramente 
+                adorabile.
+                </p>
+                <p>
+                Tale è lo stato del <term>romanzo idealista</term> ai nostri giorni.
+                Una sola recluta amabile, <persName>Andrea Theuriet</persName> e generali rat-
+                trappiti, <persName>Ottavio Feuillet</persName> e <persName>Cherbuliez</persName>. Non ho nominato
+                <persName>Victor Hugo</persName>, perchè bisogna porlo sempre da parte; egli
+                d'altronde non crea <term>romanzi</term>, ma poemi in prosa. Del
+                resto, l'influienza sua è nulla nel movimento attuale. Co-
+                nosco un solo allievo di <persName>Victor Hugo</persName>, <persName>Leone Cladel</persName>, del 
+                quale m'occuperò fra poco.
+                </p>
+                <p>
+                Penso sovente ad <persName>Edmondo About</persName> con <distinct>istupore</distinct>. La sua 
+                carriera fu piena di sorprese. Bisogna rammentare i suoi
+                primi passi, nei <distinct>begli</distinct> anni dell'Impero. Egli si rivelò come
+                un polemista di primo ordine, fine, spiritoso, scettico.
+                Il suo primo libro sulla <placeName>Grecia</placeName> e l'altro su <placeName>Roma</placeName>, sebbene un 
+                po' vuoti, ebbero un'ottima riuscita per la leggereza e per
+                il brio dello stile. Di poi, <persName>About</persName> splendidamente 
+                come romanziere.
+                </p>
+                <p> 
+                Dopo la <title>Vieille Roche</title>, <term>pubblicata or fan dieci anni</term>, mi
+                pare che <persName>About</persName> non abbia dato alcun libro al suo editore. 
+                Lo si sarebbe detto morto.
+                </p>
+                <p>
+                Finalmente, prende la direzione del <title>XIX Siecle</title>, ed ora ne 
+                è <distinct>redattore in capo</distinct>, fa buoni affari e ritrova talvolta la gio-
+                vanile vivacità della sua penna. Non conosco caso più
+                <distinct>strana</distinct> nella nostra letteratura odierna; uno scrittore del
+                quale le qualità princiali erano l'attività e la fecondità, 
+                si ritira ad un tratto della produzione come se fosse esau-
+                rito e non avesse più nulla a dire. Cercai la spiegazione del 
+                fatto e <distinct>parmi</distinct> poter affermare, che la grande sventura
+                di <persName>About</persName> è di non credere più a nulla, nemmeno alla let-
+                teratura.
+                </p>
+                <p>
+                <ref>Era un narratore</ref> soltanto. Si sentiva troppo, che non
+                credeva ai suoi personaggi; li faceva ballare sulla punta
+                della penna per divertire sè e gli altri. <ref> L'autore </ref> lo si ve-
+                deva sempre dietro la pagina e se la rideva. Questa man-
+                canza di convinzione dava molta leggerezza alle opere 
+                sue, ma toglieva loro tutti i lati profondi. L'analisi rima-
+                neva superficiale, il lavoro diveniva soltanto facile ed at-
+                traente. <persName>About</persName> non lascierà un tipo, non una pagina forte
+                e definitiva. È stato l'impreveduto, un <term>novelliere</term> che si
+                svegliò la mattina pieno di spirito, devertì per un istante
+                tutta la società, poi, coricandosi alla sera, soffiò sulla can-
+                dela e la spense per sempre
+                </p>
+                <p>
+                Il caso di <persName>Erckmann</persName>-<persName>Chatrian</persName> è parimenti interessan-
+                tissimo. I loro <term>romanzi</term> avevano un soffio repubblicano; 
+                d'altronde potevano entrare nelle famiglie non agitando
+                <cb n="4" xml:id="col_2-p.17" facs="#" /> 
                 </p>
             </div>
         </body>
     </text>
-</TEI>
+</TEI> 
