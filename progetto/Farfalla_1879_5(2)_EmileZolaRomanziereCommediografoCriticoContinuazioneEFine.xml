@@ -91,332 +91,332 @@
             <div type="abstract" xml:id="div_2">
                 <head type="subtitle">ZOLA CRITICO.</head>
                 <div type="translation" resp="#redazione" xml:id="div_3">
-                <p xml:id="p_1">
-                        <hi rend="capital_letter">I</hi> principi del <term type="forma_letteraria" subtype="genere_letteario">romanzo</term> sono ora <persName ref="coverlessListPerson.xml#gustaveFlaubert" type="real">Gustavo Flaubert</persName>,
-                        <persName>Edoardo de Gouncort</persName> ed <persName>Alfonso Daudet</persName>. <distinct>Eglino</distinct>
+                    <p xml:id="p_1">
+                        <hi rend="capital_letter">I</hi> principi del <term type="forma_letteraria" subtype="genere_letteario">romanzo</term> sono ora <persName type="real" ref="coverlessListPerson.xml#gustaveFlaubert">Gustavo Flaubert</persName>,
+                        <persName type="real" ref="coverlessListPerson.xml#edmondDeGouncourt">Edoardo de Gouncort</persName> ed <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso Daudet</persName>. <distinct>Eglino</distinct>
                         tengono alta ed <distinct>invitta</distinct> la bandiera del <term>natura-
-                        lismo</term>, continuano <persName>Balzac</persName>, ciascuno <distinct>colla</distinct> origina-
+                            lismo</term>, continuano <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>, ciascuno <distinct>colla</distinct> origina-
                         lità che gi è propria. Dopo il loro, posso no-
-                        minare tra i discindenti di <persName>Balzac</persName>, soltanto <persName>Ettore
-                        Malot</persName> e <persName>Ferdinando Fabre</persName>.
-                </p>
-                <p xml:id="p_2">
-                        <persName>Ettore Malot</persName> seppe destare grandi speranze. Quando
+                        minare tra i discindenti di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>, soltanto <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore
+                            Malot</persName> e <persName type="real" ref="coverlessListPerson.xml#ferdinandFabre">Ferdinando Fabre</persName>.
+                    </p>
+                    <p xml:id="p_2">
+                        <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> seppe destare grandi speranze. Quando
                         esordì, verso il 1864, <distinct>colle</distinct> <title>Victimes d'Amour</title>, si credette
-                        alla apparizione d'un figlio diretto di <persName>Balzac</persName>.Le <title>Victimes
-                        d'Amour</title>, pubblicate nel <title>Constituonnel</title>, ebbero per effetto
+                        alla apparizione d'un figlio diretto di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>. Le <title>Victimes
+                            d'Amour</title>, pubblicate nel <title>Constituonnel</title>, ebbero per effetto
                         immediato di indisporre gli abbonati, il che è un sintomo eccellente 
-                        in <placeName>Francia</placeName>. Allora il signor <persName>E. Taine</persName> s'appas-
-                        sionò per <persName>Ettore Malot</persName> e gli dedicò un articolo sul <title>Debats</title>,
+                        in <placeName>Francia</placeName>. Allora il signor <persName type="real" ref="coverlessListPerson.xml#hippolyteTaine">E. Taine</persName> s'appas-
+                        sionò per <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> e gli dedicò un articolo sul <title>Debats</title>,
                         nel quale classificava il <distinct>giovine</distinct> romanziere tra gli scrittori
                         d'ingegno. Sgraziatamente, dopo varie altre opere, come
                         <title>Un beau-frère</title> e la <title>Belle madame Donis</title>, nelle quali vi sono
-                        ancora pregi d'osservazione, Ettore Malot sdrucciolò, a 
+                        ancora pregi d'osservazione, <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Ettore Malot</persName> sdrucciolò, a 
                         poco a poco, nella produzione facile. Da lcuni anni si è 
-                        messo a raffazzonare appendici pel <title>Siècle</title>, scrivendo <term> ro-
-                        manzi</term> interminabili, nei quali tutto si sciupa, stile, osser-
+                        messo a raffazzonare appendici pel <title>Siècle</title>, scrivendo <term>ro-
+                            manzi</term> interminabili, nei quali tutto si sciupa, stile, osser-
                         vazione, ossatura. È uno scrittore che affoga.
-                </p>
-                <p xml:id="p_3">
-                        <persName>Ferdinando Fabre</persName> incominciò parimenti con un'opera 
+                    </p>
+                    <p xml:id="p_3">
+                        <persName type="real" ref="coverlessListPerson.xml#ferdinandFabre">Ferdinando Fabre</persName> incominciò parimenti con un'opera 
                         notevole: <title>Les Courbezon</title>, nelle quale vengono studiati con 
                         delicatissimo amore della verità un prete campagnolo e 
                         l'ambiente che lo circonda. Dopo d'allora, pubblicò un 
                         <term>romanzo</term> ancor più pregevole: <title>L'abbé Tigrane</title>, che rimane fi-
                         nora il suo miglior libro.
-                </p>
-                <p xml:id="p_4">
-                        <persName>Testè</persName>,<persName>Fabre</persName>, tormentato senza dubbio dalla fecondità
-                        di Malot, egli non farà che diluire quest'opera.
+                    </p>
+                    <p xml:id="p_4">
+                        <persName>Testè</persName>, <persName type="real" ref="coverlessListPerson.xml#ferdinandFabre">Fabre</persName>, tormentato senza dubbio dalla fecondità
+                        di <persName type="real" ref="coverlessListPerson.xml#hectorMalot">Malot</persName>, egli non farà che diluire quest'opera.
                         Accanto alla <term>scuola naturalista</term>, la quale <distinct>guadagnossi</distinct> il
-                        primo posto, vive ancora a <placeName>Champfleury</placeName>, il capo della <term> scuola
-                        realista</term>; ma, ahimè è un capo senza soldati e, quando 
+                        primo posto, vive ancora a <persName type="real" ref="coverlessListPerson.xml#julesFleury">Champfleury</persName>, il capo della <term>scuola
+                            realista</term>; ma, ahimè è un capo senza soldati e, quando 
                         dico che vive ancora, devo aggiungere che è morto lette-
                         rariamente parlando, perchè da lunga pezza non ha pub-
                         blicato neppure un <term>romanzo</term>.
-                </p>
-                <p xml:id="p_5">
+                    </p>
+                    <p xml:id="p_5">
                         Vi fu un po' di rumore, <distinct>poscia</distinct> il pubblico si rivolse a 
-                        <persName>Gustavo Flaubert</persName>, ad <persName>Edmondo</persName> e a <persName>Giulio de Goncort</persName>, i 
-                        veri discendenti di Balzac. Il peggio fu, che <persName>Champfleury</persName> 
+                        <persName type="real" ref="coverlessListPerson.xml#gustaveFlaubert">Gustavo Flaubert</persName>, ad <persName type="real" ref="coverlessListPerson.xml#edmondDeGouncourt">Edmondo</persName> e a <persName type="real" ref="coverlessListPerson.xml#julesDeGoncourt">Giulio de Goncort</persName>, i 
+                        veri discendenti di <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName>. Il peggio fu, che <persName type="real" ref="coverlessListPerson.xml#julesFleury">Champfleury</persName> 
                         si scoraggio da sè stesso, vedendo che i lettori lo abban-
                         donavano. Cessò di produrre ed ora assiste alla propria
                         <term>morte letteraria</term>, a questa spaventosa morte, <distinct>abbominevole</distinct>
                         supplizio per uno scrittore vecchio e dimenticato.
-                </p>
-                <p xml:id="p_6">
-                        In questo punto mi corre alla mente il nome di <persName>Edmon-
-                        do Duranty</persName>; lasciate che me ne occupi un po', essendo 
+                    </p>
+                    <p xml:id="p_6">
+                        In questo punto mi corre alla mente il nome di <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Edmon-
+                            do Duranty</persName>; lasciate che me ne occupi un po', essendo 
                         egli uno dei più interessanti romanzieri ch'io conosca.
-                        <persName>Duranty</persName> fu una sentinella avanzata del <term>naturalismo</term>.
-                </p>
-                <p xml:id="p_7">
-                    Duranty fu una sentinella avanzata dal <term>naturalismo</term>.
-                    Quanto noi ora diciamo, egli l'intuè prima di noi, ed a
-                <note xml:id="nota_1" place="foot" n="*)" type="footnote" resp="#redazione">
-                        Con alcuni brani delle appendici di PESSIMISTA, abbiamo trat-
-                        teggiato, nello scorso numero, il profilo di <persName>Zola</persName>, come roman-
-                        ziere, commediografo e critico drammatico. Dall'articolo dello
-                        stesso <persName>Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
-                        suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
-                        mento, per far conoscere le sue idee, come critico letterario.
-                </note>
-                    <cb n="2" xml:id="col_2-p.16" facs="#" />
-                    questo lo predisponeva in modo singolare il suo tempera-
-                    mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
-                    contemporanei. Di rado incontrai un romanziere così indi-
-                    pendente da tutto quanto lo attorniava. Bisogna risalire a
-                    <persName>Stendhal</persName>, a quell'uomo unico, la personalità del quale rimase
-                    tanto spicccata nella frebbe contagiosa del <term>romanticismo</term>.
-                </p>
-                <p xml:id="p_8">
-                Spesso ho confessato, che noi tutti <distinct>oggidì</distinct>. <distinct>queglino</distinct>
-                stessi che oggi nutrono la passione della <term>verità esatta</term>, siamo
-                incancreniti fino alla midolla di <term>romanticismo</term>. 
-                L'abbiamo succhiato al collegio dietro i nostri legii, allorché legge-
-                vamo i poeti proibiti ; l'abbiamo respirto nell'aria avv-
-                elenata della nostra gioventù. Io non ne conosco che uno
-                solo il quale sia sfuggito a questo contagio ed è <persName>Duranty</persName>.
-                </p>
-                <p xml:id="p_9">
-                    Qui. secondo me, sta la grande, rara, originalità di <persName>Duranty</persName>;
-                    egli non è <term>romantico</term>, è <term>naturalista</term>, non per teoria, per 
-                    temperamento. È un figlio immediato del secolo decimot-
-                    tavo, come se le letterature dell'Impero, della Restaura-
-                    zione e di <persName>Luigi Filippo</persName> non fossero mai esistite. L'unica
-                    sua parentela è <persName>Stendhal</persName>, il quale è per lui come un cugino.
-                </p>
+                        <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName> fu una sentinella avanzata del <term>naturalismo</term>.
+                    </p>
+                    <p xml:id="p_7">
+                        <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName> fu una sentinella avanzata dal <term>naturalismo</term>.
+                        Quanto noi ora diciamo, egli l'intuè prima di noi, ed a
+                        <note xml:id="nota_1" place="foot" n="*)" type="footnote" resp="#redazione">
+                            Con alcuni brani delle appendici di <title>PESSIMISTA</title>, abbiamo trat-
+                            teggiato, nello scorso numero, il profilo di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, come roman-
+                            ziere, commediografo e critico drammatico. Dall'articolo dello
+                            stesso <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
+                            suscita tante polemiche a <placeName>Parigi</placeName>, traduciamo oggi qualche fram-
+                            mento, per far conoscere le sue idee, come critico letterario.
+                        </note>
+                        <cb n="2" xml:id="col_2-p.16" facs="#" />
+                        questo lo predisponeva in modo singolare il suo tempera-
+                        mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
+                        contemporanei. Di rado incontrai un romanziere così indi-
+                        pendente da tutto quanto lo attorniava. Bisogna risalire a
+                        <persName type="real" ref="coverlessListPerson.xml#marieHenriBeyle">Stendhal</persName>, a quell'uomo unico, la personalità del quale rimase
+                        tanto spicccata nella frebbe contagiosa del <term>romanticismo</term>.
+                    </p>
+                    <p xml:id="p_8">
+                        Spesso ho confessato, che noi tutti <distinct>oggidì</distinct>. <distinct>queglino</distinct>
+                        stessi che oggi nutrono la passione della <term>verità esatta</term>, siamo
+                        incancreniti fino alla midolla di <term>romanticismo</term>. 
+                        L'abbiamo succhiato al collegio dietro i nostri legii, allorché legge-
+                        vamo i poeti proibiti ; l'abbiamo respirto nell'aria avv-
+                        elenata della nostra gioventù. Io non ne conosco che uno
+                        solo il quale sia sfuggito a questo contagio ed è <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName>.
+                    </p>
+                    <p xml:id="p_9">
+                        Qui. secondo me, sta la grande, rara, originalità di <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName>;
+                        egli non è <term>romantico</term>, è <term>naturalista</term>, non per teoria, per 
+                        temperamento. È un figlio immediato del secolo decimot-
+                        tavo, come se le letterature dell'Impero, della Restaura-
+                        zione e di <persName type="real" ref="coverlessListPerson.xml#louisPhilippe">Luigi Filippo</persName> non fossero mai esistite. L'unica
+                        sua parentela è <persName type="real" ref="coverlessListPerson.xml#marieHenriBeyle">Stendhal</persName>, il quale è per lui come un cugino.
+                    </p>
                     <p xml:id="p_10">
-                    È una delle più grandi ingiustizie del nostro tempo, se
-                    <persName>Duranty</persName> non occupa il posto, al quale ho diritto. Egli è 
-                    uno dei cinque o sei romanzieri, le opere dei quali dovreb-
-                    bero venir apprezzate. Credo di conoscere le ragioni di que-
-                    sta ingiusitizia. È dolorosoper me che combatto tanto 
-                    accanicatamente il <term>romanticismo</term> il confessarlo, ma le nostre
-                    vittorie un po' son dovute al <term>lirismo</term> che si infiltra nelle 
-                    nostre opere. L'epoca è ammalata, essa è presa da un gusto
-                    perverso per la strana salsa lirica, <distinct>colla</distinct> quale la prepariamo
-                    la verità. Ahimè in noi forse non tanto si ama la verità, 
-                    quanto il pepe della forma, le fantasie del disegno e di co-
-                    lore. In <persName>Duranty</persName> non v'ha nulla di tutto questo ; perciò non 
-                    piace.
-                </p>
+                        È una delle più grandi ingiustizie del nostro tempo, se
+                        <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName> non occupa il posto, al quale ho diritto. Egli è 
+                        uno dei cinque o sei romanzieri, le opere dei quali dovreb-
+                        bero venir apprezzate. Credo di conoscere le ragioni di que-
+                        sta ingiusitizia. È dolorosoper me che combatto tanto 
+                        accanicatamente il <term>romanticismo</term> il confessarlo, ma le nostre
+                        vittorie un po' son dovute al <term>lirismo</term> che si infiltra nelle 
+                        nostre opere. L'epoca è ammalata, essa è presa da un gusto
+                        perverso per la strana salsa lirica, <distinct>colla</distinct> quale la prepariamo
+                        la verità. Ahimè in noi forse non tanto si ama la verità, 
+                        quanto il pepe della forma, le fantasie del disegno e di co-
+                        lore. In <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName> non v'ha nulla di tutto questo ; perciò non 
+                        piace.
+                    </p>
                     <p xml:id="p_11">
-                    Toccherò ora un altro gruppo di <term>romanzieri</term>, i discen-
-                    denti di <persName>Giorgio Sand</persName> e di <persName>Lamartine</persName>, i dolci, gli <term> ele-
-                    ganti</term> gli <term>idalisti</term> e i <term>moralisti</term>.
-                </p>
+                        Toccherò ora un altro gruppo di <term>romanzieri</term>, i discen-
+                        denti di <persName type="real" ref="coverlessListPerson.xml#amantineDupin">Giorgio Sand</persName> e di <persName type="real" ref="coverlessListPerson.xml#alphonseDeLamartine">Lamartine</persName>, i dolci, gli <term>ele-
+                            ganti</term> gli <term>idalisti</term> e i <term>moralisti</term>.
+                    </p>
                     <p xml:id="p_12">
-                    Un veterano sta ancora in piedi ed è <persName>Giulio Sandeu</persName>.
-                    Ora però si è assolutamente ritirato dalla vita letteraria
-                    attiva, lo si incontra talora nei vestiboli dell'Istituto, fu-
-                    mando, passeggiando come un buon borghese, col fare pa-
-                    terno e noncurante delle glorie di quaggiù. Giammai <persName>Giulio
-                    Sandeu</persName> destò rumore. È un delicato che piacque nel mondo
-                    letterario, per le sue sfumature. Ebbe principalmente un 
-                    pubblico di donne e giovinette.
-                </p>
+                        Un veterano sta ancora in piedi ed è <persName type="real" ref="coverlessListPerson.xml#julesSandeau">Giulio Sandeu</persName>.
+                        Ora però si è assolutamente ritirato dalla vita letteraria
+                        attiva, lo si incontra talora nei vestiboli dell'Istituto, fu-
+                        mando, passeggiando come un buon borghese, col fare pa-
+                        terno e noncurante delle glorie di quaggiù. Giammai <persName type="real" ref="coverlessListPerson.xml#julesSandeau">Giulio
+                            Sandeu</persName> destò rumore. È un delicato che piacque nel mondo
+                        letterario, per le sue sfumature. Ebbe principalmente un 
+                        pubblico di donne e giovinette.
+                    </p>
                     <p xml:id="p_13">
-                    Il secondo <term>romanziere</term> accademico, <persName>Ottavio Feuillet</persName>, ott-
-                    tenne veri trionfi. Confesso di non amar sconfinatamente 
-                    l'ingengno di <persName>Feuillet</persName>, che è una slavatura di <persName>Musset</persName> e <persName>Gior-
-                    gio Sand</persName>; tutta la sua invenzione consiste nel farsi l'avv-
-                    vocato del dovere e della morale, mentre i suoi due anteces-
-                    sori s'erano mostrati gli avvocati della passione. Lo si 
-                    chiamò <distinct>poscia</distinct> giustamente il <persName>Musset</persName> delle famiglie.
-                </p>
+                        Il secondo <term>romanziere</term> accademico, <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Ottavio Feuillet</persName>, ott-
+                        tenne veri trionfi. Confesso di non amar sconfinatamente 
+                        l'ingengno di <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>, che è una slavatura di <persName type="real" ref="coverlessListPerson.xml#alfredDeMusset">Musset</persName> e <persName type="real" ref="coverlessListPerson.xml#amantineDupin">Gior-
+                            gio Sand</persName>; tutta la sua invenzione consiste nel farsi l'avv-
+                        vocato del dovere e della morale, mentre i suoi due anteces-
+                        sori s'erano mostrati gli avvocati della passione. Lo si 
+                        chiamò <distinct>poscia</distinct> giustamente il <persName type="real" ref="coverlessListPerson.xml#alfredDeMusset">Musset</persName> delle famiglie.
+                    </p>
                     <p xml:id="p_14">
-                    Una scossa sconquassò la <placeName>Francia</placeName>, i tempi si sono cam-
-                    biati e l'autore favorito dell'<persName>imperatrice Eugenia</persName> si trovò
-                    abbandonato. Poi i romanzieri naturalisti fecero passi da 
-                    giganti, <title>Froment jeune et Risler ainè</title> ed il <title>Nabab</title> di <persName>Alfonso
-                    Daudet</persName> ebbero ciascuno quaranta edizioni, il che spiega
-                    perchè il pubblico, abiutato ora a pitture esatte, ad un'ana-
-                    lisi minuta della vita reale, più on giusti le menzogne 
-                    amabili e gli <term>intrighi romanzeschi</term> della <term>scuola idealista</term>
-                </p>
+                        Una scossa sconquassò la <placeName>Francia</placeName>, i tempi si sono cam-
+                        biati e l'autore favorito dell'<persName type="real" ref="coverlessListPerson.xml#eugenieDeMontijoEugenia">imperatrice Eugenia</persName> si trovò
+                        abbandonato. Poi i romanzieri naturalisti fecero passi da 
+                        giganti, <title>Froment jeune et Risler ainè</title> ed il <title>Nabab</title> di <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso
+                            Daudet</persName> ebbero ciascuno quaranta edizioni, il che spiega
+                        perchè il pubblico, abiutato ora a pitture esatte, ad un'ana-
+                        lisi minuta della vita reale, più on giusti le menzogne 
+                        amabili e gli <term>intrighi romanzeschi</term> della <term>scuola idealista</term>
+                    </p>
                     <p xml:id="p_15">
-                    <persName>Cherbuliez</persName>, senza aver ottenuti i trionfi di <persName>Feuillet</persName>, è pari-
-                    menti un autopre caro alle signore. È ginevrino e primeggia
-                    nello studio delle <term>nature straordinarie</term> : tutte le sue eroine
-                    sono angeli che passano per l'infernno e per il purgatorio, donne 
-                    fatali o fanciulle enigmatiche, la cui virtù brilla a qualun
-                    que costo nello scioglimento.
-                </p>
+                        <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName>, senza aver ottenuti i trionfi di <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>, è pari-
+                        menti un autopre caro alle signore. È ginevrino e primeggia
+                        nello studio delle <term>nature straordinarie</term> : tutte le sue eroine
+                        sono angeli che passano per l'infernno e per il purgatorio, donne 
+                        fatali o fanciulle enigmatiche, la cui virtù brilla a qualun
+                        que costo nello scioglimento.
+                    </p>
                     <p xml:id="p_16">
-                    Naturalmente, gli intrighi galleggiano sopra tutto il <term>ro-
-                    manzo</term>, la <term>natura</term> ci entra come il fondo del quadro e tuttociò
-                    con tocchi poetici. Preferisco Feuillet, che almeno resta in
-                    <placeName>Francia</placeName> e prende i suoi soggetti tra di noi, mentre Vit-
-                    tore Cherbuliez, li pesca solo tra i Polacchi, gli Ungheresi,
-                    <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
-                    <cb n="3" xml:id="col_1-p.17" facs="#" /> 
-                    i Tirolesi. il che gli permette di mentire a suo bell'agio.
-                    Nominerò <persName>Luigi Ulbach</persName>, il quale pro<supplied resp="#AZ">d</supplied>usse molto 
-                    con tinte neutre.
-                </p>
+                        Naturalmente, gli intrighi galleggiano sopra tutto il <term>ro-
+                            manzo</term>, la <term>natura</term> ci entra come il fondo del quadro e tuttociò
+                        con tocchi poetici. Preferisco <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>, che almeno resta in
+                        <placeName>Francia</placeName> e prende i suoi soggetti tra di noi, mentre <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Vit-
+                            tore Cherbuliez</persName>, li pesca solo tra i Polacchi, gli Ungheresi,
+                        <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
+                        <cb n="3" xml:id="col_1-p.17" facs="#" /> 
+                        i Tirolesi. il che gli permette di mentire a suo bell'agio.
+                        Nominerò <persName type="real" ref="coverlessListPerson.xml#louisUlbach">Luigi Ulbach</persName>, il quale pro<supplied resp="#AZ">d</supplied>usse molto 
+                        con tinte neutre.
+                    </p>
                     <p xml:id="p_17">
-                    Ecco, presso a poco, i più conosciuti <term>romanzieri idealisti</term>.
-                    Non voglio discendere ancora, occupandomi di <persName>Luigi Enault</persName>
-                    che è la caricatura del genere. È lui che inventò la pomata 
-                    dell'ideale, il siroppo del romanticismo.
-                </p>
-                <p>
-                    In questi bassifondi dell'<term>idealismo</term>, potrei indicare anche
-                    <persName>Perret</persName>, al quale dovette rivolgersi la <title>Revue des Deuux Monds</title>
-                    in agonia. È un vice <persName>Cherbuliez</persName>, come <persName>Cherbuliez</persName> è un
-                    vice <persName>Feuillet</persName>.
-                </p>
+                        Ecco, presso a poco, i più conosciuti <term>romanzieri idealisti</term>.
+                        Non voglio discendere ancora, occupandomi di <persName type="real" ref="coverlessListPerson.xml#louisEnault">Luigi Enault</persName>
+                        che è la caricatura del genere. È lui che inventò la pomata 
+                        dell'ideale, il siroppo del romanticismo.
+                    </p>
+                    <p>
+                        In questi bassifondi dell'<term>idealismo</term>, potrei indicare anche
+                        <persName type="real" ref="coverlessListPerson.xml#perret">Perret</persName>, al quale dovette rivolgersi la <title>Revue des Deuux Monds</title>
+                        in agonia. È un vice <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName>, come <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName> è un
+                        vice <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>.
+                    </p>
                     <p xml:id="p_18">
-                Mi dorrebbero però, se <distinct>obliassi</distinct> <persName>Andrea Theuriet</persName>. Anche
-                egli è idealista, e vi ha nelle sue opere, un sapore di 
-                <persName>Giorgio Sand</persName>. Ma gli faccio volentieri grazia per l'attrat-
-                tiva, che si sprigiona da ogni suo racconto. Ha bisogno 
-                della provincia e più ancora dei grandi boschi e della fo-
-                reste, in mezzo alle quali visse per anni. Allora è veramente 
-                adorabile.
-                </p>
+                        Mi dorrebbero però, se <distinct>obliassi</distinct> <persName type="real" ref="coverlessListPerson.xml#andreTheuriet">Andrea Theuriet</persName>. Anche
+                        egli è idealista, e vi ha nelle sue opere, un sapore di 
+                        <persName type="real" ref="coverlessListPerson.xml#amantineDupin">Giorgio Sand</persName>. Ma gli faccio volentieri grazia per l'attrat-
+                        tiva, che si sprigiona da ogni suo racconto. Ha bisogno 
+                        della provincia e più ancora dei grandi boschi e della fo-
+                        reste, in mezzo alle quali visse per anni. Allora è veramente 
+                        adorabile.
+                    </p>
                     <p xml:id="p_19">
-                Tale è lo stato del <term>romanzo idealista</term> ai nostri giorni.
-                Una sola recluta amabile, <persName>Andrea Theuriet</persName> e generali rat-
-                trappiti, <persName>Ottavio Feuillet</persName> e <persName>Cherbuliez</persName>. Non ho nominato
-                <persName>Victor Hugo</persName>, perchè bisogna porlo sempre da parte; egli
-                d'altronde non crea <term>romanzi</term>, ma poemi in prosa. Del
-                resto, l'influienza sua è nulla nel movimento attuale. Co-
-                nosco un solo allievo di <persName>Victor Hugo</persName>, <persName>Leone Cladel</persName>, del 
-                quale m'occuperò fra poco.
-                </p>
+                        Tale è lo stato del <term>romanzo idealista</term> ai nostri giorni.
+                        Una sola recluta amabile, <persName type="real" ref="coverlessListPerson.xml#andreTheuriet">Andrea Theuriet</persName> e generali rat-
+                        trappiti, <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Ottavio Feuillet</persName> e <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName>. Non ho nominato
+                        <persName type="real" ref="coverlessListPerson.xml#victorHugo">Victor Hugo</persName>, perchè bisogna porlo sempre da parte; egli
+                        d'altronde non crea <term>romanzi</term>, ma poemi in prosa. Del
+                        resto, l'influienza sua è nulla nel movimento attuale. Co-
+                        nosco un solo allievo di <persName type="real" ref="coverlessListPerson.xml#victorHugo">Victor Hugo</persName>, <persName type="real" ref="coverlessListPerson.xml#leonCladel">Leone Cladel</persName>, del 
+                        quale m'occuperò fra poco.
+                    </p>
                     <p xml:id="p_20">
-                Penso sovente ad <persName>Edmondo About</persName> con <distinct>istupore</distinct>. La sua 
-                carriera fu piena di sorprese. Bisogna rammentare i suoi
-                primi passi, nei <distinct>begli</distinct> anni dell'Impero. Egli si rivelò come
-                un polemista di primo ordine, fine, spiritoso, scettico.
-                Il suo primo libro sulla <placeName>Grecia</placeName> e l'altro su <placeName>Roma</placeName>, sebbene un 
-                po' vuoti, ebbero un'ottima riuscita per la leggereza e per
-                il brio dello stile. Di poi, <persName>About</persName> splendidamente 
-                come romanziere.
-                </p>
+                        Penso sovente ad <persName type="real" ref="coverlessListPerson.xml#edmondAbout">Edmondo About</persName> con <distinct>istupore</distinct>. La sua 
+                        carriera fu piena di sorprese. Bisogna rammentare i suoi
+                        primi passi, nei <distinct>begli</distinct> anni dell'Impero. Egli si rivelò come
+                        un polemista di primo ordine, fine, spiritoso, scettico.
+                        Il suo primo libro sulla <placeName>Grecia</placeName> e l'altro su <placeName>Roma</placeName>, sebbene un 
+                        po' vuoti, ebbero un'ottima riuscita per la leggereza e per
+                        il brio dello stile. Di poi, <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> splendidamente 
+                        come romanziere.
+                    </p>
                     <p xml:id="p_20">
-                Dopo la <title>Vieille Roche</title>, <term>pubblicata or fan dieci anni</term>, mi
-                pare che <persName>About</persName> non abbia dato alcun libro al suo editore. 
-                Lo si sarebbe detto morto.
-                </p>
+                        Dopo la <title>Vieille Roche</title>, <term>pubblicata or fan dieci anni</term>, mi
+                        pare che <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> non abbia dato alcun libro al suo editore. 
+                        Lo si sarebbe detto morto.
+                    </p>
                     <p xml:id="p_21">
-                Finalmente, prende la direzione del <title>XIX Siecle</title>, ed ora ne 
-                è <distinct>redattore in capo</distinct>, fa buoni affari e ritrova talvolta la gio-
-                vanile vivacità della sua penna. Non conosco caso più
-                <distinct>strana</distinct> nella nostra letteratura odierna; uno scrittore del
-                quale le qualità princiali erano l'attività e la fecondità, 
-                si ritira ad un tratto della produzione come se fosse esau-
-                rito e non avesse più nulla a dire. Cercai la spiegazione del 
-                fatto e <distinct>parmi</distinct> poter affermare, che la grande sventura
-                di <persName>About</persName> è di non credere più a nulla, nemmeno alla let-
-                teratura.
-                </p>
+                        Finalmente, prende la direzione del <title>XIX Siecle</title>, ed ora ne 
+                        è <distinct>redattore in capo</distinct>, fa buoni affari e ritrova talvolta la gio-
+                        vanile vivacità della sua penna. Non conosco caso più
+                        <distinct>strana</distinct> nella nostra letteratura odierna; uno scrittore del
+                        quale le qualità princiali erano l'attività e la fecondità, 
+                        si ritira ad un tratto della produzione come se fosse esau-
+                        rito e non avesse più nulla a dire. Cercai la spiegazione del 
+                        fatto e <distinct>parmi</distinct> poter affermare, che la grande sventura
+                        di <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> è di non credere più a nulla, nemmeno alla let-
+                        teratura.
+                    </p>
                     <p xml:id="p_22">
-                <ref>Era un narratore</ref> soltanto. Si sentiva troppo, che non
-                credeva ai suoi personaggi; li faceva ballare sulla punta
-                della penna per divertire sè e gli altri. <ref> L'autore </ref> lo si ve-
-                deva sempre dietro la pagina e se la rideva. Questa man-
-                canza di convinzione dava molta leggerezza alle opere 
-                sue, ma toglieva loro tutti i lati profondi. L'analisi rima-
-                neva superficiale, il lavoro diveniva soltanto facile ed at-
-                traente. <persName>About</persName> non lascierà un tipo, non una pagina forte
-                e definitiva. È stato l'impreveduto, un <term>novelliere</term> che si
-                svegliò la mattina pieno di spirito, devertì per un istante
-                tutta la società, poi, coricandosi alla sera, soffiò sulla can-
-                dela e la spense per sempre
-                </p>
+                        <ref>Era un narratore</ref> soltanto. Si sentiva troppo, che non
+                        credeva ai suoi personaggi; li faceva ballare sulla punta
+                        della penna per divertire sè e gli altri. <ref> L'autore </ref> lo si ve-
+                        deva sempre dietro la pagina e se la rideva. Questa man-
+                        canza di convinzione dava molta leggerezza alle opere 
+                        sue, ma toglieva loro tutti i lati profondi. L'analisi rima-
+                        neva superficiale, il lavoro diveniva soltanto facile ed at-
+                        traente. <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> non lascierà un tipo, non una pagina forte
+                        e definitiva. È stato l'impreveduto, un <term>novelliere</term> che si
+                        svegliò la mattina pieno di spirito, devertì per un istante
+                        tutta la società, poi, coricandosi alla sera, soffiò sulla can-
+                        dela e la spense per sempre
+                    </p>
                     <p xml:id="p_23">
-                Il caso di <persName>Erckmann</persName>-<persName>Chatrian</persName> è parimenti interessan-
-                tissimo. I loro <term>romanzi</term> avevano un soffio repubblicano; 
-                d'altronde potevano entrare nelle famiglie non agitando
-                <cb n="4" xml:id="col_2-p.17" facs="#" />
-                nessuna passione, nessun adulterio, nessuna situazione
-                troppo viva; insomma offrivano una lettura <distinct>aggradevole</distinct>.
-                Da ciò, l'immensa loro riuscita. Si arrivò fino a chiamarli
-                « <term>romanzi nazionali</term> ». Le edizioni si succedettero in tutti
-                i formati. Se ne vendettero centomila esemplari.
-                </p>
+                        Il caso di <persName type="real" ref="coverlessListPerson.xml#emileErckmann">Erckmann</persName>-<persName type="real" ref="coverlessListPerson.xml#alexandreChatrian">Chatrian</persName> è parimenti interessan-
+                        tissimo. I loro <term>romanzi</term> avevano un soffio repubblicano; 
+                        d'altronde potevano entrare nelle famiglie non agitando
+                        <cb n="4" xml:id="col_2-p.17" facs="#" />
+                        nessuna passione, nessun adulterio, nessuna situazione
+                        troppo viva; insomma offrivano una lettura <distinct>aggradevole</distinct>.
+                        Da ciò, l'immensa loro riuscita. Si arrivò fino a chiamarli
+                        « <term>romanzi nazionali</term> ». Le edizioni si succedettero in tutti
+                        i formati. Se ne vendettero centomila esemplari.
+                    </p>
                     <p xml:id="p_24">
-                È una delle più belle vendite del secolo ; ora segnano
-                ribasso. <title>Madame Thérèse</title> e <title>Le Conscrit de <date when="1813">1813</date> </title>, sono opere
-                mabili, ma nulla di più. Invano vi si cerca l'<term>umanità</term>.
-                Gli autori hanno dato solo una nota. D'altronde, ebbero
-                il torto di non imitare <persName>Edmondo About</persName> ed il successo
-                non fece altro che renderli più fecondi. Di più si gettarono
-                maggiormente nella politica, credendo che la loro fortuna
-                provenisse da ciò. Allora accumularono lunghi <term>romanzi</term>,
-                egliino che erano fatti solamente per il racconto e la breve
-                <term>novella sentimentale</term>.
-                </p>
+                        È una delle più belle vendite del secolo ; ora segnano
+                        ribasso. <title>Madame Thérèse</title> e <title>Le Conscrit de <date when="1813">1813</date></title>, sono opere
+                        mabili, ma nulla di più. Invano vi si cerca l'<term>umanità</term>.
+                        Gli autori hanno dato solo una nota. D'altronde, ebbero
+                        il torto di non imitare <persName type="real" ref="coverlessListPerson.xml#edmondAbout">Edmondo About</persName> ed il successo
+                        non fece altro che renderli più fecondi. Di più si gettarono
+                        maggiormente nella politica, credendo che la loro fortuna
+                        provenisse da ciò. Allora accumularono lunghi <term>romanzi</term>,
+                        egliino che erano fatti solamente per il racconto e la breve
+                        <term>novella sentimentale</term>.
+                    </p>
                     <p xml:id="p_25">
-                    Dirò una sola parola di <persName>Giulio</persName> Verne. Questi non
-                    detta precisamente <term>romanzi</term>, ma mette la <term>scienza in dramma</term>, si slancia nelle <term>creazioni fantastiche</term>, appoggiandosi
-                    agli ultimi dati scientifici. Non discuto il genere, che mi
-                    pare debba falsare tutte le cognizioni dei fanciulli, ma sono
-                    costretto a constatare la riuscita, che è stupenda.
-                </p>
+                        Dirò una sola parola di <persName type="real" ref="coverlessListPerson.xml#julesVerne">Giulio Verne</persName>. Questi non
+                        detta precisamente <term>romanzi</term>, ma mette la <term>scienza in dramma</term>, si slancia nelle <term>creazioni fantastiche</term>, appoggiandosi
+                        agli ultimi dati scientifici. Non discuto il genere, che mi
+                        pare debba falsare tutte le cognizioni dei fanciulli, ma sono
+                        costretto a constatare la riuscita, che è stupenda.
+                    </p>
                     <p xml:id="p_26">
-                    Terminerò con <persName>Gustavo Droz</persName>, il quale creò un genere.
-                    Egli ebbe il merito di disegnare profili che resteranno
-                    certamente come le migliori indicazioni sulla società del
-                    secondo Impero. Gli si rimproverò d'aver immersa la sua
-                    penna nella polvere di riso. Certamente lo fece, e ciò sarà
-                    la sua gloria, perché egli solo diede il quadro della vita
-                    intima ed elegante verso il <date when="1867">1867</date>.
-                </p>
+                        Terminerò con <persName type="real" ref="coverlessListPerson.xml#gustavoDroz">Gustavo Droz</persName>, il quale creò un genere.
+                        Egli ebbe il merito di disegnare profili che resteranno
+                        certamente come le migliori indicazioni sulla società del
+                        secondo Impero. Gli si rimproverò d'aver immersa la sua
+                        penna nella polvere di riso. Certamente lo fece, e ciò sarà
+                        la sua gloria, perché egli solo diede il quadro della vita
+                        intima ed elegante verso il <date when="1867">1867</date>.
+                    </p>
                     <p xml:id="p_27">
-                    Volli serbare in ultimo <persName>Giulio Claretie</persName> per prenderlo
-                    come esempio tipico e per spiegare come si possano avere
-                    tutte le apparenze dell'ingegno, pure essendo un <term>romanziere</term> mediocre.
-                </p>
+                        Volli serbare in ultimo <persName type="real" ref="coverlessListPerson.xml#julesClaretie">Giulio Claretie</persName> per prenderlo
+                        come esempio tipico e per spiegare come si possano avere
+                        tutte le apparenze dell'ingegno, pure essendo un <term>romanziere</term> mediocre.
+                    </p>
                     <p xml:id="p_28">
-                    È una fontana la cui chiave è sempre aperta ; l'acqua
-                    cade sempre colla stessa facilità e prestezza. Se si sommassero le pagine da lui scritte finora, si arriverebbe ad
-                    un cumulo di libri stampati, maggiore di quelli di <persName>Voltaire</persName> e <persName>Giulio Claretie</persName> non ha quarant'anni. Si dice ridendo
-                    che è ammalato, quando non scrive le sue cinquecento linee
-                    alla mattina, prima di colazione.
-                </p>
+                        È una fontana la cui chiave è sempre aperta ; l'acqua
+                        cade sempre colla stessa facilità e prestezza. Se si sommassero le pagine da lui scritte finora, si arriverebbe ad
+                        un cumulo di libri stampati, maggiore di quelli di <persName type="real" ref="coverlessListPerson.xml#francoisMarieArouet">Voltaire</persName> e <persName type="real" ref="coverlessListPerson.xml#julesClaretie">Giulio Claretie</persName> non ha quarant'anni. Si dice ridendo
+                        che è ammalato, quando non scrive le sue cinquecento linee
+                        alla mattina, prima di colazione.
+                    </p>
                     <p xml:id="p_29">
-                    Ha una facilità deplorevole, una facoltà d'assimilazione,
-                    che gli permette d'essere ciò che vuole, senza essere mai
-                    nulla da sé stesso. La sua penna corre sulla carta e non
-                    è la sua personalità che la guida, ma quella degli altri, i
-                    ricordi, che, suo malgrado, per <term>forza naturale d'imitazione</term>, toglie a destra ed a sinistra. In una parola, egli
-                    scrive sotto la dettatura di tutti.
-                </p>
+                        Ha una facilità deplorevole, una facoltà d'assimilazione,
+                        che gli permette d'essere ciò che vuole, senza essere mai
+                        nulla da sé stesso. La sua penna corre sulla carta e non
+                        è la sua personalità che la guida, ma quella degli altri, i
+                        ricordi, che, suo malgrado, per <term>forza naturale d'imitazione</term>, toglie a destra ed a sinistra. In una parola, egli
+                        scrive sotto la dettatura di tutti.
+                    </p>
                     <p xml:id="p_30">
-                Terminerò parlando di <persName>Leon Cladel</persName>, il cui caso è assolutamente contrario.
-                </p>
+                        Terminerò parlando di <persName type="real" ref="coverlessListPerson.xml#leonCladel">Leon Cladel</persName>, il cui caso è assolutamente contrario.
+                    </p>
                     <p xml:id="p_31">
-                    Egli ha la bella ambizione di lasciare opere immortali e
-                    si sforza di rendere perfetta ogni frase che scrive. In que-
-                    sto però prende abbaglio. Non è vero, che basti avere uno
-                    stile accuratissimo per lasciare una traccia eterna in let-
-                    teratura. All'incontro, la forma è ciò che muta, ciò che
-                    passa più presto. Un'opera perché duri, è necessario in-
-                    nanzi tutto che sia viva, e un'opera è viva allora soltanto
-                    che è vera e creata da un autore originale.
-                </p>
+                        Egli ha la bella ambizione di lasciare opere immortali e
+                        si sforza di rendere perfetta ogni frase che scrive. In que-
+                        sto però prende abbaglio. Non è vero, che basti avere uno
+                        stile accuratissimo per lasciare una traccia eterna in let-
+                        teratura. All'incontro, la forma è ciò che muta, ciò che
+                        passa più presto. Un'opera perché duri, è necessario in-
+                        nanzi tutto che sia viva, e un'opera è viva allora soltanto
+                        che è vera e creata da un autore originale.
+                    </p>
                     <p xml:id="p_32">
-                    Insomma, la grande sventura di <persName>Cladel</persName> è quella d'essere
-                    un rettorico.
-                </p>
+                        Insomma, la grande sventura di <persName type="real" ref="coverlessListPerson.xml#leonCladel">Cladel</persName> è quella d'essere
+                        un rettorico.
+                    </p>
                 </div>
                 <div resp="#redazione" type="editorial" xml:id="div_4">
                     <p xml:id="p_33">
-                    In quanto ai romanzieri ad intreccio, per appendice, a <persName>Féval</persName> ed a <persName>Montépin, a</persName><persName> Ponson du Terrail</persName>
-                    ed a <persName>Boisgobey</persName>, ecc., costoro (secondo <term rend="italic">Pessimista</term>)
-                    non meritavano neppure che <persName>Zola</persName> ne tenesse parola.
-                </p>
+                        In quanto ai romanzieri ad intreccio, per appendice, a <persName type="real" ref="coverlessListPerson.xml#paulFeval">Féval</persName> ed a <persName type="real" ref="coverlessListPerson.xml#xavierDeMontépin">Montépin</persName>, a <persName type="real" ref="coverlessListPerson.xml#pierreAlexisPonsonDuTerrail">Ponson du Terrail</persName>
+                        ed a <persName type="real" ref="coverlessListPerson.xml#fortuneDuBoisgobey">Boisgobey</persName>, ecc., costoro (secondo <term rend="italic">Pessimista</term>)
+                        non meritavano neppure che <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> ne tenesse parola.
+                    </p>
                     <p xml:id="p_34">
-                    <metamark function="section_divider"></metamark>
-                    Con gentile pensiero l'egregio <persName>A. Gnocchi</persName> di <placeName>Genova</placeName> ha voluto dedicare alla <title>Farfalla</title>
-                    una sua graziosissima <term>polka</term>, intitolata appunto
-                    <title>Farfalla</title> Ne parleremo nel prossimo numero.
-                </p>
-            </div>
+                        <metamark function="section_divider"></metamark>
+                        Con gentile pensiero l'egregio <persName type="real" ref="coverlessListPerson.xml#aGnocchi">A. Gnocchi</persName> di <placeName>Genova</placeName> ha voluto dedicare alla <title>Farfalla</title>
+                        una sua graziosissima <term>polka</term>, intitolata appunto
+                        <title>Farfalla</title>. Ne parleremo nel prossimo numero.
+                    </p>
+                </div>
             </div>
         </body>
     </text>

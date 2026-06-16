@@ -271,6 +271,343 @@
                     <ref target="https://www.wikidata.org/wiki/Q169150"/>
                     <note>Drammaturgo francese, autore de “La Dame aux camélias”.</note>
                 </person>
+                <person xml:id="gustaveFlaubert">
+                    <persName>
+                        <forename>Gustave</forename>
+                        <surname>Flaubert</surname>
+                    </persName>
+                    <birth when="1821"/>
+                    <death when="1880"/>
+                    <ref target="https://www.wikidata.org/wiki/Q43444"/>
+                    <note>Romanziere francese, noto nella corrente del naturalismo.</note>
+                </person>
+                
+                <person xml:id="hectorMalot">
+                    <persName>
+                        <forename>Hector</forename>
+                        <surname>Malot</surname>
+                    </persName>
+                        <birth when="1830"/>
+                        <death when="1907"/>
+                        <ref target="https://www.wikidata.org/wiki/Q315003"/>
+                        <note>Scrittore realista francese.</note>
+                </person>
+                
+                <person xml:id="ferdinandFabre">
+                    <persName>
+                        <forename>Ferdinand</forename>
+                        <surname>Fabre</surname>
+                    </persName>
+                    <birth when="1827"/>
+                    <death when="1907"/>
+                    <ref target="https://www.wikidata.org/wiki/Q3068559"/>
+                    <note>Romanziere.</note>
+                </person>
+                
+                <person xml:id="julesFleury">
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname>Fleury-Husson</surname>
+                        <addName type="pseudonym">Champfleury</addName>
+                    </persName>
+                    <birth when="1821"/>
+                    <death when="1889"/>
+                    <ref target="https://www.wikidata.org/wiki/Q4253540"/>
+                    <note>Scrittore capofila del realismo francese.</note>
+                </person>
+                
+                <person xml:id="edmondDuranty">
+                    <persName>
+                        <forename>Louis Edmond</forename>
+                        <surname>Duranty</surname>
+                    </persName>
+                    <birth when="1833"/>
+                    <death when="1880"/>
+                    <ref target="https://www.wikidata.org/wiki/Q328909"/>
+                    <note>Sostenitore del realismo prima e dell'impressionismo.</note>
+                </person>
+                
+                <person xml:id="marieHenriBeyle">
+                    <persName>
+                        <forename>Marie-Henri</forename>
+                        <surname>Beyle</surname>
+                        <addName type="pseudonym">Stendhal</addName>
+                    </persName>
+                    <birth when="1783"/>
+                    <death when="1842"/>
+                    <ref target="https://www.wikidata.org/wiki/Q502"/>
+                    <note>Celebre esteta e romanziere francese, noto per il romanzo Il rosso e il nero.</note>
+                </person>
+                
+                <person xml:id="louisPhilippe">
+                    <persName>
+                        <forename>Louis-Philippe</forename>
+                        <surname>d'Orléans</surname>
+                        <addName type="regnalName">Luigi Filippo I</addName>
+                    </persName>
+                    <birth when="1773"/>
+                    <death when="1850"/>
+                    <ref target="https://www.wikidata.org/wiki/Q7771"/>
+                    <note>Re di Francia tra il 1830 e il 1848.</note>
+                </person>
+                
+                <person xml:id="amantineDupin">
+                    <persName>
+                        <forename>Amantine</forename>
+                        <surname>Dupin</surname>
+                        <addName type="pseudonym">George Sand</addName>
+                    </persName>
+                    <birth when="1804"/>
+                    <death when="1876"/>
+                    <ref target="https://www.wikidata.org/wiki/Q3816"/>
+                    <note>Scrittrice e drammaturga francese, una delle autrici più prolifiche della storia della letteratura.</note>
+                </person>
+                
+                <person xml:id="alphonseDeLamartine">
+                    <persName>
+                        <forename>Alphonse</forename>
+                        <surname>de Lamartine</surname>
+                    </persName>
+                    <birth when="1799"/>
+                    <death when="1869"/>
+                    <ref target="https://www.wikidata.org/wiki/Q188697"/>
+                    <note>Poeta, scrittore e politico francese. Sostenitore del romanticismo.</note>
+                </person>
+                
+                <person xml:id="julesSandeau">
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname>Sandeau</surname>
+                    </persName>
+                    <birth when="1811"/>
+                    <death when="1883"/>
+                    <ref target="https://www.wikidata.org/wiki/Q609039"/>
+                    <note>Scrittore francese, sentimentalmente legato a George Sand</note>
+                </person>
+                
+                <person xml:id="octaveFeuillet">
+                    <persName>
+                        <forename>Octave</forename>
+                        <surname>Feuillet</surname>
+                    </persName>
+                    <birth when="1821"/>
+                    <death when="1890"/>
+                    <ref target="https://www.wikidata.org/wiki/Q1091989"/>
+                    <note>Scrittore e drammaturgo francese</note>
+                </person>
+                
+                <person xml:id="eugenieDeMontijoEugenia">
+                    <persName>
+                        <forename>Eugénie</forename>
+                        <surname>de Montijo</surname>
+                        <addName type="regnalName">Imperatrice Eugenia</addName>
+                    </persName>
+                    <birth when="1826"/>
+                    <death when="1920"/>
+                    <ref target="https://www.wikidata.org/wiki/Q1091989"/>
+                    <note>Imperatrice consorte dei francesi ddal 1853 al 1870 in virtù del suo matrimonio con Napoleone III</note>
+                </person>
+                
+                <person xml:id="victorCherbuliez">
+                    <persName>
+                        <forename>Victor</forename>
+                        <surname>Cherbuliez</surname>
+                        
+                    </persName>
+                    <birth when="1829"/>
+                    <death when="1899"/>
+                    <ref target="https://www.wikidata.org/wiki/Q116258"/>
+                    <note>Romanziere e autore svizzero naturalizzato francese</note>
+                </person>
+                
+                <person xml:id="louisUlbach">
+                    <persName>
+                        <forename>Louis</forename>
+                        <surname>Ulbach</surname>
+                    </persName>
+                    <birth when="1822"/>
+                    <death when="1889"/>
+                    <ref target="https://www.wikidata.org/wiki/Q1872012"/>
+                    <note>Romanziere e saggista francese, scrisse numerosi pamphlet di carattere politico</note>
+                </person>
+                
+                <person xml:id="louisEnault">
+                    <persName>
+                        <forename>Louis</forename>
+                        <surname>Énault</surname>
+                    </persName>
+                    <birth when="1824"/>
+                    <death when="1900"/>
+                    <ref target="https://www.wikidata.org/wiki/Q3263611"/>
+                    <note>Scrittore e giornalista francese</note>
+                </person>
+                
+                <person xml:id="andreTheuriet">
+                    <persName>
+                        <forename>André</forename>
+                        <surname>Theuriet</surname>
+                    </persName>
+                    <birth when="1833"/>
+                    <death when="1907"/>
+                    <ref target="https://www.wikidata.org/wiki/Q523039"/>
+                    <note>Poeta francese</note>
+                </person>
+                
+                <person xml:id="victorHugo">
+                    <persName>
+                        <forename>Victor</forename>
+                        <surname>Hugo</surname>
+                    </persName>
+                    <birth when="1802"/>
+                    <death when="1885"/>
+                    <ref target="https://www.wikidata.org/wiki/Q535"/>
+                    <note>Scrittore e poeta francese, considerato il padre del romanticismo. Autore de I Miserabili e Notre-dame de Paris</note>
+                </person>
+                
+                <person xml:id="leonCladel">
+                    <persName>
+                        <forename>Léon</forename>
+                        <surname>Cladel</surname>
+                    </persName>
+                    <birth when="1835"/>
+                    <death when="1892"/>
+                    <ref target="https://www.wikidata.org/wiki/Q1398171"/>
+                    <note>Scrittore e romanziere francese</note>
+                </person>
+                
+                <person xml:id="edmondAbout">
+                    <persName>
+                        <forename>Edmond</forename>
+                        <surname>About</surname>
+                    </persName>
+                    <birth when="1828"/>
+                    <death when="1885"/>
+                    <ref target="https://www.wikidata.org/wiki/Q361004"/>
+                    <note>Scrittore, giornalista e critico d'arte francese. Noto per le sue novelle. Si occupò anche di questioni politiche e religiose.</note>
+                </person>
+                
+                <person xml:id="emileErckmann">
+                    <persName>
+                        <forename>Émile</forename>
+                        <surname>Erckmann</surname>
+                    </persName>
+                    <birth when="1822"/>
+                    <death when="1899"/>
+                    <ref target="https://www.wikidata.org/wiki/Q3246593"/>
+                    <note>Scrittore francese noto per i suoi lavori insieme a Alexandre Chatrian.</note>
+                </person>
+                
+                <person xml:id="alexandreChatrian">
+                    <persName>
+                        <forename>Alexandre</forename>
+                        <surname>Chatrian</surname>
+                    </persName>
+                    <birth when="1826"/>
+                    <death when="1890"/>
+                    <ref target="https://www.wikidata.org/wiki/Q2833544"/>
+                    <note>Scrittore francese noto per i suoi lavori insieme a Émile Erckmann.</note>
+                </person>
+                
+                <person xml:id="julesVerne">
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname>Verne</surname>
+                    </persName>
+                    <birth when="1828"/>
+                    <death when="1905"/>
+                    <ref target="https://www.wikidata.org/wiki/Q33977"/>
+                    <note>Famoso romanziere francese, principalmente noto per il suo romanzo best-seller Viaggio al centro della Terra
+                    </note>
+                </person>
+                
+                <person xml:id="francoisMarieArouet">
+                    <persName>
+                        <forename>François-Marie</forename>
+                        <surname>Arouet</surname>
+                        <addName type="pseudonym">Voltaire</addName>
+                    </persName>
+                    <birth when="1694"/>
+                    <death when="1778"/>
+                    <ref target="https://www.wikidata.org/wiki/Q9068"/>
+                    <note>Filosofo francese legato al movimento culturale dell'Illuminismo.</note>
+                </person>
+                
+                <person xml:id="julesClaretie">
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname>Claretie</surname>
+                    </persName>
+                    <birth when="1840"/>
+                    <death when="1913"/>
+                    <ref target="https://www.wikidata.org/wiki/Q912271"/>
+                    <note>Scrittore, storico e giornalista francese, direttore della Comédie-Française e Accademico di Francia.</note>
+                </person>
+                
+                <person xml:id="paulFeval">
+                    <persName>
+                        <forename>Paul</forename>
+                        <surname>Féval</surname>
+                    </persName>
+                    <birth when="1816"/>
+                    <death when="1887"/>
+                    <ref target="https://www.wikidata.org/wiki/Q472568"/>
+                    <note>Scrittore francese.</note>
+                </person>
+                
+                <person xml:id="xavierDeMontépin">
+                    <persName>
+                        <forename>Xavier</forename>
+                        <surname>de Montépin</surname>
+                    </persName>
+                    <birth when="1823"/>
+                    <death when="1902"/>
+                    <ref target="https://www.wikidata.org/wiki/Q2735316"/>
+                    <note>Autore di drammi di appendice francese.</note>
+                </person>
+                
+                <person xml:id="pierreAlexisPonsonDuTerrail">
+                    <persName>
+                        <forename>Pierre Alexis</forename>
+                        <surname>de Ponson du Terrail</surname>
+                    </persName>
+                    <birth when="1829"/>
+                    <death when="1871"/>
+                    <ref target="https://www.wikidata.org/wiki/Q2595750"/>
+                    <note>Autore francese di romanzi popolari.</note>
+                </person>
+                
+                <person xml:id="fortuneDuBoisgobey">
+                    <persName>
+                        <forename>Fortuné</forename>
+                        <surname>du Boisgobey</surname>
+                    </persName>
+                    <birth when="1821"/>
+                    <death when="1891"/>
+                    <ref target="https://www.wikidata.org/wiki/Q969321"/>
+                    <note>Romanziere francese</note>
+                </person>
+                
+                <person xml:id="hippolyteTaine">
+                    <persName>
+                        <forename>Hippolyte</forename>
+                        <surname>Taine</surname>
+                    </persName>
+                    <birth when="1828"/>
+                    <death when="1893"/>
+                    <ref target="https://www.wikidata.org/wiki/Q297726"/>
+                    <note>Principale teorico del naturalismo francese, uno dei principali fautori del positivismo sociologico.</note>
+                </person>
+                
+                <person xml:id="julesDeGoncourt">
+                    <persName>
+                        <forename>Jules</forename>
+                        <surname>de Goncourt</surname>
+                    </persName>
+                    <birth when="1830"/>
+                    <death when="1870"/>
+                    <ref target="https://www.wikidata.org/wiki/Q1234248"/>
+                    <note>Scrittore naturalista francese</note>
+                </person>
                 
             </listPerson>
             
