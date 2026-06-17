@@ -108,21 +108,21 @@
                 </place>
                 
                 <place xml:id="cluny" type="real">
-                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Cluny</placeName>
+                    <placeName ref="https://www.geonames.org/3024534/cluny.html" xml:lang="fr">Cluny</placeName>
                     <country key="fr" ref="#francia">Francia</country>
                     <note>Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.</note>
                 </place>
                 <place xml:id="grecia" type="real">
-                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Grecia</placeName>
+                    <placeName ref="https://www.geonames.org/390903/hellenic-republic.html" xml:lang="fr">Grecia</placeName>
                 </place>
                 <place xml:id="RM" type="real">
-                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Roma</placeName>
+                    <placeName ref="https://www.geonames.org/3169070/rome.html" xml:lang="fr">Roma</placeName>
                     <country key="it" ref="#italia">Italia</country>
                     <settlement type="regione">Lazio</settlement>
                     <note>Capitale dell'Italia</note>
                 </place>
                 <place xml:id="GN" type="real">
-                    <placeName ref="https://www.wikidata.org/wiki/Q192982" xml:lang="fr">Genova</placeName>
+                    <placeName ref="https://www.geonames.org/3176219/genoa.html" xml:lang="fr">Genova</placeName>
                     <country key="it" ref="#italia">Italia</country>
                     <settlement type="regione">Liguria</settlement>
                     <note>Città capologugo della Liguria</note>
