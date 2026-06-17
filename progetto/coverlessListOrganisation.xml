@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lista delle organizzazioni citate</title>
+            </titleStmt>
+            
+            <publicationStmt>
+                <p>Progetto COVerLeSS</p>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <p>Authority file delle organizzazioni</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body> 
+            <listOrg xmlns="http://www.tei-c.org/ns/1.0">
+                <org xml:id="senato">
+                <orgName xml:lang="fr">Sénat de la France</orgName>
+                <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName>
+                <desc>Il senato è la camera alta del parlamento francese.</desc>
+                </org>
+                <org xml:id="corte">
+                    <orgName xml:lang="fr">Cour de France</orgName>
+                    <desc>La corte di Francia era l'insieme delle persone (chiamate cortigiani) che vivevano nell'entourage diretto del re, o, sotto il Primo e il Secondo Impero, dell'imperatore.</desc>
+                </org>
+            </listOrg>
+        </body>
+    </text>
+    
+</TEI>
