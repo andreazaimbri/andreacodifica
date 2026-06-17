@@ -64,7 +64,7 @@
             </langUsage>
             <textClass>
                 <keywords>
-                    <term type="text" subtype="saggio"> Saggio </term>
+                    <term type="text" subtype="saggio">Saggio</term>
                 </keywords>
             </textClass>
             <creation>
@@ -72,7 +72,7 @@
                 <date when="1879">1879</date>
             </creation>
             <abstract>
-                <p>Questo testo ripercorre le principali opere dello scrittore naturalista Emile Zola, dalle sue produzioni romanzesche a quelle teatrali.</p>
+                <p>Questo testo traduce le critiche di Zola al panorama letterario francese dell'epoca.</p>
             </abstract>
         </profileDesc>
     </teiHeader>
@@ -154,7 +154,7 @@
                         <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName> fu una sentinella avanzata dal <term>naturalismo</term>.
                         Quanto noi ora diciamo, egli l'intuè prima di noi, ed a
                         <note xml:id="nota_1" place="foot" n="*)" type="footnote" resp="#redazione">
-                            Con alcuni brani delle appendici di <title>PESSIMISTA</title>, abbiamo trat-
+                            Con alcuni brani delle appendici di PESSIMISTA, abbiamo trat-
                             teggiato, nello scorso numero, il profilo di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, come roman-
                             ziere, commediografo e critico drammatico. Dall'articolo dello
                             stesso <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> sui romanzieri Francesi viventi, che ha suscitato e 
@@ -164,7 +164,7 @@
                         <cb n="2" xml:id="col_2-p.16" facs="#" />
                         questo lo predisponeva in modo singolare il suo tempera-
                         mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
-                        contemporanei. Di rado incontrai un romanziere così indi-
+                        contemporanei. Di rado incontrai un <term>romanziere</term> così indi-
                         pendente da tutto quanto lo attorniava. Bisogna risalire a
                         <persName type="real" ref="coverlessListPerson.xml#marieHenriBeyle">Stendhal</persName>, a quell'uomo unico, la personalità del quale rimase
                         tanto spicccata nella frebbe contagiosa del <term>romanticismo</term>.
@@ -229,7 +229,7 @@
                         Una scossa sconquassò la <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, i tempi si sono cam-
                         biati e l'autore favorito dell'<persName type="real" ref="coverlessListPerson.xml#eugenieDeMontijoEugenia">imperatrice Eugenia</persName> si trovò
                         abbandonato. Poi i romanzieri naturalisti fecero passi da 
-                        giganti, <title>Froment jeune et Risler ainè</title> ed il <title>Nabab</title> di <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso
+                        giganti, <title ref="coverlessListWork.xml#Froment_jeune_et_Risler_aine">Froment jeune et Risler ainè</title> ed il <title ref="coverlessListWork.xml#Le_Nabab">Nabab</title> di <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso
                             Daudet</persName> ebbero ciascuno quaranta edizioni, il che spiega
                         perchè il pubblico, abiutato ora a pitture esatte, ad un'ana-
                         lisi minuta della vita reale, più on giusti le menzogne 
@@ -263,7 +263,7 @@
                     </p>
                     <p>
                         In questi bassifondi dell'<term>idealismo</term>, potrei indicare anche
-                        <persName type="real" ref="coverlessListPerson.xml#perret">Perret</persName>, al quale dovette rivolgersi la <title>Revue des Deuux Monds</title>
+                        <persName type="real" ref="coverlessListPerson.xml#perret">Perret</persName>, al quale dovette rivolgersi la <title ref="coverlessListWork.xml#Revue_des_Deuux_Monds">Revue des Deuux Monds</title>
                         in agonia. È un vice <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName>, come <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Cherbuliez</persName> è un
                         vice <persName type="real" ref="coverlessListPerson.xml#octaveFeuillet">Feuillet</persName>.
                     </p>
@@ -297,12 +297,12 @@
                         come romanziere.
                     </p>
                     <p xml:id="p_20">
-                        Dopo la <title>Vieille Roche</title>, <term>pubblicata or fan dieci anni</term>, mi
+                        Dopo la <title ref="coverlessListWork.xml#Vieille_Roche">Vieille Roche</title>, <term>pubblicata or fan dieci anni</term>, mi
                         pare che <persName type="real" ref="coverlessListPerson.xml#edmondAbout">About</persName> non abbia dato alcun libro al suo editore. 
                         Lo si sarebbe detto morto.
                     </p>
                     <p xml:id="p_21">
-                        Finalmente, prende la direzione del <title>XIX Siecle</title>, ed ora ne 
+                        Finalmente, prende la direzione del <title ref="coverlessListWork.xml#Siecle">XIX Siecle</title>, ed ora ne 
                         è <distinct>redattore in capo</distinct>, fa buoni affari e ritrova talvolta la gio-
                         vanile vivacità della sua penna. Non conosco caso più
                         <distinct>strana</distinct> nella nostra letteratura odierna; uno scrittore del
@@ -340,7 +340,7 @@
                     </p>
                     <p xml:id="p_24">
                         È una delle più belle vendite del secolo ; ora segnano
-                        ribasso. <title>Madame Thérèse</title> e <title>Le Conscrit de <date when="1813">1813</date></title>, sono opere
+                        ribasso. <title ref="coverlessListWork.xml#Madame_Therese">Madame Thérèse</title> e <title ref="coverlessListWork.xml#Le_Conscrit_de_1813">Le Conscrit de <date when="1813">1813</date></title>, sono opere
                         mabili, ma nulla di più. Invano vi si cerca l'<term>umanità</term>.
                         Gli autori hanno dato solo una nota. D'altronde, ebbero
                         il torto di non imitare <persName type="real" ref="coverlessListPerson.xml#edmondAbout">Edmondo About</persName> ed il successo
@@ -397,7 +397,7 @@
                         teratura. All'incontro, la forma è ciò che muta, ciò che
                         passa più presto. Un'opera perché duri, è necessario in-
                         nanzi tutto che sia viva, e un'opera è viva allora soltanto
-                        che è vera e creata da un autore originale.
+                        che è vera e creata da un <term>autore originale</term>.
                     </p>
                     <p xml:id="p_32">
                         Insomma, la grande sventura di <persName type="real" ref="coverlessListPerson.xml#leonCladel">Cladel</persName> è quella d'essere
@@ -412,9 +412,9 @@
                     </p>
                     <p xml:id="p_34">
                         <metamark function="section_divider"></metamark>
-                        Con gentile pensiero l'egregio <persName ref="coverlessListPerson.xml#aGnocchi">A. Gnocchi</persName> di <placeName ref="coverlessListPlace.xml#GN">Genova</placeName> ha voluto dedicare alla <title>Farfalla</title>
+                        Con gentile pensiero l'egregio <persName ref="coverlessListPerson.xml#aGnocchi">A. Gnocchi</persName> di <placeName ref="coverlessListPlace.xml#GN">Genova</placeName> ha voluto dedicare alla <title ref="coverlessListWork.xml#Farfalla">Farfalla</title>
                         una sua graziosissima <term>polka</term>, intitolata appunto
-                        <title>Farfalla</title>. Ne parleremo nel prossimo numero.
+                        <title ref="coverlessListWork.xml#Farfalla">Farfalla</title>. Ne parleremo nel prossimo numero.
                     </p>
                 </div>
             </div>
