@@ -76,10 +76,22 @@
             </abstract>
         </profileDesc>
     </teiHeader>
+    <facsimile>
+        <surface xml:id="pag_16_surface">
+            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_2_16.png/full/max/0/default.jpg' width='3295px' height='4933px' />
+            <zone points = ' 249,371 1557,376 1576,4613 241,4656 249,370 ' xml:id="pag_16_col_1" />
+            <zone points = ' 1641,3276 1588,375 2875,379 2895,4582 1603,4621 1587,374 ' xml:id="pag_16_col_2" />
+        </surface>
+        <surface xml:id="pag_17_surface">
+            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_2_17.png/full/max/0/default.jpg' width='3223px' height='4923px' />
+            <zone points = ' 429,309 1748,321 1731,4519 408,4557 432,309 ' xml:id="pag_17_col_1"/>
+            <zone points = ' 1788,330 3100,325 3095,4521 1776,4532 1788,333 ' xml:id="pag_17_col_2"/>
+        </surface>
+    </facsimile>
     <text>
         <body>
             <pb n="16" xml:id="Farfalla_1879_5_2_16"/>
-            <cb n="1" xml:id="col_1-p.16" facs="#" /> 
+            <cb n="1" xml:id="col_1-p.16" facs="#pag_16_col_1" /> 
             <div xml:id="div_1" type="intestazione">
                 <head type="main">EMILIO ZOLA</head>
                 <head type="subtitle">ROMANZIERE, COMMEDIOGRAFO, CRITICO</head>
@@ -161,7 +173,7 @@
                             suscita tante polemiche a <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName>, traduciamo oggi qualche fram-
                             mento, per far conoscere le sue idee, come critico letterario.
                         </note>
-                        <cb n="2" xml:id="col_2-p.16" facs="#" />
+                        <cb n="2" xml:id="col_2-p.16" facs="#pag_16_col_2" />
                         questo lo predisponeva in modo singolare il suo tempera-
                         mento di scrittore. Egli cresceva a parte, in mezzo a' suoi 
                         contemporanei. Di rado incontrai un <term type="forma_letteraria" subtype="narrazione">romanziere</term> così indi-
@@ -250,7 +262,7 @@
                         <placeName ref="coverlessListPlace.xml#francia">Francia</placeName> e prende i suoi soggetti tra di noi, mentre <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Vit-
                             tore Cherbuliez</persName>, li pesca solo tra i Polacchi, gli Ungheresi,
                         <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
-                        <cb n="3" xml:id="col_1-p.17" facs="#" /> 
+                        <cb n="3" xml:id="col_1-p.17" facs="#pag_17_col_1" /> 
                         i Tirolesi. il che gli permette di mentire a suo bell'agio.
                         Nominerò <persName type="real" ref="coverlessListPerson.xml#louisUlbach">Luigi Ulbach</persName>, il quale pro<supplied resp="#AZ">d</supplied>usse molto 
                         con tinte neutre.
@@ -331,7 +343,7 @@
                         Il caso di <persName type="real" ref="coverlessListPerson.xml#emileErckmann">Erckmann</persName>-<persName type="real" ref="coverlessListPerson.xml#alexandreChatrian">Chatrian</persName> è parimenti interessan-
                         tissimo. I loro <term type="forma_letteraria" subtype="genere_letterario">romanzi</term> avevano un soffio repubblicano; 
                         d'altronde potevano entrare nelle famiglie non agitando
-                        <cb n="4" xml:id="col_2-p.17" facs="#" />
+                        <cb n="4" xml:id="col_2-p.17" facs="#pag_17_col_2" />
                         nessuna passione, nessun adulterio, nessuna situazione
                         troppo viva; insomma offrivano una lettura <distinct>aggradevole</distinct>.
                         Da ciò, l'immensa loro riuscita. Si arrivò fino a chiamarli
