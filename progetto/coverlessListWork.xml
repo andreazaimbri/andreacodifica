@@ -734,6 +734,16 @@
                     </monogr>
                     <note>Romanzo scritto a quattro mani da Émile Erckmann e Alexandre Chatrian che racconta la Rivoluzione francese.</note>
                 </biblStruct>
+                <biblStruct xml:id="Commedia_Umana" type="raccolta">
+                    <monogr>
+                        <title level="m" xml:lang="it">La commedia umana</title>
+                        <author ref="coverlessListPerson.xml#honoreBalzac">Honoré de Balzac</author>
+                        <imprint>
+                            <date from="1830" to="1856">1830-1856</date>
+                        </imprint>
+                    </monogr>
+                    <note>La commedia umana (La Comédie humaine) è un insieme di scritti di Honoré de Balzac composto da 137 opere comprendenti romanzi realistici, fantastici e filosofici, ma anche racconti, saggi, studi analitici, e novelle a volte raggruppati in un solo titolo, secondo le edizioni. I testi sono classificati per ambiente sociale, per luoghi geografici o per categorie psicologiche (scene di vita privata, scene della vita di provincia) riunite in insiemi generici (studi di costume, studi analitici, studi filosofici). </note>
+                </biblStruct>
                 <biblStruct xml:id="Le_Conscrit_de_1813" type="romanzo">
                     <monogr>
                         <title level="m" xml:lang="fr">Le Conscrit de 1813</title>

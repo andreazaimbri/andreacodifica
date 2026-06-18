@@ -15,11 +15,9 @@
                 <p>Tassonomia controllata elaborata per l'annotazione dei temi ricorrenti nel corpus verista.</p>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
-    
-    <text>
-        <body>
-            <taxonomy xml:id="themesTaxonomy">
+        <encodingDesc>
+            <classDecl>
+                   <taxonomy xml:id="themesTaxonomy">
                 
                 <category xml:id="realismo">
                     <catDesc>
@@ -100,6 +98,12 @@
                 </category>
                 
             </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+<text>
+        <body>
+            <p></p>
         </body>
-    </text>
+</text>
 </TEI>
