@@ -65,6 +65,16 @@
                 <keywords>
                     <term type="text" subtype="saggio"> Saggio </term>
                 </keywords>
+                <keywords scheme="coverlessTassonomia.xml">
+                    <term type="themes" ref="coverlessTassonomia.xml#realismo">realismo</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#veroVerita">vero e verità</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#classiUmili">classi umili</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#conflittoSociale">conflitto sociale</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#vitaRurale">vita rurale</term>
+                    <term type="themes" ref="coverlessTassonomia.xml#emarginazioneEdEsclusione">
+                        emarginazione ed esclusione
+                    </term>
+                </keywords>
             </textClass>
             <creation>
                 <placeName ref="coverlessListPlace.xml#CL">Cagliari</placeName>

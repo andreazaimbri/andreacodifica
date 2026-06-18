@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="coverlessTassonomia">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tassonomia tematica del progetto COVerLeSS</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>File di supporto per la classificazione tematica dei testi del progetto COVerLeSS.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Tassonomia controllata elaborata per l'annotazione dei temi ricorrenti nel corpus verista.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <taxonomy xml:id="themesTaxonomy">
+                
+                <category xml:id="realismo">
+                    <catDesc>
+                        <term type="themes">realismo</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="veroVerita">
+                    <catDesc>
+                        <term type="themes">vero e verità</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="classiUmili">
+                    <catDesc>
+                        <term type="themes">classi umili</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="conflittoSociale">
+                    <catDesc>
+                        <term type="themes">conflitto sociale</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="vitaRurale">
+                    <catDesc>
+                        <term type="themes">vita rurale</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="emarginazioneEdEsclusione">
+                    <catDesc>
+                        <term type="themes">emarginazione ed esclusione</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="istruzione">
+                    <catDesc>
+                        <term type="themes">istruzione</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="istruzioneDonne">
+                    <catDesc>
+                        <term type="themes">istruzione delle donne</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="lavoro">
+                    <catDesc>
+                        <term type="themes">lavoro</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="lavoroMinorile">
+                    <catDesc>
+                        <term type="themes">lavoro minorile</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="lavoroFemminile">
+                    <catDesc>
+                        <term type="themes">lavoro femminile</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="sfruttamentoDelLavoro">
+                    <catDesc>
+                        <term type="themes">sfruttamento del lavoro</term>
+                    </catDesc>
+                </category>
+                
+                <category xml:id="fatoEDestino">
+                    <catDesc>
+                        <term type="themes">fato e destino</term>
+                    </catDesc>
+                </category>
+                
+            </taxonomy>
+        </body>
+    </text>
+</TEI>
