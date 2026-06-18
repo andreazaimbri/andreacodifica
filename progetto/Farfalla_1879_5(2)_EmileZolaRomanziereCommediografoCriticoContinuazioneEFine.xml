@@ -58,6 +58,11 @@
             </editorialDecl>
         </encodingDesc> 
         <profileDesc>
+            <handNotes>
+                <handNote xml:id="pencil" medium="pencil">
+                    Interventi a matita
+                </handNote>
+            </handNotes>
             <langUsage>
                 <language ident="it">Italiano</language>
                 <language ident="fr">Francese</language>
@@ -102,7 +107,7 @@
         <body>
             <pb n="16" xml:id="Farfalla_1879_5_2_16"/>
             <cb n="1" xml:id="col_1-p.16" facs="#pag_16_col_1" /> 
-            <fw type="pageNum" place="top-center">—( 16 )—</fw>
+            <fw type="pageNum" place="top-center">—( 16 )— <add hand="#pencil" place="right">A</add></fw>
             <div xml:id="div_1" type="intestazione">
                 <head type="main">EMILIO ZOLA</head>
                 <head type="subtitle">ROMANZIERE, COMMEDIOGRAFO, CRITICO</head>
@@ -194,10 +199,10 @@
                     </p>
                     <p xml:id="p_8" rend="firstline-indented">
                         Spesso ho confessato, che noi tutti <distinct>oggidì</distinct>. <distinct>queglino</distinct>
-                        stessi che oggi nutrono la passione della <term type="verbum" subtype="vero_verita">verità esatta</term>, siamo
-                        incancreniti fino alla midolla di <term type="forma_letteraria" subtype="ismi">romanticismo</term>. 
+                         della <term type="verbum" subtype="vero_verita">verità esatta</term>, siamo
+                        <term type="stile" subtype="lessico">incancreniti fino alla <distinct>midolla</distinct></term>di <term type="forma_letteraria" subtype="ismi">romanticismo</term>. 
                         L'abbiamo succhiato al collegio dietro i nostri legii, allorché legge-
-                        vamo i poeti proibiti ; l'abbiamo respirto nell'aria avv-
+                        vamo i poeti proibiti ; l'abbiamo respirato nell'aria avv-
                         elenata della nostra gioventù. Io non ne conosco che uno
                         solo il quale sia sfuggito a questo contagio ed è <persName type="real" ref="coverlessListPerson.xml#edmondDuranty">Duranty</persName>.
                     </p>
@@ -273,7 +278,7 @@
                         <placeName ref="coverlessListPlace.xml#francia">Francia</placeName> e prende i suoi soggetti tra di noi, mentre <persName type="real" ref="coverlessListPerson.xml#victorCherbuliez">Vit-
                             tore Cherbuliez</persName>, li pesca solo tra i Polacchi, gli Ungheresi,
                         <pb n="17" xml:id="Farfalla_1879_5_2_17"/>
-                        <fw type="pageNum" place="top-center">—( 17 )—</fw>
+                        <fw type="pageNum" place="top-center">—( 17 )— <add hand="#pencil" place="right">A</add></fw>
                         <cb n="3" xml:id="col_1-p.17" facs="#pag_17_col_1" /> 
                         i Tirolesi. il che gli permette di mentire a suo bell'agio.
                         Nominerò <persName type="real" ref="coverlessListPerson.xml#louisUlbach">Luigi Ulbach</persName>, il quale pro<supplied resp="#AZ">d</supplied>usse molto 

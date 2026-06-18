@@ -57,6 +57,11 @@
         </editorialDecl>
         </encodingDesc> 
         <profileDesc>
+            <handNotes>
+                <handNote xml:id="pencil" medium="pencil">
+                    Interventi a matita
+                </handNote>
+            </handNotes>
             <langUsage>
                 <language ident="it">Italiano</language>
                 <language ident="fr">Francese</language>
@@ -110,7 +115,7 @@
         <body>
             
             <pb n="#" xml:id="Farfalla_1879_5_1_3"/>
-            <fw type="pageNum" place="top-center">—( 3 )—</fw>
+            <fw type="pageNum" place="top-center">—( 3 )— <add hand="#pencil" place="right">A</add></fw>
             <cb n="1" xml:id="col_2-p.3" facs="#pag_3_col_2" /> 
             <div xml:id="div_1" type="intestazione">
                 <head type="main">EMILIO ZOLA</head>
@@ -325,7 +330,7 @@
                     più svariate manifestazioni ereditarie.
                 </p>
                 <pb n="#" xml:id="Farfalla_1879_5_1_5"/>
-                <fw type="pageNum" place="top-center">—( 5 )—</fw>
+                <fw type="pageNum" place="top-center">—( 5 )—<add hand="#pencil" place="right">A</add></fw>
                 <cb n="1" xml:id="col_1-p.5" facs="#pag_5_col_1" /> 
                 <p xml:id="p_16">
                     <rs ref="coverlessListPerson.xml#emileZola">Egli</rs> non s'accontenta di riprodurre <orig>ne'</orig>suoi personaggi
