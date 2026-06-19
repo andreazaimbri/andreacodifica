@@ -2,36 +2,48 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
     schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lista delle organizzazioni citate</title>
+                <title>Lista di entità nominate per i testi codificati in COVerLeSS: organizzazioni citate</title>
+                <respStmt>
+                    <resp>Conversione TEI P5</resp>
+                    <persName xml:id="AZ">Andrea Zaimbri</persName>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition n="1">Digital edition - <date when="2026-06">Giugno 2026</date></edition>
+                <respStmt>
+                    <resp>Digital edition project coordineted by</resp>
+                    <name xml:id="DS">Daria Spampinato</name>
+                    <name xml:id="ADS">Antonio Di Silvestro</name>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
                 <p>Progetto COVerLeSS</p>
             </publicationStmt>
-            
             <sourceDesc>
-                <p>Authority file delle organizzazioni</p>
+                <p>Authority dei riferimenti a opere</p>
+            </sourceDesc>
+            <sourceDesc>
+                <listOrg xmlns="http://www.tei-c.org/ns/1.0">
+                    <org xml:id="senato">
+                        <orgName xml:lang="fr">Sénat de la France</orgName>
+                        <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName>
+                        <desc>Il senato è la camera alta del parlamento francese.</desc>
+                    </org>
+                    <org xml:id="corte">
+                        <orgName xml:lang="fr">Cour de France</orgName>
+                        <desc>La corte di Francia era l'insieme delle persone (chiamate cortigiani) che vivevano nell'entourage diretto del re, o, sotto il Primo e il Secondo Impero, dell'imperatore.</desc>
+                    </org>
+                </listOrg>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
     
     <text>
         <body> 
-            <listOrg xmlns="http://www.tei-c.org/ns/1.0">
-                <org xml:id="senato">
-                <orgName xml:lang="fr">Sénat de la France</orgName>
-                <placeName ref="coverlessListPlace.xml#parigi">Parigi</placeName>
-                <desc>Il senato è la camera alta del parlamento francese.</desc>
-                </org>
-                <org xml:id="corte">
-                    <orgName xml:lang="fr">Cour de France</orgName>
-                    <desc>La corte di Francia era l'insieme delle persone (chiamate cortigiani) che vivevano nell'entourage diretto del re, o, sotto il Primo e il Secondo Impero, dell'imperatore.</desc>
-                </org>
-            </listOrg>
+            <p>This is a template for a minimal TEI header with the mandatory components</p>
         </body>
     </text>
     

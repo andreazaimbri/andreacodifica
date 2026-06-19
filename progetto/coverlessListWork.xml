@@ -5,9 +5,21 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lista delle opere citate</title>
+                <title>Lista di entità nominate per i testi codificati in COVerLeSS: le opere del Verismo</title>
+                <respStmt>
+                    <resp>Conversione TEI P5</resp>
+                    <persName xml:id="AZ">Andrea Zaimbri</persName>
+                </respStmt>
             </titleStmt>
-            
+            <editionStmt>
+                <edition n="1">Digital edition - <date when="2026-06">Giugno 2026</date></edition>
+                <respStmt>
+                    <resp>Digital edition project coordineted by</resp>
+                    <name xml:id="DS">Daria Spampinato</name>
+                    <name xml:id="ADS">Antonio Di Silvestro</name>
+                </respStmt>
+
+            </editionStmt>
             <publicationStmt>
                 <p>Progetto COVerLeSS</p>
             </publicationStmt>
@@ -17,7 +29,11 @@
         </fileDesc>
     </teiHeader>
     <text>
-        <body xml:lang="it">
+        <body>
+			<p>This is a template for a minimal TEI header with the mandatory components:</p>
+		</body>
+        <back>
+        <div type="work">
             <listBibl xml:id="bibliografiaSecondaria">
                 <!-- =========================
                      SERIE
@@ -26,7 +42,8 @@
                 <biblStruct xml:id="Rougon_Macquart" type="serie">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="s" xml:lang="fr">Les Rougon-Macquart: histoire naturelle et sociale
+                        <title level="s" xml:lang="fr" type="main">Les Rougon-Macquart</title>
+                         <title level="s" xml:lang="fr" type="subtitle">histoire naturelle et sociale
                             d'une famille sous le Second Empire</title>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -755,8 +772,9 @@
                     </monogr>
                     <note>Romanzo scritto a quattro mani da Émile Erckmann e Alexandre Chatrian, mostra il lato disumano della guerra mostrando come protagonista un giovane orologiaio che viene arruolato nella Grande armata di Napoleone per la campagna di Germania del 1813.</note>
                 </biblStruct>
-            </listBibl>                    
-        </body>
+            </listBibl>
+            </div>    
+        </back>
     </text>
     
 </TEI>
