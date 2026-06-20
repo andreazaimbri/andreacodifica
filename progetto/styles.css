@@ -145,6 +145,11 @@
      color: var(--c-term);
      border: 1px solid #aad4ee;
 }
+.leg-pill.term {
+     background: white;
+     color: var(--c-accent);
+     border: 1px solid #aad4ee;
+}
 /* ══════════════════════════════════════ LAYOUT PRINCIPALE ══════════════════════════════════════ */
  .main-layout {
      display: grid;
@@ -336,7 +341,11 @@
      color: var(--c-term);
      border-radius: 2px;
      padding: 0 .15em;
-     font-style: italic;
+}
+ .distinct {
+     color: var(--c-accent);
+     border-radius: 2px;
+     padding: 0 .15em;
 }
 /* Popover personalizzato */
  .popover {

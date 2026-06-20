@@ -59,40 +59,11 @@
                   <xsl:value-of select="//tei:biblScope[@unit='page']"/>
                 </span>
               </div>
-            </div>
             <!--  Barra secondaria  -->
             <div class="header-sub">
-              <div class="hsub-item">
-                <i class="bi bi-person-fill"/>
-                <span>
-                  <xsl:for-each select="//tei:analytic/tei:author">
-                    <xsl:value-of select="normalize-space(.)"/>
-                    <xsl:if test="position() != last()"> · </xsl:if>
-                  </xsl:for-each>
-                </span>
-              </div>
-              <div class="hsub-item">
-                <i class="bi bi-file-earmark-code"/>
-                <span>
-                  Curatore:
-                  <xsl:value-of select="//tei:respStmt/tei:name"/>
-                </span>
-              </div>
-              <div class="hsub-item">
-                <i class="bi bi-calendar3"/>
-                <span>
-                  Edizione:
-                  <xsl:value-of select="normalize-space(//tei:editionStmt/tei:edition)"/>
-                </span>
-              </div>
-              <div class="hsub-item" style="margin-left:auto;">
-                <i class="bi bi-tag"/>
-                <xsl:for-each select="//tei:textClass/tei:keywords[@scheme]/tei:term[@type='themes']">
-                  <span style="background:rgba(255,255,255,.08); border-radius:10px; padding:.05rem .5rem; margin-left:.25rem; font-size:.72rem;">
-                    <xsl:value-of select="normalize-space(.)"/>
-                  </span>
-                </xsl:for-each>
-              </div>
+              <h3> <a href="homepage.html" class="nav link text-light">Homepage</a> </h3>
+              <h3> <a href="bibliografia.html" class="nav link text-light">Bibliografia e metedati</a> </h3>
+            </div>
             </div>
           </header>
           <!--  ════════════════ LEGENDA ════════════════  -->
@@ -114,6 +85,10 @@
               <i class="bi bi-chat-quote"/>
               Termine
             </span>
+          <span class="leg-pill dist">
+            <i class="bi bi-chat-quote"/>
+            Parole arcaiche
+          </span>
             <span style="margin-left:auto; font-size:.72rem; color:var(--c-dark); opacity:.6;">
               <i class="bi bi-cursor-text"/>
               Passa il cursore sulle entità evidenziate per i dettagli
@@ -385,7 +360,9 @@
       </span>
     </xsl:template>
     <xsl:template match="tei:orig">
+    <span class="distinct">
       <xsl:apply-templates/>
+    </span>
     </xsl:template>
     <xsl:template match="tei:reg"/>
     <!--  term  -->
@@ -393,7 +370,14 @@
       <span class="termine">
         <xsl:apply-templates/>
       </span>
+      
     </xsl:template>
+  <xsl:template match="tei:distinct">
+    <span class="distinct">
+      <xsl:apply-templates/>
+    </span>
+    
+  </xsl:template>
     <!--  hi  -->
     <xsl:template match="tei:hi[@rend='italic']">
       <em>
@@ -413,11 +397,6 @@
       <em lang="{@xml:lang}">
         <xsl:apply-templates/>
       </em>
-    </xsl:template>
-    <xsl:template match="tei:distinct">
-      <span style="color:var(--c-dark);">
-        <xsl:apply-templates/>
-      </span>
     </xsl:template>
     <xsl:template match="tei:supplied">
       <span style="color:#888;">
