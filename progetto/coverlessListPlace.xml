@@ -71,7 +71,7 @@
                         <note>Comune situato nella periferia occidentale di Parigi, nel dipartimento degli Hauts-de-Seine.</note>
                     </place>
                     
-                    <place xml:id="montmartre" type="real">
+                    <place xml:id="montmatre" type="real">
                         <placeName ref="https://www.geonames.org/9843599/paris-03-ancien-quartier-montmartre.html">Montmartre</placeName>
                         <country key="fr" ref="#francia">Francia</country>
                         <settlement ref="#parigi">Parigi</settlement>
@@ -98,24 +98,23 @@
                         <note>Capoluogo della Guyana francese, dipartimento e regione d'oltremare della Francia situato in Sud America.</note>
                     </place>
                     
-                    <place xml:id="renaissance" type="real">
-                        <placeName ref="https://www.wikidata.org/wiki/Q3527713" xml:lang="fr">Théâtre de la Renaissance</placeName>
-                        <country key="fr" ref="#francia">Francia</country>
-                        <settlement ref="#parigi">Parigi</settlement>
-                        <note>Storico teatro parigino inaugurato nel XIX secolo e situato nel X arrondissement.</note>
-                    </place>
-                    
-                    <place xml:id="palaisRoyal" type="real">
-                        <placeName ref="https://www.wikidata.org/wiki/Q329948" xml:lang="fr">Palais-Royal</placeName>
-                        <country key="fr" ref="#francia">Francia</country>
-                        <settlement ref="#parigi">Parigi</settlement>
-                        <note>Complesso monumentale di Parigi comprendente un palazzo e i suoi celebri giardini, situato nel I arrondissement.</note>
-                    </place>
+                 
+                   
                     
                     <place xml:id="cluny" type="real">
                         <placeName ref="https://www.geonames.org/3024534/cluny.html" xml:lang="fr">Cluny</placeName>
                         <country key="fr" ref="#francia">Francia</country>
                         <note>Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.</note>
+                    </place>
+                    <place xml:id="plaineDeMonceaux" type="real">
+                        <placeName ref="https://it.wikipedia.org/wiki/Plaine-de-Monceaux" xml:lang="fr">Plaine-de-Monceaux</placeName>
+                        <country key="fr" ref="#francia">Francia</country>
+                        <note>Plaine-de-Monceaux è il 66º quartiere amministrativo di Parigi, situato nel XVII arrondissement.</note>
+                    </place>
+                    <place xml:id="plassans" type="fictional">
+                        <placeName ref="https://fr.wikipedia.org/wiki/Plassans" xml:lang="fr">Plassans</placeName>
+                        <country key="fr" ref="#francia">Francia</country>
+                        <note>Plassans è una città immaginaria che compare nella serie dei Rougon-Macquart , composta da 20 romanzi scritti da Émile Zola tra il 1871 e il 1893 , e dà il nome al quarto volume, La Conquête de Plassans (1874). Plassans è la città natale della famiglia Rougon-Macquart, da cui i suoi membri si disperdono in tutta la Francia .</note>
                     </place>
                     <place xml:id="grecia" type="real">
                         <placeName ref="https://www.geonames.org/390903/hellenic-republic.html" xml:lang="fr">Grecia</placeName>

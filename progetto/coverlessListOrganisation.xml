@@ -36,6 +36,27 @@
                         <orgName xml:lang="fr">Cour de France</orgName>
                         <desc>La corte di Francia era l'insieme delle persone (chiamate cortigiani) che vivevano nell'entourage diretto del re, o, sotto il Primo e il Secondo Impero, dell'imperatore.</desc>
                     </org>
+                    <org xml:id="hotelDeVille" type="real">
+                        <orgName xml:lang="fr">Hôtel de Ville </orgName>
+                        <placeName ref="coverlessListPlace.xml#parigi" xml:lang="fr">Parigi</placeName>
+                        <country key="it" ref="coverlessListPlace.xml#francia">Francia</country>
+                        <note>L'Hôtel de Ville  è il municipio di Parigi, situato nel IV arrondissement.</note>
+                    </org>
+                    <org xml:id="palaisRoyal" type="real">
+                        <orgName ref="https://www.wikidata.org/wiki/Q329948" xml:lang="fr">Palais-Royal</orgName>
+                        <country key="it" ref="coverlessListPlace.xml#francia">Francia</country>
+                        <placeName ref="coverlessListPlace.xml#parigi" xml:lang="fr">Parigi</placeName>
+                        <settlement ref="#parigi">Parigi</settlement>
+                        <note>Complesso monumentale di Parigi comprendente un palazzo e i suoi celebri giardini, situato nel I arrondissement.</note>
+                    </org>
+                    <org xml:id="renaissance" type="real">
+                        <orgName ref="https://www.wikidata.org/wiki/Q3527713" xml:lang="fr">Théâtre de la Renaissance</orgName>
+                        <country key="it" ref="coverlessListPlace.xml#francia">Francia</country>
+                        <placeName ref="coverlessListPlace.xml#parigi" xml:lang="fr">Parigi</placeName>
+                        <settlement ref="#parigi">Parigi</settlement>
+                        <note>Storico teatro parigino inaugurato nel XIX secolo e situato nel X arrondissement.</note>
+                    </org>
+                    
                 </listOrg>
             </sourceDesc>
         </fileDesc>

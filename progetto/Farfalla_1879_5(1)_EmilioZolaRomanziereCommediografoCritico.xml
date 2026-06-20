@@ -221,8 +221,8 @@
                     diti e più difficili, la miniatura da salotto ed il <term type="forma_letteraria" subtype="genere_letterario">romanzo                  
                     sociale</term>, l'analisi dell'individuo nelle sue più delicate mani-                   
                     festazioni fisiologiche o patologiche e la sintesi delle                  
-                    diverse classi moderne, dal <placeName ref="coverlessListPlace.xml#de_Monceaux">de Monceaux</placeName> e da <placeName ref="coverlessListPlace.xml#saintCloud">Saint-Cloud</placeName> ai <foreign xml:lang="fr" rend="italic">boulevard</foreign> esterni ed a <placeName ref="coverlessListPlace.xml#Plassans">Plassans</placeName>, nelle sale del-                   
-                    l'<placeName ref="coverlessListPlace.xml#Hotel_de_ville">Hotel de ville</placeName> e nelle bettole di <placeName ref="coverlessListPlace.xml#montmatre">Montmartre</placeName>, al mercato    
+                    diverse classi moderne, dal <placeName ref="coverlessListPlace.xml#plaineDeMonceaux">de Monceaux</placeName> e da <placeName ref="coverlessListPlace.xml#saintCloud">Saint-Cloud</placeName> ai <foreign xml:lang="fr" rend="italic">boulevard</foreign> esterni ed a <placeName ref="coverlessListPlace.xml#plassans" type="fictional">Plassans</placeName>, nelle sale del-                   
+                    l'<orgName ref="coverlessListOrganisation.xml#hotelDeVille">Hotel de ville</orgName> e nelle bettole di <placeName ref="coverlessListPlace.xml#montmatre">Montmartre</placeName>, al mercato    
                     ed al corpo legislativo, nel gabinetto di <persName type="real" ref="coverlessListPerson.xml#eugeneRouher">Rouher</persName> ed in sa- 
                     grestia, fra il turbine della capitale del mondo e nelle soli-
                     tudini della campagna, ai tempi burrascosi del colpo di
@@ -268,7 +268,7 @@
                     alle pagine più squisite dei più squisiti <term type="forma_letteraria" subtype="narrazione">novellieri</term>, ad <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso Daudet</persName> ed a <persName type="real" ref="coverlessListPerson.xml#gustavoDroz">Gustavo Droz</persName>, con le deliziose due prefazioni, con
                     il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Carnet_de_danse">Carnet de danse</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Celle_qui_m_aime">Celle qui m'aime</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_petit_Mederic">Le petit Méderic</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_Bain">Le Bain</title>,<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_epaules_de_la_marquise">Les spalle de la marquise</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_Fraises">Les Fraises</title> e gli svariatissimi <foreign xml:lang="fr" rend="italic">Sou
                     -venirs</foreign>, sulla processione del <foreign xml:lang="la" rend="italic">Corpus Domini</foreign> e sui bagni
-                    della <placeName ref="coverlessListPlace.xml#Senna">Senna</placeName>, sulle due gattine dell'autore e sul bombarda-
+                    della <placeName ref="coverlessListPlace.xml#senna">Senna</placeName>, sulle due gattine dell'autore e sul bombarda-
                     mento di <placeName ref="coverlessListPlace.xml#neuilly">Neuilly</placeName> nel <date when="1871">71</date>, ecc. Quanti capolavori di cesel-
                     latura! Quanta grazia in questo <term type="verbum" subtype="vero_verita">fanatico della verità</term>!
                 </p>
@@ -398,7 +398,7 @@
                     In attesa di questo risveglio di buonsenso, a ragione lo  
                     <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> reputa possibile una sola protesta, la pubblicazione
                     dello sfortunato suo teatro, ossia: la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Therese_Raquin">Thérèse Raquin</title> (rap- 
-                    presentata soltanto per nove sere alla <placeName ref="coverlessListPlace.xml#renaissance">Renaissance</placeName>, nel <date when="1873-07"> lu- 
+                    presentata soltanto per nove sere alla <orgName ref="coverlessListOrganisation.xml#renaissance">Renaissance</orgName>, nel <date when="1873-07"> lu- 
                     glio 73</date> e timidamente fischiata, perchè questo <term type="forma_letteraria" subtype="genere_letterario">dramma</term>,
                     forse, aveva tolto al pubblico persino la forza della disap-
                     provazione <q xml:lang="fr">« l'avait rendu malade »</q>) — la <term type="forma_letteraria" subtype="genere_letterario">commedia</term> di
@@ -406,7 +406,7 @@
                     nel<date when="1874-11">novembre 74</date>, senza clamori, perchè <q xml:lang="fr"> « le mépris suf-    
                         fisait sans doute »</q>) — la farsa in tre atti <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_rose">Bouton de rose </title>
                     (furiosamente accolta, nello scorso maggio, come un'inde- 
-                    cenza scandalosa, dai pudibondi frequentatori del <placeName ref="coverlessListPlace.xml#palaisRoyal">Palais Royal</placeName>).
+                    cenza scandalosa, dai pudibondi frequentatori del <orgName ref="coverlessListPlace.xml#palaisRoyal">Palais Royal</orgName>).
                 </p>
                 <p xml:id="p_23" rend="firstline-indented">
                     <quote>

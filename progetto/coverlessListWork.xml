@@ -177,7 +177,7 @@
                      OPERE ZOLA — I ROUGON-MACQUART (ciclo completo, 20 romanzi)
                      ========================= -->
                 
-                <biblStruct xml:id="La_Fortune_des_Rougon" type="romanzo">
+                <biblStruct xml:id="Fortune_des_Rougon" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
                         <title level="m" xml:lang="fr">La Fortune des Rougon<idno type="wikidata">Q1986243</idno></title>
