@@ -1,0 +1,428 @@
+ :root {
+     --c-bg: #faf8f4;
+     --c-surface: #ffffff;
+     --c-mid: #c8b89a;
+     --c-dark: #5c4a2a;
+     --c-ink: #2a2017;
+     --c-accent: #8b3a1a;
+     --c-note: #f5f0e8;
+     --c-pers: #c97d3a;
+     --c-pers-bg: #fdf0e3;
+     --c-place: #4a7c59;
+     --c-place-bg: #eaf3ed;
+     --c-term: #2d6a8f;
+     --c-term-bg: #e6f2f9;
+     --c-opera: #6b3fa0;
+     --c-opera-bg: #f2ecfa;
+     --radius: 6px;
+     --shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+/* ── Base ── */
+ html {
+     scroll-behavior: smooth;
+}
+ body {
+     background: var(--c-bg);
+     color: var(--c-ink);
+     font-family: 'EB Garamond', Georgia, serif;
+     font-size: 1.08rem;
+     line-height: 1.75;
+}
+/* ══════════════════════════════════════ HEADER ══════════════════════════════════════ */
+ .site-header {
+     background: var(--c-dark);
+     color: #f0ebe0;
+     padding: 0;
+     border-bottom: 3px solid var(--c-accent);
+}
+ .site-header .header-inner {
+     display: grid;
+     grid-template-columns: auto 1fr auto;
+     align-items: center;
+     gap: 1.5rem;
+     padding: 1rem 2rem;
+}
+ .site-header .project-badge {
+     font-size: .72rem;
+     letter-spacing: .14em;
+     text-transform: uppercase;
+     opacity: .6;
+     font-family: 'EB Garamond', serif;
+     white-space: nowrap;
+}
+ .site-header .doc-title {
+     font-family: 'IM Fell English', serif;
+     font-size: 1.4rem;
+     font-weight: 400;
+     margin: 0;
+     letter-spacing: .02em;
+     line-height: 1.25;
+     text-align: center;
+}
+ .site-header .doc-meta {
+     font-size: .78rem;
+     opacity: .65;
+     text-align: right;
+     white-space: nowrap;
+}
+ .site-header .doc-meta span {
+     display: block;
+}
+/* divider sottile sotto il titolo principale */
+ .header-ribbon {
+     background: var(--c-accent);
+     height: 2px;
+     width: 100%;
+}
+/* barra secondaria con info editoriali */
+ .header-sub {
+     background: #3d2e10;
+     padding: .4rem 2rem;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+     font-size: .76rem;
+     color: #b8a888;
+     align-items: center;
+}
+ .header-sub .hsub-item {
+     display: flex;
+     align-items: center;
+     gap: .35rem;
+}
+ .header-sub .hsub-item i {
+     opacity: .7;
+}
+/* ══════════════════════════════════════ LEGENDA / TOOLBAR ══════════════════════════════════════ */
+ .legenda-bar {
+     background: var(--c-note);
+     border-bottom: 1px solid var(--c-mid);
+     padding: .45rem 1.5rem;
+     display: flex;
+     flex-wrap: wrap;
+     gap: .5rem 1.2rem;
+     align-items: center;
+     font-size: .78rem;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+}
+ .legenda-bar .leg-label {
+     font-weight: 600;
+     color: var(--c-dark);
+     margin-right: .2rem;
+     font-size: .72rem;
+     letter-spacing: .06em;
+     text-transform: uppercase;
+}
+ .leg-pill {
+     display: inline-flex;
+     align-items: center;
+     gap: .3rem;
+     padding: .15rem .55rem;
+     border-radius: 12px;
+     font-size: .75rem;
+     font-weight: 500;
+     cursor: default;
+}
+ .leg-pill.pers {
+     background: var(--c-pers-bg);
+     color: var(--c-pers);
+     border: 1px solid #e8c49a;
+}
+ .leg-pill.luogo {
+     background: var(--c-place-bg);
+     color: var(--c-place);
+     border: 1px solid #b8d9c4;
+}
+ .leg-pill.opera {
+     background: var(--c-opera-bg);
+     color: var(--c-opera);
+     border: 1px solid #d0bcee;
+}
+ .leg-pill.term {
+     background: var(--c-term-bg);
+     color: var(--c-term);
+     border: 1px solid #aad4ee;
+}
+/* ══════════════════════════════════════ LAYOUT PRINCIPALE ══════════════════════════════════════ */
+ .main-layout {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 0;
+     min-height: calc(100vh - 200px);
+}
+ @media (max-width: 992px) {
+     .main-layout {
+         grid-template-columns: 1fr;
+    }
+     .facsimile-panel {
+         display: none;
+    }
+}
+/* ── Pannello facsimile ── */
+ .facsimile-panel {
+     border-right: 2px solid var(--c-mid);
+     background: #f0ece4;
+     padding: 1.5rem 1rem;
+     position: sticky;
+     top: 42px;
+    /* altezza legenda-bar */
+     height: calc(100vh - 42px);
+     overflow-y: auto;
+}
+ .facsimile-panel h5 {
+     font-family: 'IM Fell English', serif;
+     font-size: .88rem;
+     color: var(--c-dark);
+     letter-spacing: .06em;
+     text-transform: uppercase;
+     margin-bottom: 1rem;
+     text-align: center;
+     opacity: .7;
+}
+ .surface-card {
+     background: #fff;
+     border: 1px solid var(--c-mid);
+     border-radius: var(--radius);
+     box-shadow: var(--shadow);
+     margin-bottom: 1.5rem;
+     overflow: hidden;
+}
+ .surface-card .surface-label {
+     background: var(--c-dark);
+     color: #e8e0d0;
+     font-size: .72rem;
+     letter-spacing: .1em;
+     text-transform: uppercase;
+     padding: .3rem .8rem;
+}
+ .surface-card img {
+     width: 100%;
+     height: auto;
+     display: block;
+     transition: opacity .2s;
+}
+ .surface-card img:hover {
+     opacity: .92;
+}
+ .surface-card a {
+     display: block;
+}
+/* ── Pannello testo ── */
+ .text-panel {
+     padding: 2rem 2.5rem;
+     max-width: 720px;
+}
+ @media (max-width: 1200px) {
+     .text-panel {
+         padding: 1.5rem 1.5rem;
+    }
+}
+/* ── Struttura articolo ── */
+ .sezioni {
+     margin-bottom: 1.2rem;
+}
+ .article-head-main {
+     font-family: 'IM Fell English', serif;
+     font-size: 1.7rem;
+     letter-spacing: .04em;
+     text-align: center;
+     margin: 1rem 0 .3rem;
+     color: var(--c-ink);
+}
+ .article-head-sub {
+     font-size: .95rem;
+     text-align: center;
+     font-style: italic;
+     color: var(--c-dark);
+     margin: .2rem 0 .6rem;
+}
+ h2 {
+     font-family: 'IM Fell English', serif;
+     font-size: 1.25rem;
+     margin: 1.6rem 0 .6rem;
+     color: var(--c-dark);
+}
+/* Separatore di colonna/pagina */
+ .col-marker {
+     display: flex;
+     align-items: center;
+     gap: .6rem;
+     margin: 1.2rem 0 .8rem;
+     color: var(--c-dark);
+     opacity: .6;
+     font-size: .72rem;
+     letter-spacing: .1em;
+     text-transform: uppercase;
+}
+ .col-marker::before, .col-marker::after {
+     content: '';
+     flex: 1;
+     height: 1px;
+     background: var(--c-mid);
+}
+ .col-marker .badge {
+     background: var(--c-dark) !important;
+     font-weight: 400;
+     font-size: .7rem;
+     letter-spacing: .05em;
+}
+ p {
+     text-align: justify;
+     text-indent: 1.4em;
+     margin-bottom: .6rem;
+}
+ p:first-of-type {
+     text-indent: 0;
+}
+/* Citazioni */
+ blockquote {
+     margin: 1rem 0 1rem 1.5rem;
+     padding: .6rem 1rem;
+     border-left: 3px solid var(--c-mid);
+     background: var(--c-note);
+     border-radius: 0 var(--radius) var(--radius) 0;
+     font-style: italic;
+     color: #3d2e10;
+}
+/* ── Entità semantiche (pillole) ── */
+ .rif_persona {
+     background: var(--c-pers-bg);
+     color: var(--c-pers);
+     border-bottom: 2px solid var(--c-pers);
+     padding: 0 .1em;
+     border-radius: 2px;
+     cursor: pointer;
+     transition: background .15s;
+}
+ .rif_persona:hover {
+     background: #f8e0c8;
+}
+ .rif_luogo {
+     background: var(--c-place-bg);
+     color: var(--c-place);
+     border-bottom: 2px solid var(--c-place);
+     padding: 0 .1em;
+     border-radius: 2px;
+     cursor: pointer;
+     transition: background .15s;
+}
+ .rif_luogo:hover {
+     background: #d4ecdb;
+}
+ .rif_opera {
+     font-style: italic;
+     background: var(--c-opera-bg);
+     color: var(--c-opera);
+     border-bottom: 2px dotted var(--c-opera);
+     padding: 0 .1em;
+     border-radius: 2px;
+     cursor: pointer;
+     transition: background .15s;
+}
+ .rif_opera:hover {
+     background: #e4d8f4;
+}
+ .rif_organizzazione {
+     background: #fef9e6;
+     color: #7a6010;
+     border-bottom: 2px solid #c8a820;
+     padding: 0 .1em;
+     border-radius: 2px;
+}
+ .termine {
+     background: var(--c-term-bg);
+     color: var(--c-term);
+     border-radius: 2px;
+     padding: 0 .15em;
+     font-style: italic;
+}
+/* Popover personalizzato */
+ .popover {
+     font-family: 'EB Garamond', serif;
+     font-size: .88rem;
+     border-color: var(--c-mid);
+     max-width: 280px;
+}
+ .popover-header {
+     background: var(--c-dark);
+     color: #f0ebe0;
+     font-size: .8rem;
+}
+/* Ancora colonna evidenziata */
+ .column-anchor-target {
+     scroll-margin-top: 52px;
+     padding: .4rem .8rem;
+     border-left: 3px solid transparent;
+     border-radius: 0 var(--radius) var(--radius) 0;
+     transition: all .35s ease;
+}
+ .column-anchor-target:target {
+     border-left-color: var(--c-accent);
+     background: rgba(139,58,26,.08);
+}
+/* ══════════════════════════════════════ FOOTER ══════════════════════════════════════ */
+ .site-footer {
+     background: var(--c-dark);
+     color: #a89878;
+     border-top: 3px solid var(--c-accent);
+     padding: 2rem 0 1rem;
+     font-size: .8rem;
+}
+ .site-footer .footer-logo {
+     font-family: 'IM Fell English', serif;
+     font-size: 1.1rem;
+     color: #e8e0d0;
+     margin-bottom: .4rem;
+}
+ .site-footer .footer-desc {
+     font-size: .76rem;
+     opacity: .7;
+     line-height: 1.5;
+     max-width: 280px;
+}
+ .site-footer h6 {
+     color: #c8b89a;
+     font-size: .72rem;
+     letter-spacing: .1em;
+     text-transform: uppercase;
+     margin-bottom: .8rem;
+}
+ .site-footer a {
+     color: #a89878;
+     text-decoration: none;
+     transition: color .15s;
+}
+ .site-footer a:hover {
+     color: #e8d8b8;
+}
+ .site-footer .footer-divider {
+     border-color: #3d2e10;
+     margin: 1.2rem 0 .8rem;
+}
+ .site-footer .footer-bottom {
+     font-size: .72rem;
+     opacity: .5;
+     text-align: center;
+}
+ .footer-meta-list {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .footer-meta-list li {
+     margin-bottom: .35rem;
+     display: flex;
+     gap: .5rem;
+     align-items: flex-start;
+}
+ .footer-meta-list .fml-label {
+     opacity: .6;
+     white-space: nowrap;
+     min-width: 70px;
+}
+ .footer-meta-list .fml-val {
+     color: #c8b89a;
+}
+ 
