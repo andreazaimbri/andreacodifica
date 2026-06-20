@@ -157,7 +157,21 @@
                         adattato da Zola per il teatro nel 1873.</note>
                     <relatedItem type="adaptedAs" target="#Therese_Raquin_drama"/>
                 </biblStruct>
-                
+                    <biblStruct xml:id="Le_ventre_de_Paris" type="romanzo">
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Le Ventre de Paris
+                                <idno type="wikidata">Q338034</idno></title>
+                            
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Lacroix et Verboeckhoven</publisher>
+                                <date when="1873">1873</date>
+                            </imprint>
+                        </monogr>
+                        <note>ventre di Parigi è un romanzo di Émile Zola scritto nel 1873, il terzo del Ciclo dei Rougon-Macquart. Venne inizialmente pubblicato come romanzo d'appendice dal 12 gennaio al 17 marzo, pubblicato in libro a maggio raggiunse tre edizioni nel corso di un anno. </note>
+                        <relatedItem type="adaptedAs" target="#Therese_Raquin_drama"/>
+                    </biblStruct>
                 <biblStruct xml:id="Madeleine_Ferat" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
@@ -172,7 +186,18 @@
                     <note>Romanzo che esplora temi di ereditarietà e determinismo,
                         precursore della poetica naturalista dei Rougon-Macquart.</note>
                 </biblStruct>
-                
+                    <biblStruct xml:id="La_confession_de_Claude" type="romanzo">
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">La Confession de Claude<idno type="wikidata">Q3275649</idno></title>
+                            
+                            <imprint>
+                                <pubPlace>Paris</pubPlace>
+                                <date when="1865">1865</date>
+                            </imprint>
+                        </monogr>
+                        <note>La confessione di Claude (La Confession de Claude) è il primo romanzo di Émile Zola, pubblicato nel 1865.</note>
+                        </biblStruct>
                 <!-- =========================
                      OPERE ZOLA — I ROUGON-MACQUART (ciclo completo, 20 romanzi)
                      ========================= -->
@@ -314,7 +339,7 @@
                         </imprint>
                     </monogr>
                     <series corresp="#Rougon_Macquart">
-                        <biblScope unit="vol" n="8">vol. VIII</biblScope>
+                        <biblScope unit="vol" n="8">vol. III</biblScope>
                     </series>
                     <note>Romanzo di intensa analisi psicologica, atipico nel ciclo per
                         l'assenza di critica sociale; pubblicato in feuilleton su
@@ -559,7 +584,7 @@
                     <relatedItem type="basedOn" target="#Therese_Raquin"/>
                 </biblStruct>
                 
-                <biblStruct xml:id="Les_Heritiers_Rabourdin" type="teatro">
+                <biblStruct xml:id="Les_heritiers_Rabourdin" type="teatro">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
                         <title level="m" xml:lang="fr">Les Héritiers Rabourdin<idno type="wikidata">Q3826044</idno></title>
@@ -772,6 +797,103 @@
                     </monogr>
                     <note>Romanzo scritto a quattro mani da Émile Erckmann e Alexandre Chatrian, mostra il lato disumano della guerra mostrando come protagonista un giovane orologiaio che viene arruolato nella Grande armata di Napoleone per la campagna di Germania del 1813.</note>
                 </biblStruct>
+                    <biblStruct xml:id="Celle_qui_m_aime">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Celle qui m'aime</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Contes à Ninon</title>
+                            <imprint>
+                                <date when="1864">1864</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct xml:id="Le_petit_mederic">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Le petit Médéric</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                            <imprint>
+                                <date when="1874">1874</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct xml:id="Le_Bain">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Le Bain</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                            <imprint>
+                                <date when="1874">1874</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct xml:id="Les_epaules_de_la_marquise">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Les épaules de la marquise</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                            <imprint>
+                                <date when="1874">1874</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Carnet_de_danse">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Carnet de danse</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Contes à Ninon</title>
+                            <imprint>
+                                <date when="1864">1864</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:id="Les_Fraises">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Les Fraises</title>
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                            <imprint>
+                                <date when="1874">1874</date>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <biblStruct xml:id="souvenirs">
+                        <analytic>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="a" xml:lang="fr">Souvenirs</title>
+                            
+                        </analytic>
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
+                            <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
+                            <imprint>
+                                <date when="1874">1874</date>
+                            </imprint>
+                        </monogr>
+                        <note>Include: I. Le Corpus Christi, II. Les bains de la Seine, III. Deux petites chattes, IV. Le bombardement de Neuilly</note>
+                    </biblStruct>
             </listBibl>
             </div>    
         </back>

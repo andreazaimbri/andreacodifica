@@ -30,6 +30,11 @@
           --ink: #2a2017;
           --note-bg: #f5f0e8;
           }
+          blockquote
+          {
+          background-color: #c8b89a
+          }
+        
           
           html {
           scroll-behavior: smooth; /* Permette uno scorrimento fluido al clic */
@@ -51,7 +56,9 @@
           border-right: 2px solid var(--warm-mid);
           padding-right: 15px;
           }
-          
+          img{
+          max-width: 1000px;
+          }
           .text-panel {
           height: 95vh;
           overflow-y: auto;
@@ -98,8 +105,7 @@
           margin-bottom: 40px;
           }
           
-          /* Colori per le Entità Evidenziate (Opzionali) */
-          .rif_persona .rif_luogo .rif_organizzazione .rif_opera { background-color: #da9e74; cursor: pointer; }
+          .rif_persona, .rif_luogo, .rif_organizzazione, .rif_opera { background-color: #da9e74; cursor: pointer; }
           .rif_opera {font-style:italic}
         </style>
         
@@ -114,12 +120,11 @@
           new bootstrap.Popover(el, { trigger: 'hover focus' });
           });
           
-          // 2. Ricalcolo delle coordinate delle mappe in base alle dimensioni reali della foto
+          // 2. Controllo ridimensionamento (mantenuto per consistenza dell'ambiente)
           try {
           imageMapResize();
-          console.log("Mappe d'immagine coordinate e attivate.");
           } catch(err) {
-          console.error("Errore nel ridimensionamento delle mappe: ", err);
+          console.log("Image map non presenti o disattivate.");
           }
           });
         </script>
@@ -133,7 +138,7 @@
               <xsl:apply-templates select="//tei:facsimile/tei:surface"/>
             </div>
             
-            <div class="col-lg-7 text-panel">
+            <div class="col-md-5 text">
               <xsl:apply-templates select="//tei:body"/>
             </div>
             
@@ -161,27 +166,15 @@
           <xsl:otherwise>4844</xsl:otherwise> </xsl:choose>
       </xsl:variable>
       
-      <img src="{tei:graphic/@url}" 
-           usemap="#map-{@xml:id}" 
-           width="{$w}" 
-           height="{$h}" 
-           class="facsimile-img" 
-           alt="Facsimile {@xml:id}"/>
+      <xsl:variable name="associatedZone" select="tei:zone[1]/@xml:id"/>
       
-      <map name="map-{@xml:id}" id="map-{@xml:id}">
-        <xsl:for-each select="tei:zone">
-          <xsl:choose>
-            <xsl:when test="@points">
-              <xsl:variable name="cleanCoords" select="replace(normalize-space(@points), '[\s,]+', ',')"/>
-              <area shape="poly" coords="{$cleanCoords}" href="#{@xml:id}" title="Salta alla colonna {@xml:id}" style="cursor:pointer;"/>
-            </xsl:when>
-            
-            <xsl:when test="@ulx and @uly and @lrx and @lry">
-              <area shape="rect" coords="{@ulx},{@uly},{@lrx},{@lry}" href="#{@xml:id}" title="Salta alla colonna {@xml:id}" style="cursor:pointer;"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:for-each>
-      </map>
+      <a href="#{$associatedZone}" title="Salta al testo di questa pagina">
+        <img src="{tei:graphic/@url}" 
+             width="{$w}" 
+             height="{$h}" 
+             class="facsimile-img" 
+             alt="Facsimile {@xml:id}"/>
+      </a>
     </div>
   </xsl:template>
   
@@ -199,14 +192,20 @@
     </div>
   </xsl:template>
   
-  <xsl:template match="tei:cb">
+  <xsl:template match="tei:pb">
     <xsl:variable name="zoneId" select="substring-after(@facs, '#')"/>
     <div class="column-anchor-target my-3" id="{$zoneId}">
-      <span class="badge bg-secondary">Inizio Colonna <xsl:value-of select="@n"/></span>
+      <span class="badge bg-dark"> Pagina <xsl:value-of select="@n"/></span>
     </div>
     <xsl:apply-templates/>
   </xsl:template>
-  
+  <xsl:template match="tei:cb">
+    <xsl:variable name="zoneId" select="substring-after(@facs, '#')"/>
+    <div class="column-anchor-target my-3" id="{$zoneId}">
+      <span class="badge bg-dark"> Colonna <xsl:value-of select="@n"/></span>
+    </div>
+    <xsl:apply-templates/>
+  </xsl:template>
   <xsl:template match="tei:head">
     <h2 class="mb-3" style="font-family:'IM Fell English', serif;"><xsl:apply-templates/></h2>
   </xsl:template>
@@ -214,7 +213,9 @@
   <xsl:template match="tei:p">
     <p class="mb-3" style="text-align: justify; line-height: 1.6;"><xsl:apply-templates/></p>
   </xsl:template>
-  
+  <xsl:template match="tei:quote">
+    <blockquote class="blockquote fst-italic text-dark mb-3" style="text-align: justify; line-height: 1.6;"><xsl:apply-templates/></blockquote>
+  </xsl:template>
   <xsl:template match="tei:persName">
     <xsl:variable name="ref" select="@ref"/>
     <xsl:variable name="id" select="substring-after($ref, '#')"/>

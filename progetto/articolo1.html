@@ -17,6 +17,11 @@
           --ink: #2a2017;
           --note-bg: #f5f0e8;
           }
+          blockquote
+          {
+          background-color: #5c4a2a
+          }
+        
           
           html {
           scroll-behavior: smooth; /* Permette uno scorrimento fluido al clic */
@@ -38,7 +43,9 @@
           border-right: 2px solid var(--warm-mid);
           padding-right: 15px;
           }
-          
+          img{
+          max-width: 1000px;
+          }
           .text-panel {
           height: 95vh;
           overflow-y: auto;
@@ -85,11 +92,8 @@
           margin-bottom: 40px;
           }
           
-          /* Colori per le Entità Evidenziate (Opzionali) */
-          .rif_persona { color: #8b4513; text-decoration: underline dotted; cursor: pointer; }
-          .rif_luogo { color: #2e8b57; text-decoration: underline dotted; cursor: pointer; }
-          .rif_organizzazione { color: #4682b4; text-decoration: underline dotted; cursor: pointer; }
-          .rif_opera { color: #4b0082; text-decoration: underline dotted; cursor: pointer; }
+          .rif_persona, .rif_luogo, .rif_organizzazione, .rif_opera { background-color: #da9e74; cursor: pointer; }
+          .rif_opera {font-style:italic}
         </style><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/imageMapResizer.min.js"></script><script>
           window.addEventListener('load', function () {
           // 1. Inizializzazione Popover di Bootstrap
@@ -98,12 +102,11 @@
           new bootstrap.Popover(el, { trigger: 'hover focus' });
           });
           
-          // 2. Ricalcolo delle coordinate delle mappe in base alle dimensioni reali della foto
+          // 2. Controllo ridimensionamento (mantenuto per consistenza dell'ambiente)
           try {
           imageMapResize();
-          console.log("Mappe d'immagine coordinate e attivate.");
           } catch(err) {
-          console.error("Errore nel ridimensionamento delle mappe: ", err);
+          console.log("Image map non presenti o disattivate.");
           }
           });
         </script></head>
@@ -113,18 +116,19 @@
             <div class="col-lg-5 facsimile-panel">
                <h4 class="text-center mb-3 text-muted" style="font-family:'IM Fell English', serif;">Facsimili Manoscritto</h4>
                <div class="surface-container" id="visual-pag_3_surface">
-                  <h6 class="text-muted mb-2">Superficie: 3_surface</h6><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_3.png/full/max/0/default.jpg" usemap="#map-pag_3_surface" class="facsimile-img" alt="Facsimile pag_3_surface"><map name="map-pag_3_surface" id="map-pag_3_surface"><area shape="poly" coords="1806,4647,3102,4637,3011,1722,1708,1734,1782,4618,1807,4649" href="#pag_3_col_2" title="Salta alla colonna pag_3_col_2" style="cursor:pointer;"></map></div>
+                  <h6 class="text-muted mb-2">Superficie: 3_surface</h6><a href="#pag_3_col_2" title="Salta al testo di questa pagina"><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_3.png/full/max/0/default.jpg" width="3370" height="4844" class="facsimile-img" alt="Facsimile pag_3_surface"></a></div>
                <div class="surface-container" id="visual-pag_4_surface">
-                  <h6 class="text-muted mb-2">Superficie: 4_surface</h6><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_4.png/full/max/0/default.jpg" usemap="#map-pag_4_surface" class="facsimile-img" alt="Facsimile pag_4_surface"><map name="map-pag_4_surface" id="map-pag_4_surface"><area shape="poly" coords="424,354,1735,367,1674,4608,360,4617,426,356" href="#pag_4_col_1" title="Salta alla colonna pag_4_col_1" style="cursor:pointer;"><area shape="poly" coords="1782,367,3049,397,3041,4646,1706,4630,1783,367" href="#pag_4_col_2" title="Salta alla colonna pag_4_col_2" style="cursor:pointer;"></map></div>
+                  <h6 class="text-muted mb-2">Superficie: 4_surface</h6><a href="#pag_4_col_1" title="Salta al testo di questa pagina"><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_4.png/full/max/0/default.jpg" width="3370" height="4844" class="facsimile-img" alt="Facsimile pag_4_surface"></a></div>
                <div class="surface-container" id="visual-pag_5_surface">
-                  <h6 class="text-muted mb-2">Superficie: 5_surface</h6><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg" usemap="#map-pag_5_surface" class="facsimile-img" alt="Facsimile pag_5_surface"><map name="map-pag_5_surface" id="map-pag_5_surface"><area shape="poly" coords="452,412,1735,409,1765,4566,437,4600,451,412" href="#pag_5_col_1" title="Salta alla colonna pag_5_col_1" style="cursor:pointer;"><area shape="poly" coords="1794,388,3088,383,3103,2403,1797,2413,1793,389" href="#pag_5_col_2" title="Salta alla colonna pag_5_col_2" style="cursor:pointer;"></map></div>
+                  <h6 class="text-muted mb-2">Superficie: 5_surface</h6><a href="#pag_5_col_1" title="Salta al testo di questa pagina"><img src="https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg" width="3370" height="4844" class="facsimile-img" alt="Facsimile pag_5_surface"></a></div>
             </div>
-            <div class="col-lg-7 text-panel">
+            <div class="col-md-5 text">
                
                
+               <div class="column-anchor-target my-3" id=""><span class="badge bg-dark"> Pagina #</span></div>
                —( 3 )— A
                
-               <div class="column-anchor-target my-3" id="pag_3_col_2"><span class="badge bg-secondary">Inizio Colonna 1</span></div> 
+               <div class="column-anchor-target my-3" id="pag_3_col_2"><span class="badge bg-dark"> Colonna 1</span></div> 
                
                <div class="sezioni">
                   
@@ -185,9 +189,10 @@
                      ma si aveva il rammarico di saperla divisa da pochissimi. 
                      In <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Repubblica dell'Europa occidentale con capitale Parigi.">Francia</span>, si cominciava a  combattere, intorno alla bandiera
                      dello <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore francese, teorico del naturalismo.">Zola</span>; in <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Repubblica dell'Europa meridionale situata nel bacino del Mediterraneo.">Italia</span>, molti lo conoscevano appena, da al
+                     <div class="column-anchor-target my-3" id=""><span class="badge bg-dark"> Pagina 3</span></div>
                      —( 4 )—
                      
-                     <div class="column-anchor-target my-3" id="pag_4_col_1"><span class="badge bg-secondary">Inizio Colonna 2</span></div> 
+                     <div class="column-anchor-target my-3" id="pag_4_col_1"><span class="badge bg-dark"> Colonna 2</span></div> 
                      tri se ne discorreva, piuttosto per  censurarne la temerità,
                      che per apprezzarne la eccezionale potenza.
                      </p>
@@ -200,9 +205,9 @@
                      nuova <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="La commedia umana (La Comédie humaine) è un insieme di scritti di Honoré de Balzac composto da 137 opere comprendenti romanzi realistici, fantastici e filosofici, ma anche racconti, saggi, studi analitici, e novelle a volte raggruppati in un solo titolo, secondo le edizioni. I testi sono classificati per ambiente sociale, per luoghi geografici o per categorie psicologiche (scene di vita privata, scene della vita di provincia) riunite in insiemi generici (studi di costume, studi analitici, studi filosofici).">Commedia Umana</span>, questo primo e splendido
                      saggio della Storia naturale e sociale d'una famiglia, nell'epoca nostra. Ricordo con compiacenza, su qualche giornale italiano, le parole
                      d'elogio indirizzate alla <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Denuncia della speculazione immobiliare durante il Secondo Impero; ambientato nell'alta borghesia parigina.">Curée</span>,
-                     malgrado le prudenti riserve da cui erano accompagnate. Vennero poi: <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Le ventre de Paris</span>, ammaliante orgia di colori,
+                     malgrado le prudenti riserve da cui erano accompagnate. Vennero poi: <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="ventre di Parigi è un romanzo di Émile Zola scritto nel 1873, il terzo del Ciclo dei Rougon-Macquart. Venne inizialmente pubblicato come romanzo d'appendice dal 12 gennaio al 17 marzo, pubblicato in libro a maggio raggiunse tre edizioni nel corso di un anno.">Le ventre de Paris</span>, ammaliante orgia di colori,
                      capolavoro della  pittura di genere sulla grassa borghesia
-                     delle <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Storico quartiere del I arrondissement di Parigi, noto per il suo antico mercato centrale.">Halles</span>, la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content=""> Faute de l'abbé Mouret</span>, delizioso idillio, 
+                     delle <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Storico quartiere del I arrondissement di Parigi, noto per il suo antico mercato centrale.">Halles</span>, la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Storia di un giovane prete diviso tra fede e desiderio; uno dei romanzi più lirici del ciclo."> Faute de l'abbé Mouret</span>, delizioso idillio, 
                      associante con maravigliosa armonia l'azzurro alla realtà la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Conquete di Plassans</span>, altro quadro dei costumi di provincia, degno ad un tempo dello spirito d'osservazione di
                      <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Autore della Comédie Humaine.">Balzac</span> e della tavolozza di <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Poeta e teorico dell’arte per l’arte.">Gautier</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Romanzo politico: ritrae l'ascesa di un uomo di potere agli apici del governo imperiale."> S. E Rougon </span>, che
                      rappresenta, per l'aristocrazia e la burocrazia del
@@ -210,7 +215,7 @@
                      periodo storico, l'<span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Affresco del proletariato parigino e dei danni dell'alcolismo; uno dei romanzi più celebri e controversi di Zola.">Assommoir</span>, il cui
                      trionfo saegna una data nella storiua letteraria dei nostri
                      giorni, per la meravigliosa fotografia delle miserie e dei 
-                     vizi del proletariato parigino -, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Une page d'amour</span>, finissimo studio fisiologico sull'amor materno e sull'amor filiale, spinto sino
+                     vizi del proletariato parigino -, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Romanzo di intensa analisi psicologica, atipico nel ciclo per l'assenza di critica sociale; pubblicato in feuilleton su Le Bien Public.">Une page d'amour</span>, finissimo studio fisiologico sull'amor materno e sull'amor filiale, spinto sino
                      alla nevrosi.
                      </p>
                   
@@ -223,7 +228,7 @@
                      </p>
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
-                     Senza rimontare, né alla <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Confession de Claude</span> (romanzo 
+                     Senza rimontare, né alla <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="La confessione di Claude (La Confession de Claude) è il primo romanzo di Émile Zola, pubblicato nel 1865.">Confession de Claude</span> (romanzo 
                      psicologico  alla <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Poeta romantico francese.">Musset</span>, sopra un giovane avvinto dalla             
                      cieca passione ad una volgare cortigiana), né ai primi                 
                      <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Prima opera pubblicata da Zola; raccolta di novelle e racconti di ispirazione romantica, dedicata a un'amica immaginaria.">Contes à Ninon</span>, che rivelano un poeta, in questo filosofo            
@@ -267,15 +272,15 @@
                      </p>
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
-                     Mi sembrano splendidi poemi alla natura, sia il <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Ventre de Paris</span>, sia la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Faute de l'abbé Mouret</span>, malgrado la violentissima antitesi fra il torrente di grasso dei beccai e salumieri
+                     Mi sembrano splendidi poemi alla natura, sia il <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="ventre di Parigi è un romanzo di Émile Zola scritto nel 1873, il terzo del Ciclo dei Rougon-Macquart. Venne inizialmente pubblicato come romanzo d'appendice dal 12 gennaio al 17 marzo, pubblicato in libro a maggio raggiunse tre edizioni nel corso di un anno.">Ventre de Paris</span>, sia la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Faute de l'abbé Mouret</span>, malgrado la violentissima antitesi fra il torrente di grasso dei beccai e salumieri
                      e l'idillio erotico-pastorale del giovine prete.
                      </p>
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
-                     I <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Prima opera pubblicata da Zola; raccolta di novelle e racconti di ispirazione romantica, dedicata a un'amica immaginaria.">Contes</span> ed i <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Nouveaux Contes</span> non hanno nulla da invidiare 
+                     I <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Prima opera pubblicata da Zola; raccolta di novelle e racconti di ispirazione romantica, dedicata a un'amica immaginaria.">Contes</span> ed i <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Seconda raccolta di racconti; rispetto alla precedente mostra uno stile più maturo e orientato al naturalismo.">Nouveaux Contes</span> non hanno nulla da invidiare 
                      alle pagine più squisite dei più squisiti novellieri, ad <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore francese realista.">Alfonso Daudet</span> ed a <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Autore di racconti mondani e galanti.">Gustavo Droz</span>, con le deliziose due prefazioni, con
-                     il <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Carnet de danse</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Celle qui m'aime</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Le petit Méderic</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Le Bain</span>,<span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Les spalle de la marquise</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Les Fraises</span> e gli svariatissimi Sou
-                     -venirs, sulla processione del Corpus Domini e sui bagni
+                     il <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Carnet de danse</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Celle qui m'aime</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Le petit Méderic</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Le Bain</span>,<span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Les spalle de la marquise</span>, <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Les Fraises</span> e gli svariatissimi <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Include: I. Le Corpus Christi, II. Les bains de la Seine, III. Deux petites chattes, IV. Le bombardement de Neuilly">Sou
+                        -venirs</span>, sulla processione del Corpus Domini e sui bagni
                      della <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Fiume della Francia settentrionale che attraversa la città di Parigi prima di sfociare nella Manica.">Senna</span>, sulle due gattine dell'autore e sul bombardamento di <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Comune francese situato a ovest di Parigi, nel dipartimento degli Hauts-de-Seine.">Neuilly</span> nel 71, ecc. Quanti capolavori di cesellatura! Quanta grazia in questo fanatico della verità!
                      </p>
                   
@@ -297,7 +302,7 @@
                      Corpo legislativo, ecc. in <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Romanzo politico: ritrae l'ascesa di un uomo di potere agli apici del governo imperiale.">S. E Rougon</span>, ed i faziosi provinciali antibonapartisti nella <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Primo romanzo del ciclo; narra le origini della famiglia durante il colpo di stato di Luigi Napoleone (1851).">Fortune des Rougon</span>, — i millionari della <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Denuncia della speculazione immobiliare durante il Secondo Impero; ambientato nell'alta borghesia parigina.">Curée</span> e gli ultimi strati delle classi povere nell'<span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Affresco del proletariato parigino e dei danni dell'alcolismo; uno dei romanzi più celebri e controversi di Zola.">As-
                         sommoir</span>, — le grandi dame alla <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore e giornalista francese di costume.">Marcelin</span> ed alla <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Caricaturista francese. “Bertali” nel testo è forma italianizzata di Bertall.">BertaliBertall</span>, 
                      che fecero del secondo impero una seconda Régence e le ingenue
-                     compagne di <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittrice e salonnière francese del XVII secolo.">Ninon</span>, nei <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Nouveaux Contes</span>, — lo scheletro dell'evaso da <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Capoluogo della Guyana francese, dipartimento e regione d'oltremare della Francia situato in Sud America.">CajennaCaienna</span>, di fronte alla insolente pinguedine dei pacifici borghesi, al servizio del <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Ventre de Paris</span>,
+                     compagne di <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittrice e salonnière francese del XVII secolo.">Ninon</span>, nei <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Nouveaux Contes</span>, — lo scheletro dell'evaso da <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Capoluogo della Guyana francese, dipartimento e regione d'oltremare della Francia situato in Sud America.">CajennaCaienna</span>, di fronte alla insolente pinguedine dei pacifici borghesi, al servizio del <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="ventre di Parigi è un romanzo di Émile Zola scritto nel 1873, il terzo del Ciclo dei Rougon-Macquart. Venne inizialmente pubblicato come romanzo d'appendice dal 12 gennaio al 17 marzo, pubblicato in libro a maggio raggiunse tre edizioni nel corso di un anno.">Ventre de Paris</span>,
                      — l'ascetismo intollerante nella <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Faute de l'abbé Mouret </span> ed
                      il clericalismo cospiratore nella <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Conquête de Plassans</span>, — il
                      demi-monde della politica, delle finanze, della galanteria e
@@ -336,9 +341,10 @@
                      più svariate manifestazioni ereditarie.
                      </p>
                   
+                  <div class="column-anchor-target my-3" id=""><span class="badge bg-dark"> Pagina 5</span></div>
                   —( 5 )—A
                   
-                  <div class="column-anchor-target my-3" id="pag_5_col_1"><span class="badge bg-secondary">Inizio Colonna 1</span></div> 
+                  <div class="column-anchor-target my-3" id="pag_5_col_1"><span class="badge bg-dark"> Colonna 1</span></div> 
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
                      Egli non s'accontenta di riprodurre ne'suoi personaggi
@@ -375,7 +381,7 @@
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
                      A <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore francese, teorico del naturalismo.">Zola</span> commediografo amaramente si fanno scontare le
                      entusiastiche, crescenti acclamazioni, invano disputategli
-                     come romanziere, gli uni fischiano nel <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Bouton de rose</span>
+                     come romanziere, gli uni fischiano nel <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Farsa teatrale; fu un insuccesso clamoroso alla sua prima al Palais-Royal nel 1878.">Bouton de rose</span>
                      il colossale trionfo dell'<span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Affresco del proletariato parigino e dei danni dell'alcolismo; uno dei romanzi più celebri e controversi di Zola.">Assomoir</span>, gli altri si vendicano
                      sull'autore drammatico delle sue motivate censure, come 
                      critico teatrale.
@@ -408,7 +414,7 @@
                      <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore francese, teorico del naturalismo.">Zola</span> reputa possibile una sola protesta, la pubblicazione
                      dello sfortunato suo teatro, ossia: la <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Romanzo naturalistico che anticipa i temi dei Rougon-Macquart; adattato da Zola per il teatro nel 1873.">Thérèse Raquin</span> (rappresentata soltanto per nove sere alla <span class="rif_organizzazione" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Storico teatro parigino inaugurato nel XIX secolo e situato nel X arrondissement.">Renaissance</span>, nel  luglio 73 e timidamente fischiata, perchè questo dramma,
                      forse, aveva tolto al pubblico persino la forza della disapprovazione « l'avait rendu malade ») — la commedia di
-                     carattere <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Les héritiers Rabourdin</span> (recitata 17 sere a <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.">Cluny</span>,
+                     carattere <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Commedia ispirata a Volpone di Ben Jonson; rappresentata al Théâtre de Cluny nel novembre 1874.">Les héritiers Rabourdin</span> (recitata 17 sere a <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Comune francese della Borgogna, noto per la storica abbazia benedettina fondata nel X secolo.">Cluny</span>,
                      nelnovembre 74, senza clamori, perchè  « le mépris suffisait sans doute ») — la farsa in tre atti <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="">Bouton de rose </span>
                      (furiosamente accolta, nello scorso maggio, come un'indecenza scandalosa, dai pudibondi
                      frequentatori del <span class="rif_organizzazione" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Complesso monumentale di Parigi comprendente un palazzo e i suoi celebri giardini, situato nel I arrondissement.">Palais Royal</span>).
@@ -416,13 +422,14 @@
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
                      
-                     « In teatro, una produzione fischiata, è una produzione
-                     morta. La minima ferita diventa mortale. Duemila spettatori vi chiudono brutalmente
-                     la bocca. Non si può sperare      
-                     nelle riflessioni dell'indomani, nella lenta conquista degli   
-                     spiriti, nel movimento di proselitismo, che determina un
-                     lavoro originale. »           
-                     
+                     <blockquote class="blockquote fst-italic text-dark mb-3" style="text-align: justify; line-height: 1.6;">
+                        « In teatro, una produzione fischiata, è una produzione
+                        morta. La minima ferita diventa mortale. Duemila spettatori vi chiudono brutalmente
+                        la bocca. Non si può sperare      
+                        nelle riflessioni dell'indomani, nella lenta conquista degli   
+                        spiriti, nel movimento di proselitismo, che determina un
+                        lavoro originale. »           
+                        </blockquote>
                      </p>
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
@@ -435,7 +442,7 @@
                      artistiche di <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Scrittore francese, teorico del naturalismo.">Zola</span> ! La sua non è questua d'applausi e di
                      diritti d'autore, bensì fermezza ragionata in un principio,
                      
-                     <div class="column-anchor-target my-3" id="pag_5_col_2"><span class="badge bg-secondary">Inizio Colonna 2</span></div>
+                     <div class="column-anchor-target my-3" id="pag_5_col_2"><span class="badge bg-dark"> Colonna 2</span></div>
                      che dove trionfare. Se fosse un industriale della penna, lusingherebbe le viziate abitudini della folla. Appunto perchè è un vero artista,
                      senza bravate da guascone, o gemiti      
                      da genio incompreso, ma con istoica costanza, continua
@@ -445,10 +452,11 @@
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
                      
-                     « Je suis par terre, mais l'art est debout. Ce n'est pas
-                     parce qu'un soldier est violenté, que la bataille est perdue.
-                     Au travail et recommençons! »
-                     
+                     <blockquote class="blockquote fst-italic text-dark mb-3" style="text-align: justify; line-height: 1.6;">
+                        « Je suis par terre, mais l'art est debout. Ce n'est pas
+                        parce qu'un soldier est violenté, que la bataille est perdue.
+                        Au travail et recommençons! »
+                        </blockquote>
                      </p>
                   
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
@@ -465,12 +473,13 @@
                   <p class="mb-3" style="text-align: justify; line-height: 1.6;">
                      
                      
-                     « Je publie mes pièces sifflées et j'attends. Elles sont
-                     trois, les trois premiers soldats d'une armée. Lorsqu'il y   
-                     on aura une vingtaine, elles sauront se faire respecter. On
-                     a bien fini par lire mes romans, on finira par écouter mes
-                     pièces. »
-                     
+                     <blockquote class="blockquote fst-italic text-dark mb-3" style="text-align: justify; line-height: 1.6;">
+                        « Je publie mes pièces sifflées et j'attends. Elles sont
+                        trois, les trois premiers soldats d'une armée. Lorsqu'il y   
+                        on aura une vingtaine, elles sauront se faire respecter. On
+                        a bien fini par lire mes romans, on finira par écouter mes
+                        pièces. »
+                        </blockquote>
                      
                      
                      </p>

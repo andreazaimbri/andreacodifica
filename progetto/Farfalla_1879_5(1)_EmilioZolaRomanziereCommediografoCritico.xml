@@ -135,7 +135,7 @@
                     al suo <rs ref="coverlessListPerson.xml#emileZola" type="real">autore prediletto</rs>, cominciando da quei tempi
                     in cui il nome dello <persName ref="coverlessListPerson.xml#emileZola" type="real">Zola</persName> era generalmente ignoto
                     fra noi e poco apprezzato in <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, sino all' <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#L_Assommoir">As-
-                    sommoir</title> alla <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#Une_page_d_amour">Page d'amour</title> ed al <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#Theatre">Théatre</title>, edito
+                    sommoir</title> alla <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#Une_page_d_amour">Page d'amour</title> ed al <title rend="italic" xml:lang="fr" >Théatre</title>, edito
                     nello scorso settembre.
                 </p>
                 <p xml:id="p_2" rend="firstline-indented">
@@ -171,7 +171,7 @@
                     ma si aveva il rammarico di saperla divisa da pochissimi. 
                     In <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, si cominciava a  combattere, intorno alla bandiera
                     dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>; in <placeName ref="coverlessListPlace.xml#italia">Italia</placeName>, molti lo conoscevano appena, da al-
-                    <pb n="#" xml:id="Farfalla_1879_5_1_4"/>
+                    <pb n="3" xml:id="Farfalla_1879_5_1_4"/>
                     <fw type="pageNum" place="top-center">—( 4 )—</fw>
                     <cb n="2" xml:id="col_1-p.4" facs="#pag_4_col_1" /> 
                     tri se ne discorreva, piuttosto per  censurarne la temerità,
@@ -189,7 +189,7 @@
                     malgrado le <hi rend="italic">prudenti</hi> riserve da cui erano accompagnate. Ven-
                     nero poi: <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Le ventre de Paris</title>, ammaliante orgia di colori,
                     capolavoro della <term type="forma_letteraria" subtype="autorialita_narrativita"> pittura <hi rend="italic">di genere</hi></term> sulla grassa borghesia
-                    delle <placeName ref="coverlessListPlace.xml#halles">Halles</placeName>, - la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret"> Faute de l'abbé Mouret</title>, delizioso idillio, 
+                    delle <placeName ref="coverlessListPlace.xml#halles">Halles</placeName>, - la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Faute_de_l_abbe_Mouret"> Faute de l'abbé Mouret</title>, delizioso idillio, 
                     associante con <distinct>maravigliosa</distinct> armonia l'azzurro alla realtà -
                     la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans">Conquete di Plassans</title>, altro <term type="verbum" subtype="evoluzione_sociale">quadro dei costumi</term> di pro-
                     vincia, degno ad un tempo dello spirito d'osservazione di
@@ -199,7 +199,7 @@
                     periodo storico, - l'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assommoir</title>, il cui
                     trionfo saegna una data nella storiua letteraria dei nostri
                     giorni, per la meravigliosa <term type="forma_letteraria" subtype="autorialita_narrativita">fotografia delle miserie e dei 
-                    vizi</term> del <term type="verbum" subtype="evoluzione_sociale">proletariato parigino</term> -, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Une_page_d_amour">Une page d'amour</title>, finis-
+                    vizi</term> del <term type="verbum" subtype="evoluzione_sociale">proletariato parigino</term> -, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Une_Page_d_amour">Une page d'amour</title>, finis-
                     simo studio fisiologico sull'amor materno e sull'amor fi-
                     liale, spinto sino alla nevrosi.
                 </p>
@@ -263,10 +263,10 @@
                     e <term type="forma_letteraria" subtype="genere_letterario">l'idillio erotico-pastorale</term> del <distinct>giovine</distinct> prete.
                 </p>
                 <p xml:id="p_11" rend="firstline-indented">
-                    I <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Contes_a_Ninon">Contes</title> ed i <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Nouveaux_contes_a_Ninon">Nouveaux Contes</title> non hanno nulla da invidiare 
+                    I <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Contes_a_Ninon">Contes</title> ed i <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Nouveaux_Contes_a_Ninon">Nouveaux Contes</title> non hanno nulla da invidiare 
                     alle pagine più squisite dei più squisiti <term type="forma_letteraria" subtype="narrazione">novellieri</term>, ad <persName type="real" ref="coverlessListPerson.xml#alfonsoDaudet">Alfonso Daudet</persName> ed a <persName type="real" ref="coverlessListPerson.xml#gustavoDroz">Gustavo Droz</persName>, con le deliziose due prefazioni, con
-                    il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Carnet_de_danse">Carnet de danse</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Celle_qui_m_aime">Celle qui m'aime</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_petit_Mederic">Le petit Méderic</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_Bain">Le Bain</title>,<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_epaules_de_la_marquise">Les spalle de la marquise</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_Fraises">Les Fraises</title> e gli svariatissimi <foreign xml:lang="fr" rend="italic">Sou
-                    -venirs</foreign>, sulla processione del <foreign xml:lang="la" rend="italic">Corpus Domini</foreign> e sui bagni
+                    il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Carnet_de_danse">Carnet de danse</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Celle_qui_m_aime">Celle qui m'aime</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_petit_mederic">Le petit Méderic</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_Bain">Le Bain</title>,<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_epaules_de_la_marquise">Les spalle de la marquise</title>, <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_Fraises">Les Fraises</title> e gli svariatissimi <title xml:lang="fr" ref="coverlessListWork.xml#souvenirs" rend="italic">Sou
+                    -venirs</title>, sulla processione del <foreign xml:lang="la" rend="italic">Corpus Domini</foreign> e sui bagni
                     della <placeName ref="coverlessListPlace.xml#senna">Senna</placeName>, sulle due gattine dell'autore e sul bombarda-
                     mento di <placeName ref="coverlessListPlace.xml#neuilly">Neuilly</placeName> nel <date when="1871">71</date>, ecc. Quanti capolavori di cesel-
                     latura! Quanta grazia in questo <term type="verbum" subtype="vero_verita">fanatico della verità</term>!
@@ -332,7 +332,7 @@
                     gica d'una famiglia, attraverso quattro generazioni, <distinct>colle</distinct>
                     più svariate manifestazioni ereditarie.
                 </p>
-                <pb n="#" xml:id="Farfalla_1879_5_1_5"/>
+                <pb n="5" xml:id="Farfalla_1879_5_1_5"/>
                 <fw type="pageNum" place="top-center">—( 5 )—<add hand="#pencil" place="right">A</add></fw>
                 <cb n="1" xml:id="col_1-p.5" facs="#pag_5_col_1" /> 
                 <p xml:id="p_16">
@@ -367,7 +367,7 @@
                 <p xml:id="p_19" rend="firstline-indented">
                     A <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> commediografo amaramente si fanno scontare le
                     entusiastiche, crescenti acclamazioni, invano disputategli
-                    come romanziere, - gli uni fischiano nel <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_rose">Bouton de rose</title>
+                    come romanziere, - gli uni fischiano nel <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_Rose">Bouton de rose</title>
                     il colossale trionfo dell'<title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#L_Assommoir">Assomoir</title>, - gli altri si vendicano
                     sull'autore drammatico delle sue motivate censure, come 
                     critico teatrale.
