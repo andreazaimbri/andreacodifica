@@ -109,8 +109,7 @@
             <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg' width='3375px' height='5088px' />
             <zone points = ' 452,412 1735,409 1765,4566 437,4600 451,412 ' xml:id="pag_5_col_1"/>
             <zone points = ' 1794,388 3088,383 3103,2403 1797,2413 1793,389 ' xml:id="pag_5_col_2"/>
-        </surface>
-        
+        </surface>   
     </facsimile>
     <text>
         
