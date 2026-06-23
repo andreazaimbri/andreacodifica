@@ -1,5 +1,5 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0" exclude-result-prefixes="tei">
-  <xsl:output method="html" encoding="UTF-8" indent="yes" doctype-system="about:legacy-compat"/>
+  <xsl:output method="html" encoding="UTF-8" indent="yes" />
   <xsl:key name="facs-lookup" match="tei:surface | tei:zone" use="@xml:id"/>
   <!--  ============================================================
        ROOT
@@ -14,11 +14,12 @@
         </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&amp;family=EB+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
           <!--  Bootstrap Icons  -->
           <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
         <link href="styles.css" rel="stylesheet"/>
+
         </head>
         <body>
           <!--  ════════════════ HEADER ════════════════  -->
@@ -60,11 +61,23 @@
                 </span>
               </div>
             <!--  Barra secondaria  -->
-            <div class="header-sub">
-              <h3> <a href="homepage.html" class="nav link text-light">Homepage</a> </h3>
-              <h3> <a href="bibliografia.html" class="nav link text-light">Bibliografia e metedati</a> </h3>
             </div>
-            </div>
+          <nav class="desktop-nav">
+            <ul class="header-sub">
+              <li> <a href="homepage.html" class="nav link text-light">Homepage</a> </li>
+              <li> <a href="bibliografia.html" class="nav link text-light">Bibliografia e metedati</a> </li>
+              <li> <a href="articolo1.html" class="nav link text-light">Zola: Romanziere e Commediografo</a> </li>
+              <li> <a href="articolo2.html" class="nav link text-light">Zola: Critico</a> </li>
+            </ul>
+          </nav>
+          <nav class="mobile-nav">
+            <ul class="header-mobile">
+              <li> <a href="homepage.html" class="nav text-light">Homepage</a> </li>
+              <li> <a href="bibliografia.html" class="nav text-light">Bibliografia e metedati</a> </li>
+              <li> <a href="articolo1.html" class="nav text-light">Zola: Romanziere e Commediografo</a> </li>
+              <li> <a href="articolo2.html" class="nav text-light">Zola: Critico</a> </li>
+            </ul>
+          </nav>
           </header>
           <!--  ════════════════ LEGENDA ════════════════  -->
           <div class="legenda-bar">
@@ -98,17 +111,23 @@
           <div class="main-layout">
             <!--  Pannello facsimile  -->
             <div class="facsimile-panel">
-              <h5>
+              <h2>
                 <i class="bi bi-image"/>
                 Fonte facsimile
-              </h5>
+              </h2>
               <xsl:apply-templates select="//tei:facsimile/tei:surface"/>
             </div>
             <!--  Pannello testo  -->
             <div class="text-panel">
               <xsl:apply-templates select="//tei:body"/>
-            </div>
+              <xsl:if test="count(//tei:note[@type='editorial']) > 0">
+                <div class="note-panel">
+                <h2>Note editoriali</h2>
+            <xsl:apply-templates select="//tei:note[@type='editorial']"/>
+              </div>
+            </xsl:if>
           </div>
+        </div>
           <!--  ════════════════ FOOTER ════════════════  -->
           <footer class="site-footer">
             <div class="container-fluid px-4">
@@ -126,7 +145,7 @@
                 </div>
                 <!--  Col 2: metadati documento  -->
                 <div class="col-md-4">
-                  <h6>Documento</h6>
+                  <h2>Documento</h2>
                   <ul class="footer-meta-list">
                     <li>
                       <span class="fml-label">File</span>
@@ -164,7 +183,7 @@
                 </div>
                 <!--  Col 3: standard e licenza  -->
                 <div class="col-md-4">
-                  <h6>Standard e accesso</h6>
+                  <h3>Standard e accesso</h3>
                   <ul class="footer-meta-list">
                     <li>
                       <span class="fml-label">Schema</span>
@@ -199,10 +218,19 @@
               </div>
             </div>
           </footer>
-          <!--  Script  -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"/>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/imageMapResizer.min.js"/>
-          <script> window.addEventListener('load', function () { const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]'); popoverTriggerList.forEach(el => { new bootstrap.Popover(el, { trigger: 'hover focus', html: false, container: 'body' }); }); try { imageMapResize(); } catch(e) {} }); </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+                crossorigin="anonymous"/>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+          document.querySelectorAll('[data-bs-toggle="popover"]').forEach(el => {
+          new bootstrap.Popover(el, {
+          trigger: 'hover focus',
+          html: false,
+          container: 'body'
+          });
+          });
+          });
+        </script>
         </body>
       </html>
     </xsl:template>
@@ -235,24 +263,25 @@
     </xsl:template>
     <!--  pb: ancora pagina  -->
     <xsl:template match="tei:pb">
-      <div class="column-anchor-target col-marker" id="{substring-after(@facs,'#')}">
+      <xsl:variable name="zoneId" select="@xml:id"/>
+      <span class="column-anchor-target col-marker" id="{$zoneId}">
         <span class="badge">
           <i class="bi bi-file-text"/>
           Pagina
           <xsl:value-of select="@n"/>
         </span>
-      </div>
+      </span>
     </xsl:template>
     <!--  cb: ancora colonna  -->
     <xsl:template match="tei:cb">
       <xsl:variable name="zoneId" select="substring-after(@facs,'#')"/>
-      <div class="column-anchor-target col-marker" id="{$zoneId}">
+      <span class="column-anchor-target col-marker" id="{$zoneId}">
         <span class="badge">
           <i class="bi bi-layout-split"/>
           Colonna
           <xsl:value-of select="@n"/>
         </span>
-      </div>
+      </span>
     </xsl:template>
     <!--  fw: numero pagina — discreto  -->
     <xsl:template match="tei:fw"/>
@@ -279,9 +308,9 @@
     </xsl:template>
     <!--  citazione  -->
     <xsl:template match="tei:quote">
-      <blockquote>
+      <span class="quote">
         <xsl:apply-templates/>
-      </blockquote>
+      </span>
     </xsl:template>
     <!--  q inline  -->
     <xsl:template match="tei:q">
@@ -298,61 +327,167 @@
       </p>
     </xsl:template>
     <!--  testo: unisce i trattini a fine riga  -->
-    <xsl:template match="text()">
-      <xsl:value-of select="replace(., '-\s+', '')"/>
-    </xsl:template>
     <!--  ── Entità semantiche ──  -->
-    <xsl:template match="tei:persName">
-      <xsl:variable name="id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="doc" select="document('coverlessListPerson.xml')"/>
-      <xsl:variable name="person" select="$doc//tei:person[@xml:id=$id]"/>
-      <xsl:variable name="note" select="normalize-space($person/tei:note[1])"/>
-      <xsl:variable name="name">
-        <xsl:value-of select="normalize-space($person/tei:persName/tei:forename)"/>
-        <xsl:text> </xsl:text>
-        <xsl:value-of select="normalize-space($person/tei:persName/tei:surname)"/>
-      </xsl:variable>
-      <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-title="{normalize-space($name)}" data-bs-content="{$note}">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:template>
-    <xsl:template match="tei:name[@ref]">
-      <xsl:variable name="id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="doc" select="document('coverlessListPerson.xml')"/>
-      <xsl:variable name="person" select="$doc//tei:person[@xml:id=$id]"/>
-      <xsl:variable name="note" select="normalize-space($person/tei:note[1])"/>
-      <span class="rif_persona" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="{$note}">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:template>
-    <xsl:template match="tei:name">
+  <!-- ===================== PERSONE ===================== -->
+  
+  <xsl:template match="tei:persName">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="doc" select="document('coverlessListPerson.xml')"/>
+    <xsl:variable name="person" select="$doc//tei:person[@xml:id=$id]"/>
+    
+    <xsl:variable name="note" select="normalize-space($person/tei:note[1])"/>
+    
+    <xsl:variable name="name">
+      <xsl:value-of select="normalize-space($person/tei:persName/tei:forename)"/>
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="normalize-space($person/tei:persName/tei:surname)"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-name">
+      <xsl:value-of select="if (normalize-space($name)!='') then normalize-space($name) else 'Sconosciuto'"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-note">
+      <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
+    </xsl:variable>
+    
+    <span class="rif_persona"
+          tabindex="0"
+          data-bs-toggle="popover"
+          data-bs-trigger="hover focus"
+          data-bs-placement="top"
+          data-bs-title="{$safe-name}"
+          data-bs-content="{$safe-note}">
       <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match="tei:placeName">
-      <xsl:variable name="id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="doc" select="document('coverlessListPlace.xml')"/>
-      <xsl:variable name="place" select="$doc//tei:place[@xml:id=$id]"/>
-      <xsl:variable name="note" select="normalize-space($place/tei:note)"/>
-      <span class="rif_luogo" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-title="{normalize-space($place/tei:placeName[1])}" data-bs-content="{$note}">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:template>
-    <xsl:template match="tei:orgName">
-      <xsl:variable name="id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="doc" select="document('coverlessListOrganisation.xml')"/>
-      <xsl:variable name="org" select="$doc//tei:org[@xml:id=$id]"/>
-      <span class="rif_organizzazione" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="{normalize-space($org/tei:note)}">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:template>
-    <xsl:template match="tei:title">
-      <xsl:variable name="id" select="substring-after(@ref,'#')"/>
-      <xsl:variable name="doc" select="document('coverlessListWork.xml')"/>
-      <xsl:variable name="work" select="$doc//tei:biblStruct[@xml:id=$id]"/>
-      <span class="rif_opera" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="{normalize-space($work/tei:note)}">
-        <xsl:apply-templates/>
-      </span>
-    </xsl:template>
+    </span>
+  </xsl:template>
+  
+  
+  <!-- ===================== NAME (PERSONE SECONDARIE) ===================== -->
+  
+  <xsl:template match="tei:name[@ref]">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="doc" select="document('coverlessListPerson.xml')"/>
+    <xsl:variable name="person" select="$doc//tei:person[@xml:id=$id]"/>
+    
+    <xsl:variable name="note" select="normalize-space($person/tei:note[1])"/>
+    
+    <xsl:variable name="name">
+      <xsl:value-of select="normalize-space($person/tei:persName/tei:forename)"/>
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="normalize-space($person/tei:persName/tei:surname)"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-name">
+      <xsl:value-of select="if (normalize-space($name)!='') then normalize-space($name) else 'Persona'"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-note">
+      <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
+    </xsl:variable>
+    
+    <span class="rif_persona"
+          tabindex="0"
+          data-bs-toggle="popover"
+          data-bs-trigger="hover focus"
+          data-bs-placement="top"
+          data-bs-title="{$safe-name}"
+          data-bs-content="{$safe-note}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  
+  <xsl:template match="tei:name">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  
+  <!-- ===================== LUOGHI ===================== -->
+  
+  <xsl:template match="tei:placeName">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="doc" select="document('coverlessListPlace.xml')"/>
+    <xsl:variable name="place" select="$doc//tei:place[@xml:id=$id]"/>
+    
+    <xsl:variable name="note" select="normalize-space($place/tei:note)"/>
+    
+    <xsl:variable name="title">
+      <xsl:value-of select="normalize-space($place/tei:placeName[1])"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-title">
+      <xsl:value-of select="if (normalize-space($title)!='') then normalize-space($title) else 'Luogo'"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-note">
+      <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
+    </xsl:variable>
+    
+    <span class="rif_luogo"
+          tabindex="0"
+          data-bs-toggle="popover"
+          data-bs-trigger="hover focus"
+          data-bs-placement="top"
+          data-bs-title="{$safe-title}"
+          data-bs-content="{$safe-note}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  
+  <!-- ===================== ORGANIZZAZIONI ===================== -->
+  
+  <xsl:template match="tei:orgName">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="doc" select="document('coverlessListOrganisation.xml')"/>
+    <xsl:variable name="org" select="$doc//tei:org[@xml:id=$id]"/>
+    
+    <xsl:variable name="note" select="normalize-space($org/tei:note)"/>
+    <xsl:variable name="title" select="normalize-space($org/tei:orgName)"/>
+    
+    <xsl:variable name="safe-title">
+      <xsl:value-of select="if ($title!='') then $title else 'Organizzazione'"/>
+    </xsl:variable>
+    
+    <xsl:variable name="safe-note">
+      <xsl:value-of select="if ($note!='') then $note else ' '"/>
+    </xsl:variable>
+    
+    <span class="rif_organizzazione"
+          tabindex="0"
+          data-bs-toggle="popover"
+          data-bs-trigger="hover focus"
+          data-bs-placement="top"
+          data-bs-title="{$safe-title}"
+          data-bs-content="{$safe-note}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
+  
+  <!-- ===================== OPERE ===================== -->
+  
+  <xsl:template match="tei:title">
+    <xsl:variable name="id" select="substring-after(@ref,'#')"/>
+    <xsl:variable name="doc" select="document('coverlessListWork.xml')"/>
+    <xsl:variable name="work" select="$doc//tei:biblStruct[@xml:id=$id]"/>
+    
+    <xsl:variable name="note" select="normalize-space($work/tei:note)"/>
+    
+    <xsl:variable name="safe-note">
+      <xsl:value-of select="if ($note!='') then $note else ' '"/>
+    </xsl:variable>
+    
+    <span class="rif_opera"
+          tabindex="0"
+          data-bs-toggle="popover"
+          data-bs-trigger="hover focus"
+          data-bs-placement="top"
+          data-bs-content="{$safe-note}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
     <!--  choice: mostra orig, sopprimi reg  -->
     <xsl:template match="tei:choice">
       <span class="choice">
@@ -460,7 +595,7 @@
     <!--  back: note editoriali  -->
     <xsl:template match="tei:back">
       <div style="margin-top:2.5rem; border-top:2px solid var(--c-mid); padding-top:1rem;">
-        <h6 style="font-variant:small-caps; letter-spacing:.06em; color:var(--c-dark);">Note editoriali</h6>
+        <h2 style="font-variant:small-caps; letter-spacing:.06em; color:var(--c-dark);">Note editoriali</h2>
         <xsl:for-each select=".//tei:item[tei:note]">
           <div style="font-size:.85rem; margin-bottom:.7rem; line-height:1.6;">
             <strong style="color:var(--c-accent);">
@@ -478,4 +613,12 @@
         <xsl:apply-templates/>
       </p>
     </xsl:template>
+  
+  <xsl:template match="tei:note[@type='editorial']">
+    <xsl:variable name="id" select="@xml:id"/>
+    <div id="{$id}">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
   </xsl:stylesheet>

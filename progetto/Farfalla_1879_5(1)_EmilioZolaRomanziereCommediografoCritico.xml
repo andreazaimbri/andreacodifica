@@ -153,7 +153,7 @@
                 <head rend="uppercase" type="subtitle">Zola Romanziere</head>
                 <p xml:id="p_3" rend="firstline-indented">
                     Nove e dieci anni or sono, quando per la prima volta
-                    mi caddero sott'occhio la <title xml:lang="fr" type="m" rend="italic" ref="coverlessListWork.xml#Madeleine_Ferat">Madeleine Ferat </title> e la <title xml:lang="fr" type="m" rend="italic" ref="coverlessListWork.xml#Therese_Raquin"> Thèrèse Raquin, </title>, provai delle più profonde surprises, che mi abbia
+                    mi caddero sott'occhio la <title xml:lang="fr" type="m" rend="italic" ref="coverlessListWork.xml#Madeleine_Ferat">Madeleine Ferat </title> e la <title xml:lang="fr" type="m" rend="italic" ref="coverlessListWork.xml#Therese_Raquin">Thèrèse Raquin</title>, provai delle più profonde surprises, che mi abbia
                     mai destato la lettura. E sì, che l'abuso di quest'ultima, <term type="stile" subtype="lessico">fino
                     da allora</term> mi aveva tolto l'ingenuo ottimismo dei giudizii,
                     rendendomi quasi incontenibile nei contronti! Mi susci-
@@ -191,7 +191,7 @@
                     capolavoro della <term type="forma_letteraria" subtype="autorialita_narrativita"> pittura <hi rend="italic">di genere</hi></term> sulla grassa borghesia
                     delle <placeName ref="coverlessListPlace.xml#halles">Halles</placeName>, - la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Faute_de_l_abbe_Mouret"> Faute de l'abbé Mouret</title>, delizioso idillio, 
                     associante con <distinct>maravigliosa</distinct> armonia l'azzurro alla realtà -
-                    la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_conquete_de_Plassans">Conquete di Plassans</title>, altro <term type="verbum" subtype="evoluzione_sociale">quadro dei costumi</term> di pro-
+                    la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Conquete_de_Plassans">Conquete di Plassans</title>, altro <term type="verbum" subtype="evoluzione_sociale">quadro dei costumi</term> di pro-
                     vincia, degno ad un tempo dello spirito d'osservazione di
                     <persName type="real" ref="coverlessListPerson.xml#honereBalzac">Balzac</persName> e della tavolozza di <persName type="real" ref="coverlessListPerson.xml#teophileGautier">Gautier</persName>, - <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon"> S. E Rougon </title>, che
                     rappresenta, per l'aristocrazia e la burocrazia del
@@ -258,7 +258,7 @@
                     intima nelle piccole borgate della <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>.
                 </p>
                 <p xml:id="p_10" rend="firstline-indented">
-                    Mi sembrano splendidi <term type="forma_letteraria" subtype="genere_letterario">poemi</term> alla natura, sia il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Ventre de Paris</title>, sia la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_faute_de_l_abbe_Mouret">Faute de l'abbé Mouret</title>, malgrado la violentis-
+                    Mi sembrano splendidi <term type="forma_letteraria" subtype="genere_letterario">poemi</term> alla natura, sia il <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Le_ventre_de_Paris">Ventre de Paris</title>, sia la <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Faute_de_l_abbe_Mouret">Faute de l'abbé Mouret</title>, malgrado la violentis-
                     sima antitesi fra il <term type="verbum" subtype="lessico">torrente di grasso</term> dei <term type="verbum" subtype="lessico">beccai</term> e salumieri
                     e <term type="forma_letteraria" subtype="genere_letterario">l'idillio erotico-pastorale</term> del <distinct>giovine</distinct> prete.
                 </p>
@@ -403,7 +403,7 @@
                     provazione <q xml:lang="fr">« l'avait rendu malade »</q>) — la <term type="forma_letteraria" subtype="genere_letterario">commedia</term> di
                     carattere <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Les_heritiers_Rabourdin">Les héritiers Rabourdin</title> (recitata 17 sere a <placeName ref="coverlessListPlace.xml#cluny">Cluny</placeName>,
                     nel<date when="1874-11">novembre 74</date>, senza clamori, perchè <q xml:lang="fr"> « le mépris suf-    
-                        fisait sans doute »</q>) — la farsa in tre atti <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_rose">Bouton de rose </title>
+                        fisait sans doute »</q>) — la farsa in tre atti <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Bouton_de_Rose">Bouton de rose </title>
                     (furiosamente accolta, nello scorso maggio, come un'inde- 
                     cenza scandalosa, dai pudibondi frequentatori del <orgName ref="coverlessListPlace.xml#palaisRoyal">Palais Royal</orgName>).
                 </p>
@@ -487,15 +487,14 @@
                     <label>
                     « Je publie mes pièces sifflées et j'attends. Elles sont trois, les trois premiers soldats d'une armée. Lorsqu'il y on aura une vingtaine, elles sauront se faire respecter. On a bien fini par lire mes romans, on finira par écouter mes pièces. »
                     </label>
-                    <note xml:id="N_1_Farfalla_1879_5_EmilioZolaRomanziereCommediografoCritico">
+                    <note xml:id="N_1_Farfalla_1879_5_EmilioZolaRomanziereCommediografoCritico" type="editorial">
                         <ab>
-                            La citazione è attribuita a Zola tramite il <title>Pessimista</title>; 
+                            La citazione è attribuita a Zola tramite <name type="person" subtype="real" ref="coverlessListPerson.xml#feliceCameroni">il Pessimista</name>; 
                             la fonte originaria francese non è stata identificata con certezza. 
                             Potrebbe derivare dagli articoli pubblicati sul 
                             <title xml:lang="fr" ref="coverlessListWork.xml#Bien_Public">Bien Public</title> 
                             (1876–1878) o dalla prefazione alle 
                             <title xml:lang="fr">Pièces sifflées</title> (1877).
-
                         </ab>
                     </note>
                 </item>

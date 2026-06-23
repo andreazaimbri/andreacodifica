@@ -48,12 +48,12 @@
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Lacroix et Verboeckhoven; poi Charpentier; poi Charpentier et Fasquelle</publisher>
-                            <date from="1871" to="1893">1871-1893</date>
+                            <date from="1871" to="1893">1871-1893</date>   
                         </imprint>
                     </monogr>
                     <note>Ciclo di 20 romanzi; studia l'ereditarietà e l'influsso dell'ambiente
                         su cinque generazioni della famiglia Rougon-Macquart durante il Secondo Impero.
-                        <idno type="wikidata">Q183174</idno></note>
+                        </note>
                 </biblStruct>
                 
                 
@@ -343,7 +343,7 @@
                     </series>
                     <note>Romanzo di intensa analisi psicologica, atipico nel ciclo per
                         l'assenza di critica sociale; pubblicato in feuilleton su
-                        <title level="j" xml:lang="fr">Le Bien Public</title>.</note>
+                        Le Bien Public.</note>
                 </biblStruct>
                 
                 <biblStruct xml:id="Nana" type="romanzo">
@@ -893,6 +893,16 @@
                             </imprint>
                         </monogr>
                         <note>Include: I. Le Corpus Christi, II. Les bains de la Seine, III. Deux petites chattes, IV. Le bombardement de Neuilly</note>
+                    </biblStruct>
+                    <biblStruct xml:id="La_Belle_Madame_Donis">
+                        <monogr>
+                            <author ref="coverlessListPerson.xml#hectorMalot">Hector Malot</author>
+                            <title level="m" xml:lang="fr">La belle Madame Donis</title> 
+                            <imprint>
+                                <date when="1878">1878</date>
+                            </imprint>
+                        </monogr>
+                        <note>Un'opera letteraria e teatrale scritta dal celebre romanziere francese Hector Malot in collaborazione con Edmond Gondinet, pubblicata per la prima volta nel 1878.</note>
                     </biblStruct>
             </listBibl>
             </div>    

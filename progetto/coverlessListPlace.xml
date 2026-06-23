@@ -118,6 +118,7 @@
                     </place>
                     <place xml:id="grecia" type="real">
                         <placeName ref="https://www.geonames.org/390903/hellenic-republic.html" xml:lang="fr">Grecia</placeName>
+                        <note>La Grecia è una nazione dell’Europa Sudorientale con migliaia di isole sparse tra il Mar Egeo e lo Ionio. Data la sua estrema importanza nell'antichità, viene considerata la culla della civiltà occidentale.</note>
                     </place>
                     <place xml:id="RM" type="real">
                         <placeName ref="https://www.geonames.org/3169070/rome.html" xml:lang="fr">Roma</placeName>

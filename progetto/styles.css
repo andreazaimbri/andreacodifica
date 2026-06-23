@@ -27,6 +27,7 @@
      font-family: 'EB Garamond', Georgia, serif;
      font-size: 1.08rem;
      line-height: 1.75;
+     min-width: 510px;
 }
 /* ══════════════════════════════════════ HEADER ══════════════════════════════════════ */
  .site-header {
@@ -78,21 +79,37 @@
  .header-sub {
      background: #3d2e10;
      padding: .4rem 2rem;
+     box-sizing: border-box;
      display: flex;
-     flex-wrap: wrap;
      gap: 1.5rem;
-     font-size: .76rem;
      color: #b8a888;
      align-items: center;
+     list-style-type: none;
+     text-align:center;
+     width: 100%;
 }
- .header-sub .hsub-item {
-     display: flex;
-     align-items: center;
-     gap: .35rem;
+nav {
+    display: flex;
+    justify-content: center;
+    width:100%;
 }
- .header-sub .hsub-item i {
-     opacity: .7;
+nav ul {
+    list-style: none;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
 }
+nav li {
+    text-align: center;
+}
+
+ .header-sub li a{
+    text-decoration: none;
+ }
+ .mobile-nav{
+    display:flex;
+    flex-direction: column;
+ }
 /* ══════════════════════════════════════ LEGENDA / TOOLBAR ══════════════════════════════════════ */
  .legenda-bar {
      background: var(--c-note);
@@ -164,6 +181,35 @@
      .facsimile-panel {
          display: none;
     }
+    .desktop-nav{
+        display:none;
+    }
+    .mobile-nav{
+        display:flex;
+    }
+    .mobile-nav ul li a{
+        text-decoration:none;
+        padding:1em
+    }
+    .mobile-nav ul{
+        margin:1em;
+        padding:1em;
+    }
+}
+ @media (max-width: 992px) {
+     .doc-meta {
+        display:none;
+     }
+}
+
+
+ @media (min-width: 992px) {
+     .desktop-nav{
+        display:flex;
+    }
+    .mobile-nav{
+        display:none;
+    }
 }
 /* ── Pannello facsimile ── */
  .facsimile-panel {
@@ -219,8 +265,12 @@
      padding: 2rem 2.5rem;
      max-width: 720px;
 }
+ .note-panel {
+     padding: 2rem 2.5rem;
+     max-width: 720px;
+}
  @media (max-width: 1200px) {
-     .text-panel {
+    .note-panel, .text-panel {
          padding: 1.5rem 1.5rem;
     }
 }
@@ -282,7 +332,7 @@
      text-indent: 0;
 }
 /* Citazioni */
- blockquote {
+ .quote {
      margin: 1rem 0 1rem 1.5rem;
      padding: .6rem 1rem;
      border-left: 3px solid var(--c-mid);
@@ -352,7 +402,7 @@
      font-family: 'EB Garamond', serif;
      font-size: .88rem;
      border-color: var(--c-mid);
-     max-width: 280px;
+
 }
  .popover-header {
      background: var(--c-dark);
