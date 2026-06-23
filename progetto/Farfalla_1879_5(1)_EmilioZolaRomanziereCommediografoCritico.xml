@@ -97,16 +97,16 @@
     </teiHeader>
     <facsimile>
         <surface xml:id="pag_3_surface">
-            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_3.png/full/max/0/default.jpg' width='3370px' height='5092px' />
+            <graphic url='progetto\immagini\Farfalla_1879_5_1_3.jpg' width='3370px' height='5092px' />
             <zone points = ' 1806,4647 3102,4637 3011,1722 1708,1734 1782,4618 1807,4649 ' xml:id="pag_3_col_2"/>
         </surface>
         <surface xml:id="pag_4_surface">
-            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_4.png/full/max/0/default.jpg' width='3300px' height='5093px' />
+            <graphic url='progetto\immagini\Farfalla_1879_5_1_4.jpg' width='3300px' height='5093px' />
             <zone points = ' 424,354 1735,367 1674,4608 360,4617 426,356 ' xml:id="pag_4_col_1"/>
             <zone points = ' 1782,367 3049,397 3041,4646 1706,4630 1783,367 ' xml:id="pag_4_col_2"/>
         </surface>
         <surface xml:id="pag_5_surface">
-            <graphic url='https://img.serverchroma.cnr.it/iiif/3/coverless%2Ffarfalla%2FFarfalla_1879_5_1_5.png/full/max/0/default.jpg' width='3375px' height='5088px' />
+            <graphic url='progetto\immagini\Farfalla_1879_5_1_5.jpg' width='3375px' height='5088px' />
             <zone points = ' 452,412 1735,409 1765,4566 437,4600 451,412 ' xml:id="pag_5_col_1"/>
             <zone points = ' 1794,388 3088,383 3103,2403 1797,2413 1793,389 ' xml:id="pag_5_col_2"/>
         </surface>   

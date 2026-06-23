@@ -100,7 +100,7 @@
             </span>
           <span class="leg-pill dist">
             <i class="bi bi-chat-quote"/>
-            Parole arcaiche
+            Termini desueti o parole arcaiche
           </span>
             <span style="margin-left:auto; font-size:.72rem; color:var(--c-dark); opacity:.6;">
               <i class="bi bi-cursor-text"/>
