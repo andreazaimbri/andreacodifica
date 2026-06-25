@@ -151,8 +151,7 @@
                     <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, riproducendo 
                     dal 
                     <title type="j" rend="italic" ref="coverlessListWork.xml#Gazzettino_rosa">Gazzettino rosa</title>, dal 
-                    <title type="journal" rend="italic" ref="coverlessListWork.xml#Sole"> Sole </title> e dal-
-                    l' 
+                    <title type="journal" rend="italic" ref="coverlessListWork.xml#Sole"> Sole </title> e dall' 
                     <title type="journal" rend="italic" ref="coverlessListWork.xml#Arte_drammatica">Arte drammatica</title>, gli articoli dell'amico 
                     <persName type="real"  ref="coverlessListPerson.xml#feliceCameroni">Cameroni</persName>, (
                     <name type="person" subtype="real" ref="coverlessListPerson.xml#feliceCameroni" rend="italic">Pessimista</name>) intorno 
@@ -562,8 +561,8 @@
                 </head>
                 <p xml:id="p_18" rend="firstline-indented">
                     Per il teatro di 
-                    <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, vi hanno difficoltà di vittoria tut-
-                    t'affatto personali, l'una ancor più grave dell'altra e tali 
+                    <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, vi hanno difficoltà di vittoria tutt'affatto 
+                    personali, l'una ancor più grave dell'altra e tali 
                     da far deporre le armi a qualsiasi scrittore, che non possegga la tempra e la dolorosa esperienza di questo 
                     <term type="forma_letteraria" subtype="autorialita_narrativita">naturalista</term>
                     della letteratura.

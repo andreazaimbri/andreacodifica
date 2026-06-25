@@ -146,7 +146,7 @@
                 <biblStruct xml:id="Therese_Raquin" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Thérèse Raquin<idno type="wikidata">Q1125798</idno></title>
+                        <title level="m" xml:lang="fr">Thérèse Raquin</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -162,7 +162,7 @@
                         <monogr>
                             <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
                             <title level="m" xml:lang="fr">Le Ventre de Paris
-                                <idno type="wikidata">Q338034</idno></title>
+                            </title>
                             
                             <imprint>
                                 <pubPlace>Paris</pubPlace>
@@ -176,7 +176,7 @@
                 <biblStruct xml:id="Madeleine_Ferat" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Madeleine Férat<idno type="wikidata">Q3275649</idno></title>
+                        <title level="m" xml:lang="fr">Madeleine Férat</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -190,7 +190,7 @@
                     <biblStruct xml:id="La_confession_de_Claude" type="romanzo">
                         <monogr>
                             <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                            <title level="m" xml:lang="fr">La Confession de Claude<idno type="wikidata">Q3275649</idno></title>
+                            <title level="m" xml:lang="fr">La Confession de Claude</title>
                             
                             <imprint>
                                 <pubPlace>Paris</pubPlace>
@@ -206,7 +206,7 @@
                 <biblStruct xml:id="Fortune_des_Rougon" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Fortune des Rougon<idno type="wikidata">Q1986243</idno></title>
+                        <title level="m" xml:lang="fr">La Fortune des Rougon</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -224,7 +224,7 @@
                 <biblStruct xml:id="La_Curee" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Curée<idno type="wikidata">Q1386179</idno></title>
+                        <title level="m" xml:lang="fr">La Curée</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -242,7 +242,7 @@
                 <biblStruct xml:id="Le_Ventre_de_Paris" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Le Ventre de Paris<idno type="wikidata">Q1811636</idno></title>
+                        <title level="m" xml:lang="fr">Le Ventre de Paris</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -260,7 +260,7 @@
                 <biblStruct xml:id="La_Conquete_de_Plassans" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Conquête de Plassans<idno type="wikidata">Q1036488</idno></title>
+                        <title level="m" xml:lang="fr">La Conquête de Plassans</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -277,7 +277,7 @@
                 <biblStruct xml:id="La_Faute_de_l_abbe_Mouret" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Faute de l'abbé Mouret<idno type="wikidata">Q1146796</idno></title>
+                        <title level="m" xml:lang="fr">La Faute de l'abbé Mouret</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -295,7 +295,7 @@
                 <biblStruct xml:id="Son_Excellence_Eugene_Rougon" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Son Excellence Eugène Rougon<idno type="wikidata">Q1132009</idno></title>
+                        <title level="m" xml:lang="fr">Son Excellence Eugène Rougon</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -313,7 +313,7 @@
                 <biblStruct xml:id="L_Assommoir" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">L'Assommoir<idno type="wikidata">Q471514</idno></title>
+                        <title level="m" xml:lang="fr">L'Assommoir</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -331,7 +331,7 @@
                 <biblStruct xml:id="Une_page_d_amour" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Une page d'amour<idno type="wikidata">Q1143027</idno></title>
+                        <title level="m" xml:lang="fr">Une page d'amour</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -350,7 +350,7 @@
                 <biblStruct xml:id="Nana" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Nana<idno type="wikidata">Q471882</idno></title>
+                        <title level="m" xml:lang="fr">Nana</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -368,7 +368,7 @@
                 <biblStruct xml:id="Pot_Bouille" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Pot-Bouille<idno type="wikidata">Q1474506</idno></title>
+                        <title level="m" xml:lang="fr">Pot-Bouille</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -386,7 +386,7 @@
                 <biblStruct xml:id="Au_Bonheur_des_Dames" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Au Bonheur des Dames<idno type="wikidata">Q572911</idno></title>
+                        <title level="m" xml:lang="fr">Au Bonheur des Dames</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -404,7 +404,7 @@
                 <biblStruct xml:id="La_Joie_de_vivre" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Joie de vivre<idno type="wikidata">Q1068647</idno></title>
+                        <title level="m" xml:lang="fr">La Joie de vivre</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -422,7 +422,7 @@
                 <biblStruct xml:id="Germinal" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Germinal<idno type="wikidata">Q315848</idno></title>
+                        <title level="m" xml:lang="fr">Germinal</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -440,7 +440,7 @@
                 <biblStruct xml:id="L_Oeuvre" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">L'Œuvre<idno type="wikidata">Q580377</idno></title>
+                        <title level="m" xml:lang="fr">L'Œuvre</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -458,7 +458,7 @@
                 <biblStruct xml:id="La_Terre" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Terre<idno type="wikidata">Q1052060</idno></title>
+                        <title level="m" xml:lang="fr">La Terre</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -476,7 +476,7 @@
                 <biblStruct xml:id="Le_Reve" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Le Rêve<idno type="wikidata">Q1208420</idno></title>
+                        <title level="m" xml:lang="fr">Le Rêve</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -494,7 +494,7 @@
                 <biblStruct xml:id="La_Bete_humaine" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Bête humaine<idno type="wikidata">Q575056</idno></title>
+                        <title level="m" xml:lang="fr">La Bête humaine</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -512,7 +512,7 @@
                 <biblStruct xml:id="L_Argent" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">L'Argent<idno type="wikidata">Q568786</idno></title>
+                        <title level="m" xml:lang="fr">L'Argent</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -531,7 +531,7 @@
                 <biblStruct xml:id="La_Debacle" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">La Débâcle<idno type="wikidata">Q1144461</idno></title>
+                        <title level="m" xml:lang="fr">La Débâcle</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -550,7 +550,7 @@
                 <biblStruct xml:id="Le_Docteur_Pascal" type="romanzo">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Le Docteur Pascal<idno type="wikidata">Q1206765</idno></title>
+                        <title level="m" xml:lang="fr">Le Docteur Pascal</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -588,7 +588,7 @@
                 <biblStruct xml:id="Les_heritiers_Rabourdin" type="teatro">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Les Héritiers Rabourdin<idno type="wikidata">Q3826044</idno></title>
+                        <title level="m" xml:lang="fr">Les Héritiers Rabourdin</title>
                         <note type="genre">commedia in tre atti</note>
                         
                         <imprint>
@@ -604,7 +604,7 @@
                 <biblStruct xml:id="Bouton_de_Rose" type="teatro">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Bouton de rose<idno type="wikidata">Q3021165</idno></title>
+                        <title level="m" xml:lang="fr">Bouton de rose</title>
                         <note type="genre">farsa in tre atti</note>
                         
                         <imprint>
@@ -624,7 +624,7 @@
                 <biblStruct xml:id="Contes_a_Ninon" type="raccolta_novelle">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Contes à Ninon<idno type="wikidata">Q3006497</idno></title>
+                        <title level="m" xml:lang="fr">Contes à Ninon</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>
@@ -639,7 +639,7 @@
                 <biblStruct xml:id="Nouveaux_Contes_a_Ninon" type="raccolta_novelle">
                     <monogr>
                         <author ref="coverlessListPerson.xml#emileZola">Émile Zola</author>
-                        <title level="m" xml:lang="fr">Nouveaux Contes à Ninon<idno type="wikidata">Q3347232</idno></title>
+                        <title level="m" xml:lang="fr">Nouveaux Contes à Ninon</title>
                         
                         <imprint>
                             <pubPlace>Paris</pubPlace>

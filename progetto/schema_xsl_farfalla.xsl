@@ -108,7 +108,7 @@
             </span>
           </div>
           <!--  ════════════════ CORPO ════════════════  -->
-          <div class="main-layout">
+          <main class="articolo">
             <!--  Pannello facsimile  -->
             <div class="facsimile-panel">
               <h2>
@@ -127,7 +127,7 @@
               </div>
             </xsl:if>
           </div>
-        </div>
+        </main>
           <!--  ════════════════ FOOTER ════════════════  -->
           <footer class="site-footer">
             <div class="container-fluid px-4">
