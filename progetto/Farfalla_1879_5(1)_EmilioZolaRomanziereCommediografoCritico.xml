@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-    schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0
+                         https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,7 +24,7 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a">Emilio Zola. Romanziere, Commediografo, Critico </title>
+                        <title level="a">Emilio Zola. Romanziere, Commediografo, Critico</title>
                         <author xml:id="redazione">Redazione</author>
                         <author xml:id="cameroni_autore" ref="coverlessListPerson.xml#feliceCameroni">Felice Cameroni</author>
                     </analytic>
@@ -135,7 +135,7 @@
                     al suo <rs ref="coverlessListPerson.xml#emileZola" type="real">autore prediletto</rs>, cominciando da quei tempi
                     in cui il nome dello <persName ref="coverlessListPerson.xml#emileZola" type="real">Zola</persName> era generalmente ignoto
                     fra noi e poco apprezzato in <placeName ref="coverlessListPlace.xml#francia">Francia</placeName>, sino all' <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#L_Assommoir">As-
-                    sommoir</title> alla <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#Une_page_d_amour">Page d'amour</title> ed al <title rend="italic" xml:lang="fr" >Théatre</title>, edito
+                    sommoir</title> alla <title rend="italic" xml:lang="fr" ref="coverlessListWork.xml#Une_page_d_amour">Page d'amour</title> ed al <title rend="italic" xml:lang="fr">Théatre</title>, edito
                     nello scorso settembre.
                 </p>
                 <p xml:id="p_2" rend="firstline-indented">
@@ -283,7 +283,7 @@
                 </p>
                 <p xml:id="p_13" rend="firstline-indented">
                     Al pari dei quadri, anche i tipi dello <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> appartengono
-                    ad ogni categoria. Cito a mo' d'esempio: <persName type="real" ref="coverlessListPerson.xml#carloluigiNapoleoneBonaparte ">Napoleone III</persName>,
+                    ad ogni categoria. Cito a mo' d'esempio: <persName type="real" ref="coverlessListPerson.xml#carloluigiNapoleoneBonaparte">Napoleone III</persName>,
                     <persName type="real" ref="coverlessListPerson.xml#eugeneRouher">Rouher</persName>, <persName type="real" ref="coverlessListPerson.xml#charlesDeMorny">Mourny</persName> ed i personaggi della <orgName type="istitutional" ref="coverlessListOrganisation.xml#corte">Corte</orgName>, del <orgName type="coverlessListOrganisation.xml#senato">Senato</orgName>, del
                     Corpo legislativo, ecc. in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon">S. E Rougon</title>, ed i faziosi pro-
                     vinciali <term type="forma_letteraria" subtype="autorialita_narrativita">antibonapartisti</term> nella <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Fortune_des_Rougon">Fortune des Rougon</title>, — i millio-
@@ -298,8 +298,8 @@
                     <foreign xml:lang="fr" rend="italic">demi-monde</foreign> della politica, delle finanze, della galanteria e
                     i tesori d'onore, modestamente nascosti nelle pareti dome-
                     stiche, — l'autoritarismo personificato in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Son_Excellence_Eugene_Rougon">S. E. Rougon</title>, l'af-
-                    farismo in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Saccard">Saccard</title>, la depravazione plebea nel <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Lantier">Lantier</title> e nei
-                    <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Coupeau">Coupeau</title>, quella sfarzosa in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Renata">Renata</title> e via di seguito la <title rend="italic" ref="coverlessListWork.xml#Commedia_Umana">Com-
+                    farismo in <persName xml:lang="fr" type="fictional" rend="italic" ref="coverlessListWork.xml#aristideSaccard">Saccard</persName>, la depravazione plebea nel Lantier e nei
+                    <persName xml:lang="fr" rend="italic" type="fictional" ref="coverlessListWork.xml#jacquesCopeau">Coupeau</persName>, quella sfarzosa in <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#Renata">Renata</title> e via di seguito la <title rend="italic" ref="coverlessListWork.xml#Commedia_Umana">Com-
                     media Umana</title>, in tutte le sue forme, colla scrupolosa fedeltà
                     al vero e coi caratteri essenziali della <hi rend="italic">modernità</hi>.
                 </p>
@@ -334,7 +334,7 @@
                 </p>
                 <pb n="5" xml:id="Farfalla_1879_5_1_5"/>
                 <fw type="pageNum" place="top-center">—( 5 )—<add hand="#pencil" place="right">A</add></fw>
-                <cb n="1" xml:id="col_1-p.5" facs="#pag_5_col_1" /> 
+                <cb n="1" xml:id="col_1-p.5" facs="#pag_5_col_1"/> 
                 <p xml:id="p_16">
                     <rs ref="coverlessListPerson.xml#emileZola">Egli</rs> non s'accontenta di riprodurre <orig>ne'suoi</orig> personaggi
                     tutte le <term type="verbum" subtype="evoluzione_sociale">caste</term> della società moderna, dal <hi rend="italic">vice-imperatore</hi> al
@@ -463,7 +463,7 @@
                     </seg>
                 </p>
             </div>
-            <div  type="article" resp="#redazione"  xml:id="div_4">
+            <div  type="article" resp="#redazione"  xml:id="div_5">
                 <p xml:id="p_30" rend="firstline-indented">
                     Con queste citazioni del <name type="person" subtype="real" rend="italic" ref="coverlessListPerson.xml#feliceCameroni">Pessimista</name>, abbiamo cer-
                     cato riassumere il carattere di <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName>, romanziere e

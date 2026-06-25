@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-    schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0
+                         https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd">
     
     <teiHeader>
         <fileDesc>
@@ -600,7 +601,23 @@
                         <ref target="https://www.wikidata.org/wiki/Q1234248"/>
                         <note>Scrittore naturalista francese</note>
                     </person>
-                    
+                    <person xml:id="aristideSaccard">
+                        <persName>
+                            <forename>Aristide </forename>
+                            <surname>Rougon</surname>
+                            <addName type="pseudonym">Saccard</addName>
+                        </persName>
+                        <ref target="https://it.wikipedia.org/wiki/Il_denaro_(Zola)"/>
+                        <note>Aristide Saccard (pseudonimo di Aristide Rougon) è uno dei personaggi più celebri creati da Émile Zola, protagonista assoluto di due dei venti romanzi che compongono il ciclo dei Rougon-Macquart: La preda (1871) e Il denaro (1891).</note>
+                    </person>
+                    <person xml:id="jacquesCopeau">
+                        <persName>
+                            <forename>Gervais</forename>
+                            <surname>Copeau</surname>
+                        </persName>
+                        <ref target="https://it.wikipedia.org/wiki/L'ammazzatoio"/>
+                        <note>Coupeau è uno zincatore che corteggia Gervaise Macquart, protagonista del romanzo, e la sposa dopo che lei era stata abbandonata da Lantier.</note>
+                    </person>
                 </listPerson>
             </sourceDesc>
         </fileDesc>

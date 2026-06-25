@@ -351,15 +351,25 @@
       <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
     </xsl:variable>
     
-    <span class="rif_persona"
-          tabindex="0"
-          data-bs-toggle="popover"
-          data-bs-trigger="hover focus"
-          data-bs-placement="top"
-          data-bs-title="{$safe-name}"
-          data-bs-content="{$safe-note}">
-      <xsl:apply-templates/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="($safe-name ='Sconosciuto') and ($safe-note =' ')">
+        <span class="rif_persona">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span class="rif_persona"
+              tabindex="0"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-placement="top"
+              data-bs-title="{$safe-name}"
+              data-bs-content="{$safe-note}">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
+    
   </xsl:template>
   
   
@@ -385,16 +395,25 @@
     <xsl:variable name="safe-note">
       <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
     </xsl:variable>
-    
-    <span class="rif_persona"
-          tabindex="0"
-          data-bs-toggle="popover"
-          data-bs-trigger="hover focus"
-          data-bs-placement="top"
-          data-bs-title="{$safe-name}"
-          data-bs-content="{$safe-note}">
-      <xsl:apply-templates/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="($safe-name ='Persona') and ($safe-note =' ')">
+        <span class="rif_persona">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span class="rif_persona"
+              tabindex="0"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-placement="top"
+              data-bs-title="{$safe-name}"
+              data-bs-content="{$safe-note}">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
+   
   </xsl:template>
   
   
@@ -424,15 +443,24 @@
       <xsl:value-of select="if (normalize-space($note)!='') then normalize-space($note) else ' '"/>
     </xsl:variable>
     
-    <span class="rif_luogo"
-          tabindex="0"
-          data-bs-toggle="popover"
-          data-bs-trigger="hover focus"
-          data-bs-placement="top"
-          data-bs-title="{$safe-title}"
-          data-bs-content="{$safe-note}">
-      <xsl:apply-templates/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="($safe-title ='Luogo') and ($safe-note =' ')">
+        <span class="rif_persona">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span class="rif_luogo"
+              tabindex="0"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-placement="top"
+              data-bs-title="{$safe-title}"
+              data-bs-content="{$safe-note}">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   
@@ -454,15 +482,24 @@
       <xsl:value-of select="if ($note!='') then $note else ' '"/>
     </xsl:variable>
     
-    <span class="rif_organizzazione"
-          tabindex="0"
-          data-bs-toggle="popover"
-          data-bs-trigger="hover focus"
-          data-bs-placement="top"
-          data-bs-title="{$safe-title}"
-          data-bs-content="{$safe-note}">
-      <xsl:apply-templates/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="($safe-title ='Organizzazione') and ($safe-note =' ')">
+        <span class="rif_persona">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span class="rif_organizzazione"
+              tabindex="0"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-placement="top"
+              data-bs-title="{$safe-title}"
+              data-bs-content="{$safe-note}">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   
@@ -479,14 +516,23 @@
       <xsl:value-of select="if ($note!='') then $note else ' '"/>
     </xsl:variable>
     
-    <span class="rif_opera"
-          tabindex="0"
-          data-bs-toggle="popover"
-          data-bs-trigger="hover focus"
-          data-bs-placement="top"
-          data-bs-content="{$safe-note}">
-      <xsl:apply-templates/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="($safe-note =' ')">
+        <span class="rif_opera">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:when>
+      <xsl:otherwise>
+        <span class="rif_opera"
+              tabindex="0"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover focus"
+              data-bs-placement="top"
+              data-bs-content="{$safe-note}">
+          <xsl:apply-templates/>
+        </span>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
     <!--  choice: mostra orig, sopprimi reg  -->
     <xsl:template match="tei:choice">
