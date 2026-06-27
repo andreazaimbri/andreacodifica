@@ -34,7 +34,7 @@
 			<p>This is a template for a minimal TEI header with the mandatory components:</p>
 		</body>
         <back>
-        <div type="work">
+        <div type="work" xml:lang="it">
             <listBibl xml:id="bibliografiaSecondaria">
                 <!-- =========================
                      SERIE

@@ -14,7 +14,7 @@
                 <p>Progetto COVerLeSS</p>
             </publicationStmt>
             
-            <sourceDesc>
+            <sourceDesc xml:lang="it">
                 <listPerson xmlns="http://www.tei-c.org/ns/1.0">
                     
                     <person xml:id="emileZola">

@@ -27,7 +27,7 @@
             </publicationStmt>
             
             <sourceDesc>
-                <listPlace>
+                <listPlace xml:lang="it">
                     
                     <place xml:id="CL" type="real">
                         <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
@@ -122,13 +122,13 @@
                         <note>La Grecia è una nazione dell’Europa Sudorientale con migliaia di isole sparse tra il Mar Egeo e lo Ionio. Data la sua estrema importanza nell'antichità, viene considerata la culla della civiltà occidentale.</note>
                     </place>
                     <place xml:id="RM" type="real">
-                        <placeName ref="https://www.geonames.org/3169070/rome.html" xml:lang="fr">Roma</placeName>
+                        <placeName ref="https://www.geonames.org/3169070/rome.html" xml:lang="it">Roma</placeName>
                         <country key="it" ref="#italia">Italia</country>
                         <settlement type="regione">Lazio</settlement>
                         <note>Capitale dell'Italia</note>
                     </place>
                     <place xml:id="GN" type="real">
-                        <placeName ref="https://www.geonames.org/3176219/genoa.html" xml:lang="fr">Genova</placeName>
+                        <placeName ref="https://www.geonames.org/3176219/genoa.html" xml:lang="it">Genova</placeName>
                         <country key="it" ref="#italia">Italia</country>
                         <settlement type="regione">Liguria</settlement>
                         <note>Città capologugo della Liguria</note>
