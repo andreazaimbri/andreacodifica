@@ -243,9 +243,9 @@
                     </term> sulla grassa borghesia
                     delle 
                     <placeName ref="coverlessListPlace.xml#halles">Halles</placeName>, - la 
-                    <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Faute_de_l_abbe_Mouret"> Faute de l'abbé Mouret</title>, delizioso idillio, 
+                    <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Faute_de_l_abbe_Mouret">Faute de l'abbé Mouret</title>, delizioso idillio, 
                     associante con 
-                    <distinct>maravigliosa</distinct> armonia l'azzurro alla realtà -
+                    <orig>maravigliosa</orig> armonia l'azzurro alla realtà -
                     la 
                     <title xml:lang="fr" rend="italic" ref="coverlessListWork.xml#La_Conquete_de_Plassans">Conquete di Plassans</title>, altro 
                     <term type="verbum" subtype="evoluzione_sociale">quadro dei costumi</term> di provincia, degno ad un tempo dello spirito d'osservazione di
@@ -749,7 +749,6 @@
                             (1876–1878) o dalla prefazione alle 
                             
                             <title xml:lang="fr">Pièces sifflées</title> (1877).
-                            
                         </ab>
                     </note>
                 </item>
