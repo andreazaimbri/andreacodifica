@@ -53,7 +53,7 @@
           <nav class="mobile-nav">
             <ul class="header-mobile">
               <li> <a href="homepage.html" class="nav text-light">Homepage</a> </li>
-              <li> <a href="bibliografia.html" class="nav text-light">Bibliografia e metedati</a> </li>
+              <li> <a href="bibliografia.html" class="nav text-light">Bibliografia e metadati</a> </li>
               <li> <a href="articolo1.html" class="nav text-light">Zola: Romanziere e Commediografo</a> </li>
               <li> <a href="articolo2.html" class="nav text-light">Zola: Critico</a> </li>
             </ul>
