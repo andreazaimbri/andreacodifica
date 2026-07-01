@@ -441,7 +441,7 @@
                 </div>
                 <div resp="#redazione" type="editorial" xml:id="div_4" >
                     <p xml:id="p_34" rend="firstline-indented">
-                        In quanto ai<term type="forma_letteraria" subtype="narrazione">romanzieri ad intreccio</term> , per appendice, a <persName type="real" ref="coverlessListPerson.xml#paulFeval">Féval</persName> ed a <persName type="real" ref="coverlessListPerson.xml#xavierDeMontépin">Montépin</persName>, a <persName type="real" ref="coverlessListPerson.xml#pierreAlexisPonsonDuTerrail">Ponson du Terrail</persName>
+                        In quanto ai<term type="forma_letteraria" subtype="narrazione">romanzieri ad intreccio</term>, per appendice, a <persName type="real" ref="coverlessListPerson.xml#paulFeval">Féval</persName> ed a <persName type="real" ref="coverlessListPerson.xml#xavierDeMontépin">Montépin</persName>, a <persName type="real" ref="coverlessListPerson.xml#pierreAlexisPonsonDuTerrail">Ponson du Terrail</persName>
                         ed a <persName type="real" ref="coverlessListPerson.xml#fortuneDuBoisgobey">Boisgobey</persName>, ecc., costoro (secondo <name type="person" subtype="real" ref="coverlessListPerson.xml#feliceCameroni">Pessimista</name>)
                         non meritavano neppure che <persName type="real" ref="coverlessListPerson.xml#emileZola">Zola</persName> ne tenesse parola.
                     </p>
