@@ -684,3 +684,8 @@ margin-right: 5%;
 .titoli-presentazione{
  margin: 3%;
 }
+polygon:hover {
+    fill: var(--c-accent) !important;
+    fill-opacity: 0.3 !important;  
+    filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.5));
+}

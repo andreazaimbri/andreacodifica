@@ -237,19 +237,37 @@
     <!--  ============================================================
          FACSIMILE
          ============================================================  -->
-    <xsl:template match="tei:surface">
-      <div class="surface-card">
-        <div class="surface-label">
-          <i class="bi bi-file-image"/>
-          Pagina
-          <xsl:value-of select="substring-after(@xml:id, 'pag_')"/>
-        </div>
-        <xsl:variable name="associatedZone" select="tei:zone[1]/@xml:id"/>
-        <a href="#{$associatedZone}" title="Vai al testo di questa pagina">
-          <img src="{tei:graphic/@url}" class="facsimile-img" loading="lazy" alt="Facsimile {@xml:id}"/>
-        </a>
+  <xsl:template match="tei:surface">
+    <div class="surface-card">
+      <div class="surface-label">
+        <i class="bi bi-file-image"/>
+        Pagina
+        <xsl:value-of select="substring-after(@xml:id, 'pag_')"/>
       </div>
-    </xsl:template>
+      
+      <xsl:variable name="img-width" select="translate(tei:graphic/@width, 'px', '')"/>
+      <xsl:variable name="img-height" select="translate(tei:graphic/@height, 'px', '')"/>
+      
+      <div class="facsimile-wrapper" style="position: relative; width: 100%; display: block;">
+        
+        <img src="{tei:graphic/@url}" class="facsimile-img" loading="lazy" alt="Facsimile {@xml:id}" style="width: 100%; height: auto; display: block;"/>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {$img-width} {$img-height}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; pointer-events: none;">
+          
+          <xsl:apply-templates select="tei:zone"/>
+          
+        </svg>
+      </div>
+    </div>
+  </xsl:template>
+  
+  
+  <xsl:template match="tei:zone">
+    <a xmlns="http://www.w3.org/2000/svg" href="#{@xml:id}" title="Vai alla trascrizione della colonna" style="pointer-events: auto;">
+      <polygon points="{@points}" 
+               style="fill: transparent; stroke: transparent; cursor: pointer;"/>
+    </a>
+  </xsl:template>
     <!--  ============================================================
          CORPO DEL TESTO
          ============================================================  -->
@@ -326,8 +344,7 @@
         <xsl:apply-templates/>
       </p>
     </xsl:template>
-    <!--  testo: unisce i trattini a fine riga  -->
-    <!--  ── Entità semantiche ──  -->
+  <!--  ── Entità semantiche ──  -->
   <!-- ===================== PERSONE ===================== -->
   
   <xsl:template match="tei:persName">
